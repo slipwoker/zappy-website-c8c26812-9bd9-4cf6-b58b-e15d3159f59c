@@ -1,0 +1,113 @@
+# אנגלית בקלות ובהנאה Easy English with Efrat — Generative Engine Optimization Map
+
+> An online store specializing in English language learning products for young children aged kindergarten through 7th grade. The store offers both complete learning kits and individual educational products, targeting parents who want to give their young children a head start in English. The brand focuses on making English learning fun, accessible, and age-appropriate for kids in their early developmental years.
+
+---
+
+## Pages
+
+### בית
+https://easy-english-with-efrat-c8c26812.zappy5.app
+העניקו לילדיכם יתרון באנגלית עם ערכות למידה וחומרי לימוד איכותיים לגיל הרך ועד כיתה ז&#39;. למידה מהנה, נגישה ומותאמת אישית שמביאה תוצאות. כנסו עכשיו לחנות!
+
+### גישת למידה
+https://easy-english-with-efrat-c8c26812.zappy5.app/learning-approach
+גלו גישה ייחודית שהופכת לימוד אנגלית לחוויה משמחת לגיל הרך. שיטה מוכחת, משחקים וסיפורים שמפתחים אהבה לשפה. למה לחכות? התחילו עוד היום!
+
+### מדריך לבחירה
+https://easy-english-with-efrat-c8c26812.zappy5.app/choosing-guide
+מתלבטים איזו ערכה הכי נכונה לילד שלכם? מדריך מפורט שיעזור לכם להתאים חומרי לימוד אנגלית לגן ולכיתות היסוד לפי גיל, רמה וסגנון למידה. בואו לבחור נכון!
+
+### חוות דעת הורים
+https://easy-english-with-efrat-c8c26812.zappy5.app/parent-reviews
+קראו חוות דעת אמיתיות של הורים שילדיהם התאהבו באנגלית בזכות המוצרים שלנו. הצלחות מרגשות, חיוכים גדולים ותוצאות מדהימות. הצטרפו למשפחה המרוצה!
+
+### אודות אפרת
+https://easy-english-with-efrat-c8c26812.zappy5.app/about
+אפרת, המומחית מאחורי המותג, חולקת את הסיפור האישי והחזון שלה להנגשת אנגלית לגיל הרך בדרך יצירתית ומלאת תשוקה. כנסו להכיר את הלב הפועם שלנו!
+
+### צור קשר
+https://easy-english-with-efrat-c8c26812.zappy5.app/contact
+צריכים עזרה בבחירת מוצר או סתם רוצים להגיד שלום? מלאו את הפרטים ואפרת תחזור אליכם במהירות עם חיוך ותשובות שיקדמו את הילד שלכם באנגלית. צרו קשר עכשיו!
+
+### Products
+https://easy-english-with-efrat-c8c26812.zappy5.app/products
+המוצרים שלנו - אנגלית בקלות ובהנאה Easy English with Efrat
+
+### Cart
+https://easy-english-with-efrat-c8c26812.zappy5.app/cart
+עגלת הקניות שלך
+
+### Checkout
+https://easy-english-with-efrat-c8c26812.zappy5.app/checkout
+תשלום
+
+### Login
+https://easy-english-with-efrat-c8c26812.zappy5.app/login
+התחברות לקוחות
+
+### Account
+https://easy-english-with-efrat-c8c26812.zappy5.app/account
+החשבון שלי
+
+### Order Success
+https://easy-english-with-efrat-c8c26812.zappy5.app/order-success
+תודה על ההזמנה
+
+### Product Detail
+https://easy-english-with-efrat-c8c26812.zappy5.app/product/:slug
+פרטי המוצר - אנגלית בקלות ובהנאה Easy English with Efrat
+
+### Category
+https://easy-english-with-efrat-c8c26812.zappy5.app/category/:slug
+מוצרים - אנגלית בקלות ובהנאה Easy English with Efrat
+
+### תודה רבה - פנייתך התקבלה
+https://easy-english-with-efrat-c8c26812.zappy5.app/thank-you
+תודה על פנייתך! הודעתך בנושא ערכת לימוד אנגלית לילדים התקבלה בהצלחה ונחזור אליך בהקדם האפשרי.
+
+## Legal & Policy
+
+### Privacy Policy
+https://easy-english-with-efrat-c8c26812.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://easy-english-with-efrat-c8c26812.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://easy-english-with-efrat-c8c26812.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## Products
+
+_No products are currently configured._
+
+---
+
+# Business Context (for LLM understanding)
+
+## About אנגלית בקלות ובהנאה Easy English with Efrat
+An online store specializing in English language learning products for young children aged kindergarten through 7th grade. The store offers both complete learning kits and individual educational products, targeting parents who want to give their young children a head start in English. The brand focuses on making English learning fun, accessible, and age-appropriate for kids in their early developmental years.
+
+## Target Audience
+- הורים לילדים בגילאי גן עד כיתה ז'
+- הורים לילדים צעירים
+- אנשי חינוך בגיל הרך
+- משפחות עולים ויוצאי חו"ל
+
+## Industry
+Educational Products & E-commerce
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://easy-english-with-efrat-c8c26812.zappy5.app/sitemap.xml
+- Robots: https://easy-english-with-efrat-c8c26812.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://easy-english-with-efrat-c8c26812.zappy5.app/llms-full.txt
+- Products (JSON): https://easy-english-with-efrat-c8c26812.zappy5.app/products.json
+- Products (Google Merchant RSS): https://easy-english-with-efrat-c8c26812.zappy5.app/product-feed.xml
