@@ -80,7 +80,79 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-_No products are currently configured._
+**Total active products: 9**
+
+### זוג סרגלי קריאה אותיות וצירופים
+https://example.com/product/zvg-srgly-kryah-avtyvt-vtsyrvpym-0e8yyy
+- Price: 10.00 ILS (sale, was 15.00 ILS)
+- Availability: In stock
+- Category: סרגלי קריאה
+- Description: הסוד לקריאה קלה וללא מאמץ מגיל צעיר! למרות שבבתי הספר לומדים את צלילי האותיות רק בכיתה ג' ואת הצירופים בכיתה ד', עם צמד הסרגלים האיכותי הזה ילדכם יכול להתחיל להכיר אותם בקלות כבר מגיל גן חובה. הערכה משמשת כתומך זיכרון ויזואלי מושלם: סרגל אותיות (26 אותיות עם קוגנייטס) וסרגל צירופים דו-צדדי (33 צירופים ומשפחת אותיות הניקוד), המלווים בתמונות צבעוניות ומעניקים לילדכם נקודת זינוק מנצחת בשפה.
+- Image: https://example.com/assets/product-1783679616306-1e3t2h.webp
+
+### משחק זיכרון פירות וירקות 
+https://example.com/product/mshchk-zykrvn-pyrvt-vyrkvt-yxsbcr
+- Price: 30.00 ILS (sale, was 35.00 ILS)
+- Availability: In stock
+- Category: משחקי זיכרון
+- Description: להכניס את האנגלית הביתה בכיף עם תפוז, לימון, אבטיח ועוד! ערכת פירות וירקות צבעונית הכוללת 31 קלפים איכותיים [15 זוגות תואמים וקלף הדרכה להורים], המעניקה לילדכם מגוון אפשרויות משחק – ממשחק זיכרון ועד שינון ובניית משפטים לשיפור וחיזוק השפה ברגע.
+- Image: https://example.com/assets/product-enhanced-1783678501453-4iudtu.webp
+
+### משחק זיכרון חיות
+https://example.com/product/mshchk-zykrvn-chyvt-zo7neh
+- Price: 30.00 ILS (sale, was 35.00 ILS)
+- Availability: In stock
+- Category: משחקי זיכרון
+- Description: להכניס את האנגלית הביתה בכיף עם נמר, פיל, אריה ועוד! ערכת חיות צבעונית הכוללת 31 קלפים איכותיים [15 זוגות תואמים וקלף הדרכה להורים], המעניקה לילדכם מגוון אפשרויות משחק – ממשחק זיכרון ועד שינון ובניית משפטים לשיפור וחיזוק השפה ברגע.
+- Image: https://example.com/assets/product-enhanced-1783678813418-7snqu.webp
+
+### משחק זיכרון מקצועות 
+https://example.com/product/mshchk-zykrvn-mktsvavt-u2if4u
+- Price: 30.00 ILS (sale, was 35.00 ILS)
+- Availability: In stock
+- Category: משחקי זיכרון
+- Description: להכניס את האנגלית הביתה בכיף עם שוטר, שופט, חייל ועוד! ערכת מקצועות צבעונית הכוללת 31 קלפים איכותיים [15 זוגות תואמים וקלף הדרכה להורים], המעניקה לילדכם מגוון אפשרויות משחק – ממשחק זיכרון ועד שינון ובניית משפטים לשיפור וחיזוק השפה ברגע.
+- Image: https://example.com/assets/product-enhanced-1783678779731-k1q8ge.webp
+
+### משחק זיכרון משפחה
+https://example.com/product/mshchk-zykrvn-mshpchh-zb3280
+- Price: 30.00 ILS (sale, was 35.00 ILS)
+- Availability: In stock
+- Category: משחקי זיכרון
+- Description: להכניס את האנגלית הביתה בכיף עם אבא, אמא, אחיין ועוד! ערכת משפחה צבעונית הכוללת 31 קלפים איכותיים [15 זוגות תואמים וקלף הדרכה להורים], המעניקה לילדכם מגוון אפשרויות משחק – ממשחק זיכרון ועד שינון ובניית משפטים לשיפור וחיזוק השפה ברגע.
+- Image: https://example.com/assets/product-enhanced-1783674283357-45xlwh.webp
+
+### משחק זיכרון תארים
+https://example.com/product/mshchk-zykrvn-tarym-5erorr
+- Price: 30.00 ILS (sale, was 35.00 ILS)
+- Availability: In stock
+- Category: משחקי זיכרון
+- Description: להכניס את האנגלית הביתה בכיף עם ארוך, קצר, שמח ועוד! ערכת צבעים נהדרת הכוללת 31 קלפים איכותיים [15 זוגות תואמים וקלף הדרכה להורים], המעניקה לילדכם מגוון אפשרויות משחק – ממשחק זיכרון ועד שינון ובניית משפטים לשיפור וחיזוק השפה ברגע.
+- Image: https://example.com/assets/product-enhanced-1783677722431-6cx3tu.webp
+
+### משחק זיכרון פעלים
+https://example.com/product/mshchk-zykrvn-palym-g2smzk
+- Price: 30.00 ILS (sale, was 35.00 ILS)
+- Availability: In stock
+- Category: משחקי זיכרון
+- Description: להכניס את האנגלית הביתה בכיף עם לשחות, לקפוץ, לרקוד ועוד! ערכת פעלים נהדרת הכוללת 31 קלפים איכותיים [15 זוגות תואמים וקלף הדרכה להורים], המעניקה לילדכם מגוון אפשרויות משחק – ממשחק זיכרון ועד שינון ובניית משפטים לשיפור וחיזוק השפה ברגע.
+- Image: https://example.com/assets/product-enhanced-1783673796336-w4g4s.webp
+
+### משחק זיכרון מספרים
+https://example.com/product/mshchk-zykrvn-msprym-g1uy3w
+- Price: 30.00 ILS (sale, was 35.00 ILS)
+- Availability: In stock
+- Category: משחקי זיכרון
+- Description: להכניס את האנגלית הביתה בכיף עם 1, 20, 100 ועוד! ערכת מספרים צבעונית הכוללת 31 קלפים איכותיים [15 זוגות תואמים וקלף הדרכה להורים], המעניקה לילדכם מגוון אפשרויות משחק – ממשחק זיכרון ועד שינון ובניית משפטים לשיפור וחיזוק השפה ברגע.
+- Image: https://example.com/assets/product-enhanced-1783673745119-uuziui.webp
+
+### משחק זיכרון צבעים
+https://example.com/product/mshchk-zykrvn-tsbaym-50d51y
+- Price: 30.00 ILS (sale, was 35.00 ILS)
+- Availability: In stock
+- Category: משחקי זיכרון
+- Description: להכניס את האנגלית הביתה בכיף עם אדום, זהב, תכלת ועוד! ערכת צבעים נהדרת הכוללת 31 קלפים איכותיים [15 זוגות תואמים וקלף הדרכה להורים], המעניקה לילדכם מגוון אפשרויות משחק – ממשחק זיכרון ועד שינון ובניית משפטים לשיפור וחיזוק השפה ברגע.
+- Image: https://example.com/assets/product-enhanced-1783673698297-je2wb8.webp
 
 ---
 

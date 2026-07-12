@@ -1,8 +1,242 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-09T12:46:11.064Z",
+  "generated_at": "2026-07-12T07:50:08.040Z",
   "base_url": "https://example.com",
   "currency": "ILS",
-  "count": 0,
-  "products": []
+  "count": 9,
+  "products": [
+    {
+      "id": "660193a4-531b-4cd2-893b-920b004a3a7c",
+      "slug": "zvg-srgly-kryah-avtyvt-vtsyrvpym-0e8yyy",
+      "name": "זוג סרגלי קריאה אותיות וצירופים",
+      "name_translations": {},
+      "description": "",
+      "short_description": "הסוד לקריאה קלה וללא מאמץ מגיל צעיר! למרות שבבתי הספר לומדים את צלילי האותיות רק בכיתה ג' ואת הצירופים בכיתה ד', עם צמד הסרגלים האיכותי הזה ילדכם יכול להתחיל להכיר אותם בקלות כבר מגיל גן חובה. הערכה משמשת כתומך זיכרון ויזואלי מושלם: סרגל אותיות (26 אותיות עם קוגנייטס) וסרגל צירופים דו-צדדי (33 צירופים ומשפחת אותיות הניקוד), המלווים בתמונות צבעוניות ומעניקים לילדכם נקודת זינוק מנצחת בשפה.",
+      "sku": null,
+      "brand": null,
+      "price": 10,
+      "base_price": 15,
+      "sale_price": 10,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-1783679616306-1e3t2h.webp",
+        "https://example.com/assets/product-1783679624486-948i5.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/zvg-srgly-kryah-avtyvt-vtsyrvpym-0e8yyy",
+      "categories": [
+        "סרגלי קריאה"
+      ],
+      "updated_at": "2026-07-10T10:34:14.549Z"
+    },
+    {
+      "id": "58d75373-cd62-4cab-b7d7-fdc3dc94c14a",
+      "slug": "mshchk-zykrvn-pyrvt-vyrkvt-yxsbcr",
+      "name": "משחק זיכרון פירות וירקות ",
+      "name_translations": {},
+      "description": "",
+      "short_description": "להכניס את האנגלית הביתה בכיף עם תפוז, לימון, אבטיח ועוד! ערכת פירות וירקות צבעונית הכוללת 31 קלפים איכותיים [15 זוגות תואמים וקלף הדרכה להורים], המעניקה לילדכם מגוון אפשרויות משחק – ממשחק זיכרון ועד שינון ובניית משפטים לשיפור וחיזוק השפה ברגע.",
+      "sku": null,
+      "brand": null,
+      "price": 30,
+      "base_price": 35,
+      "sale_price": 30,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-enhanced-1783678501453-4iudtu.webp",
+        "https://example.com/assets/product-ai-fit-1783678400464-ma3otw.webp",
+        "https://example.com/assets/product-ai-fit-1783678546173-4gzwva.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/mshchk-zykrvn-pyrvt-vyrkvt-yxsbcr",
+      "categories": [
+        "משחקי זיכרון"
+      ],
+      "updated_at": "2026-07-10T10:15:56.765Z"
+    },
+    {
+      "id": "c491a91b-0b90-45b2-8886-c48a61b1ec9a",
+      "slug": "mshchk-zykrvn-chyvt-zo7neh",
+      "name": "משחק זיכרון חיות",
+      "name_translations": {},
+      "description": "",
+      "short_description": "להכניס את האנגלית הביתה בכיף עם נמר, פיל, אריה ועוד! ערכת חיות צבעונית הכוללת 31 קלפים איכותיים [15 זוגות תואמים וקלף הדרכה להורים], המעניקה לילדכם מגוון אפשרויות משחק – ממשחק זיכרון ועד שינון ובניית משפטים לשיפור וחיזוק השפה ברגע.",
+      "sku": null,
+      "brand": null,
+      "price": 30,
+      "base_price": 35,
+      "sale_price": 30,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-enhanced-1783678813418-7snqu.webp",
+        "https://example.com/assets/product-1783678216425-lozldh.webp",
+        "https://example.com/assets/product-ai-fit-1783678267016-jj96gm.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/mshchk-zykrvn-chyvt-zo7neh",
+      "categories": [
+        "משחקי זיכרון"
+      ],
+      "updated_at": "2026-07-10T10:20:20.737Z"
+    },
+    {
+      "id": "d3839637-d9a0-429e-ba48-8bf4cbb61198",
+      "slug": "mshchk-zykrvn-mktsvavt-u2if4u",
+      "name": "משחק זיכרון מקצועות ",
+      "name_translations": {},
+      "description": "",
+      "short_description": "להכניס את האנגלית הביתה בכיף עם שוטר, שופט, חייל ועוד! ערכת מקצועות צבעונית הכוללת 31 קלפים איכותיים [15 זוגות תואמים וקלף הדרכה להורים], המעניקה לילדכם מגוון אפשרויות משחק – ממשחק זיכרון ועד שינון ובניית משפטים לשיפור וחיזוק השפה ברגע.",
+      "sku": null,
+      "brand": null,
+      "price": 30,
+      "base_price": 35,
+      "sale_price": 30,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-enhanced-1783678779731-k1q8ge.webp",
+        "https://example.com/assets/product-1783676605604-5c9b9.webp",
+        "https://example.com/assets/product-ai-fit-1783678047029-3v57wv.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/mshchk-zykrvn-mktsvavt-u2if4u",
+      "categories": [
+        "משחקי זיכרון"
+      ],
+      "updated_at": "2026-07-10T10:19:48.941Z"
+    },
+    {
+      "id": "744d0973-f696-412d-a544-88d6283134ed",
+      "slug": "mshchk-zykrvn-mshpchh-zb3280",
+      "name": "משחק זיכרון משפחה",
+      "name_translations": {},
+      "description": "",
+      "short_description": "להכניס את האנגלית הביתה בכיף עם אבא, אמא, אחיין ועוד! ערכת משפחה צבעונית הכוללת 31 קלפים איכותיים [15 זוגות תואמים וקלף הדרכה להורים], המעניקה לילדכם מגוון אפשרויות משחק – ממשחק זיכרון ועד שינון ובניית משפטים לשיפור וחיזוק השפה ברגע.",
+      "sku": null,
+      "brand": null,
+      "price": 30,
+      "base_price": 35,
+      "sale_price": 30,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-enhanced-1783674283357-45xlwh.webp",
+        "https://example.com/assets/product-ai-fit-1783675693377-t4rzr.webp",
+        "https://example.com/assets/product-ai-fit-1783675723070-1qnedh.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/mshchk-zykrvn-mshpchh-zb3280",
+      "categories": [
+        "משחקי זיכרון"
+      ],
+      "updated_at": "2026-07-10T10:05:42.362Z"
+    },
+    {
+      "id": "181513a3-3aa5-471d-9da9-1607778b4205",
+      "slug": "mshchk-zykrvn-tarym-5erorr",
+      "name": "משחק זיכרון תארים",
+      "name_translations": {},
+      "description": "",
+      "short_description": "להכניס את האנגלית הביתה בכיף עם ארוך, קצר, שמח ועוד! ערכת צבעים נהדרת הכוללת 31 קלפים איכותיים [15 זוגות תואמים וקלף הדרכה להורים], המעניקה לילדכם מגוון אפשרויות משחק – ממשחק זיכרון ועד שינון ובניית משפטים לשיפור וחיזוק השפה ברגע.",
+      "sku": null,
+      "brand": null,
+      "price": 30,
+      "base_price": 35,
+      "sale_price": 30,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-enhanced-1783677722431-6cx3tu.webp",
+        "https://example.com/assets/product-ai-fit-1783677759913-vix42w.webp",
+        "https://example.com/assets/product-ai-fit-1783677872151-a2xvgf.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/mshchk-zykrvn-tarym-5erorr",
+      "categories": [
+        "משחקי זיכרון"
+      ],
+      "updated_at": "2026-07-10T10:04:45.371Z"
+    },
+    {
+      "id": "3a18f833-c53e-4926-8819-c0d7d47d4c53",
+      "slug": "mshchk-zykrvn-palym-g2smzk",
+      "name": "משחק זיכרון פעלים",
+      "name_translations": {},
+      "description": "",
+      "short_description": "להכניס את האנגלית הביתה בכיף עם לשחות, לקפוץ, לרקוד ועוד! ערכת פעלים נהדרת הכוללת 31 קלפים איכותיים [15 זוגות תואמים וקלף הדרכה להורים], המעניקה לילדכם מגוון אפשרויות משחק – ממשחק זיכרון ועד שינון ובניית משפטים לשיפור וחיזוק השפה ברגע.",
+      "sku": null,
+      "brand": null,
+      "price": 30,
+      "base_price": 35,
+      "sale_price": 30,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-enhanced-1783673796336-w4g4s.webp",
+        "https://example.com/assets/product-ai-fit-1783673308013-cojttd.webp",
+        "https://example.com/assets/product-1783673284154-r4v7f8.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/mshchk-zykrvn-palym-g2smzk",
+      "categories": [
+        "משחקי זיכרון"
+      ],
+      "updated_at": "2026-07-10T09:53:00.031Z"
+    },
+    {
+      "id": "2b5d8c8a-4df6-4e9c-a32f-947b6fdc3217",
+      "slug": "mshchk-zykrvn-msprym-g1uy3w",
+      "name": "משחק זיכרון מספרים",
+      "name_translations": {},
+      "description": "",
+      "short_description": "להכניס את האנגלית הביתה בכיף עם 1, 20, 100 ועוד! ערכת מספרים צבעונית הכוללת 31 קלפים איכותיים [15 זוגות תואמים וקלף הדרכה להורים], המעניקה לילדכם מגוון אפשרויות משחק – ממשחק זיכרון ועד שינון ובניית משפטים לשיפור וחיזוק השפה ברגע.",
+      "sku": null,
+      "brand": null,
+      "price": 30,
+      "base_price": 35,
+      "sale_price": 30,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-enhanced-1783673745119-uuziui.webp",
+        "https://example.com/assets/product-ai-fit-1783673182329-ypbt7e.webp",
+        "https://example.com/assets/product-1783673212633-bcjl7m.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/mshchk-zykrvn-msprym-g1uy3w",
+      "categories": [
+        "משחקי זיכרון"
+      ],
+      "updated_at": "2026-07-10T09:51:46.514Z"
+    },
+    {
+      "id": "e68e3c9f-abee-42c7-8fc2-01220e873727",
+      "slug": "mshchk-zykrvn-tsbaym-50d51y",
+      "name": "משחק זיכרון צבעים",
+      "name_translations": {},
+      "description": "",
+      "short_description": "להכניס את האנגלית הביתה בכיף עם אדום, זהב, תכלת ועוד! ערכת צבעים נהדרת הכוללת 31 קלפים איכותיים [15 זוגות תואמים וקלף הדרכה להורים], המעניקה לילדכם מגוון אפשרויות משחק – ממשחק זיכרון ועד שינון ובניית משפטים לשיפור וחיזוק השפה ברגע.",
+      "sku": null,
+      "brand": null,
+      "price": 30,
+      "base_price": 35,
+      "sale_price": 30,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-enhanced-1783673698297-je2wb8.webp",
+        "https://example.com/assets/product-1783673097555-krvj8u.webp",
+        "https://example.com/assets/product-1783673080887-yurljp.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/mshchk-zykrvn-tsbaym-50d51y",
+      "categories": [
+        "משחקי זיכרון"
+      ],
+      "updated_at": "2026-07-10T09:52:31.003Z"
+    }
+  ]
 }
