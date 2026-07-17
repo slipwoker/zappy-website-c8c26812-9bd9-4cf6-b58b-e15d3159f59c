@@ -1168,13 +1168,13 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
     </div>
   
 <script>window.ZAPPY_PRODUCTS_LISTING_PATH = "/products";</script>
-<script>window.ZAPPY_WEBSITE_ID = "c8c26812-9bd9-4cf6-b58b-e15d3159f59c";window.ZAPPY_API_BASE = (window.location.pathname.includes('/preview') ? window.location.origin : "https://api.zappy5.com");</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
+<script>window.ZAPPY_WEBSITE_ID = "c8c26812-9bd9-4cf6-b58b-e15d3159f59c";window.ZAPPY_API_BASE = "https://api.zappy5.com"</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
-    <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
+    <svg style="display:block !important" class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
       <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
     </svg>
-    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
+    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display:none !important">
       <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
     </svg>
   </button>
@@ -1677,35 +1677,10 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
     <section class="contact-contact-intro-section" data-layout-spec="צור קשר-contact-intro" id="contact-contact-intro-section">
   <div class="contact-contact-intro-section__container">
     <div class="contact-contact-intro-section__header">
-      <h1 class="contact-contact-intro-section__title" style>אני כאן לכל שאלה - בואו נדבר!</h1>
-      <p class="contact-contact-intro-section__subtitle" style>הורים, אנשי חינוך לגיל הרך ומשפחות – שלחו לי הודעה קצרה עם גיל הילד ומטרת הלמידה, ואחזור אליכם עם הכוונה אישית.</p>
+      <h1 class="contact-contact-intro-section__title">אני כאן לכל שאלה - בואו נדבר!</h1>
+      <p class="contact-contact-intro-section__subtitle">צריכים התאמה אישית לבית הספר? מתלבטים איזה מארז הכי מתאים לילד שלכם? צרו קשר ואשמח לעזור.&nbsp;</p>
     </div>
-    <div class="contact-contact-intro-section__cards zappy-preserve-css-grid" id="zappy-auto-grid-1783842737171-0wlytp" data-zappy-auto-grid="true" data-original-item-width="384" data-original-gap="24px" style="--zappy-grid-cols: repeat(auto-fit, minmax(min(100%, 384px), 1fr)); grid-template-columns: repeat(auto-fit, minmax(min(100%, 384px), 1fr)); display: grid; align-items: stretch !important;" data-zappy-explicit-columns="true">
-      <article class="contact-contact-intro-section__card" data-grid-item-index="0">
-        <div class="contact-contact-intro-section__card-icon">
-          <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="2" fill="none"/>
-            <path d="M16 24C16 24 20 28 24 28C28 28 32 24 32 24C32 24 28 20 24 20C20 20 16 24 16 24Z" stroke="currentColor" stroke-width="2" fill="none"/>
-            <circle cx="24" cy="24" r="4" fill="currentColor"/>
-          </svg>
-        </div>
-        <h3 class="contact-contact-intro-section__card-title">התאמה לגיל</h3>
-        <p class="contact-contact-intro-section__card-text" style>מתלבטים איזו ערכה מתאימה לקטנטנים? ספרו לי את גיל הילד ואוכל להמליץ על המוצרים המדויקים עבורו.</p>
-      </article>
-      <article class="contact-contact-intro-section__card" data-grid-item-index="1">
-        <div class="contact-contact-intro-section__card-icon">
-          <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect x="10" y="14" width="28" height="24" rx="3" stroke="currentColor" stroke-width="2" fill="none"/>
-            <path d="M16 20H32" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-            <path d="M16 26H28" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-            <path d="M16 32H24" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-            <path d="M10 14L24 8L38 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/>
-          </svg>
-        </div>
-        <h3 class="contact-contact-intro-section__card-title">בחירת פורמט למידה</h3>
-        <p class="contact-contact-intro-section__card-text" style>ערכה שלמה או מוצרים בודדים? אשמח לעזור לכם לבנות את המסלול המושלם בהתאם לסגנון הלמידה של ילדכם.</p>
-      </article>
-      <article class="contact-contact-intro-section__card" data-grid-item-index="2">
+    <article class="contact-contact-intro-section__card">
         <div class="contact-contact-intro-section__card-icon">
           <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="24" cy="18" r="6" stroke="currentColor" stroke-width="2" fill="none"/>
@@ -1715,9 +1690,8 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
           </svg>
         </div>
         <h3 class="contact-contact-intro-section__card-title">תמיכה באנשי חינוך ומשפחות</h3>
-        <p class="contact-contact-intro-section__card-text" style>גננות, מורים והורים – צרו קשר לקבלת ייעוץ מותאם לשימוש בחומרי הלימוד שלי בכיתה או בבית.</p>
+        <p class="contact-contact-intro-section__card-text">גננות, מורים והורים – צרו קשר לקבלת ייעוץ מותאם לשימוש בחומרי הלימוד שלי בכיתה או בבית.</p>
       </article>
-    </div>
   </div>
   <div class="contact-contact-intro-section__divider-wrapper">
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
@@ -1780,15 +1754,15 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
     <div class="contact-contact-form-section__info-panel">
       <div class="contact-contact-form-section__info-text">
         <h3 class="contact-contact-form-section__info-title">איך אנחנו יכולים לעזור?</h3>
-        <p class="contact-contact-form-section__info-description" style>
+        <p class="contact-contact-form-section__info-description">
           בין אם אתם מתלבטים איזו ערכת לימוד אנגלית לילדים הכי מתאימה, רוצים להתייעץ על חומרי לימוד אנגלית לגן, או סתם רוצים לשמוע עוד על השיטה — אני כאן בשבילכם.
         </p>
-        <p class="contact-contact-form-section__info-description" style>
+        <p class="contact-contact-form-section__info-description">
           המוצרים שלי מתאימים לילדים בגילאי גן עד כיתה ז', ואני שמה דגש על למידה מהנה, נגישה ומותאמת גיל. שלחו לי הודעה ואחזור אליכם עם המלצה אישית.
         </p>
         
         <div class="contact-contact-form-section__contact-details">
-          <div class="contact-contact-form-section__contact-item" data-zappy-contact-field="email" style>
+          <div class="contact-contact-form-section__contact-item" data-zappy-contact-field="email">
             <svg data-element-type="icon" data-icon-type="svg" class="contact-contact-form-section__contact-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="cursor: pointer;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
             <a href="mailto:eavivi25@gmail.com">eavivi25@gmail.com</a>
           </div>
@@ -1820,7 +1794,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
     <!-- Section Header -->
     <div class="reassurance-header">
       <h2 class="reassurance-heading">הודעה קצרה מספיקה כדי להתחיל</h2>
-      <p class="reassurance-subtitle" style>אני כאן כדי להקשיב, להבין ולהתאים את הפתרון המושלם עבור הילד שלך. אין לחץ, אין התחייבות — רק שיחה נעימה עם המלצה מקצועית.</p>
+      <p class="reassurance-subtitle">אני כאן כדי להקשיב, להבין ולהתאים את הפתרון המושלם עבור הילד שלך. אין לחץ, אין התחייבות — רק שיחה נעימה עם המלצה מקצועית.</p>
     </div>
 
     <!-- Reassurance Items Grid -->
@@ -1853,7 +1827,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
         </div>
         <div class="reassurance-item-content">
           <h3 class="reassurance-item-title">ללא לחץ</h3>
-          <p class="reassurance-item-desc" style>השיחה איתי היא חווייתית וזורמת. אני לא מוכרת — אני מייעצת. את מקבלת את כל המידע ואת מחליטה בקצב שלך.</p>
+          <p class="reassurance-item-desc">השיחה איתי היא חווייתית וזורמת. אני לא מוכרת — אני מייעצת. את מקבלת את כל המידע ואת מחליטה בקצב שלך.</p>
         </div>
       </div>
 
@@ -1887,8 +1861,8 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
     <div class="footer-grid">
       <!-- Company Info -->
       <div class="footer-col footer-company-col">
-        <img src="/assets/easy-english-with-efrat-educational-products-e-commerce-logo.webp" alt="אנגלית בקלות ובהנאה Easy English with Efrat" class="logo" data-element-type="image" data-element-id="img-1783842737088-bjf01l7np" data-zappy-footer-image="true" style decoding="async" width="35" height="35" />
-        <p class="footer-tagline" style>לומדים אנגלית בחיוך – ערכות, משחקים ומוצרים שהופכים כל ילד לדובר בטוח.</p>
+        <img src="/assets/easy-english-with-efrat-educational-products-e-commerce-logo.webp" alt="אנגלית בקלות ובהנאה Easy English with Efrat" class="logo" data-element-type="image" data-element-id="img-1783842737088-bjf01l7np" data-zappy-footer-image="true" decoding="async" width="35" height="35" />
+        <p class="footer-tagline">לומדים אנגלית בחיוך – ערכות, משחקים ומוצרים שהופכים כל ילד לדובר בטוח.</p>
       </div>
 
       <!-- Quick Links -->
