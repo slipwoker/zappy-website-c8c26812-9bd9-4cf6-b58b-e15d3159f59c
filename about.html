@@ -625,6 +625,445 @@
     
     <!-- Mickidum Accessibility Toolbar -->
     
+
+
+    
+          <style id="zappy-cta-mobile-style">
+            /* Hide CTA list item on desktop (tablets and up) */
+            @media (min-width: 769px) {
+              .nav-cta-item-mobile {
+                display: none !important;
+              }
+            }
+            /* Show CTA list item on mobile */
+            @media (max-width: 768px) {
+              .nav-cta-item-mobile {
+                display: list-item !important;
+              }
+            }
+          </style>
+        
+          <style id="zappy-nested-menu-style">
+            /* Desktop only: vertically center nav items */
+            @media (min-width: 769px) {
+              .nav-menu,
+              #navMenu {
+                align-items: center !important;
+              }
+            }
+            
+            /* Menu Group styling (non-clickable parent) - TOP LEVEL ONLY with ultra-specific selector */
+            .nav-menu > li > .menu-group-title,
+            #navMenu > li > .menu-group-title {
+              display: inline-block !important;
+              padding: 0.5rem 1rem !important;
+              color: var(--nav-color) !important;
+              font-weight: 500 !important;
+              line-height: 1.7 !important;
+              cursor: default !important;
+              user-select: none !important;
+              vertical-align: middle !important;
+              text-decoration: none !important;
+              margin: 0 !important;
+              transition: color 0.3s ease !important;
+            }
+            
+            .nav-menu > li > .menu-group-title:hover,
+            #navMenu > li > .menu-group-title:hover {
+              color: var(--nav-hover-color) !important;
+            }
+            
+            /* Desktop: show submenu on Menu Group hover */
+            li:has(.menu-group-title):hover > .sub-menu {
+              opacity: 1 !important;
+              visibility: visible !important;
+              transform: translateY(0) !important;
+              pointer-events: auto !important; /* Enable interaction when hovering */
+            }
+            
+            /* Hide menu items marked as hidden (overrides hover states) */
+            .zappy-hidden-menu-item,
+            li:has(.menu-group-title):hover > .sub-menu .zappy-hidden-menu-item {
+              display: none !important;
+              opacity: 0 !important;
+              visibility: hidden !important;
+              pointer-events: none !important;
+            }
+            
+            /* Keep submenu visible when hovering over the submenu itself */
+            .sub-menu:hover {
+              opacity: 1 !important;
+              visibility: visible !important;
+              pointer-events: auto !important;
+            }
+            
+            /* Nested dropdown menu styles - using more specific selectors */
+            .nav-menu .sub-menu,
+            nav .sub-menu,
+            .navbar .sub-menu {
+              display: block !important; /* Ensure submenu is in the DOM */
+              position: absolute !important;
+              top: 100%;
+              left: 0;
+              right: auto;
+              min-width: 200px;
+              background: white;
+              box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+              border-radius: 8px;
+              padding: 8px 0;
+              margin-top: 0px; /* Remove gap to prevent hover loss */
+              opacity: 0 !important;
+              visibility: hidden !important;
+              transform: translateY(-10px);
+              transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s;
+              z-index: 1000;
+              list-style: none;
+              pointer-events: none; /* Prevent interaction when hidden */
+            }
+            
+            /* RTL (Hebrew/Arabic) submenu positioning - align to right instead of left */
+            [dir="rtl"] .nav-menu .sub-menu,
+            [dir="rtl"] nav .sub-menu,
+            [dir="rtl"] .navbar .sub-menu,
+            html[lang="he"] .nav-menu .sub-menu,
+            html[lang="he"] nav .sub-menu,
+            html[lang="he"] .navbar .sub-menu,
+            html[lang="ar"] .nav-menu .sub-menu,
+            html[lang="ar"] nav .sub-menu,
+            html[lang="ar"] .navbar .sub-menu {
+              left: auto;
+              right: 0;
+            }
+            
+            /* Show submenu on parent hover - more specific selectors */
+            .nav-menu li:hover > .sub-menu,
+            nav li:hover > .sub-menu,
+            .navbar li:hover > .sub-menu {
+              opacity: 1 !important;
+              visibility: visible !important;
+              transform: translateY(0) !important;
+              pointer-events: auto !important; /* Enable interaction when visible */
+            }
+            
+            /* Parent item must be relatively positioned */
+            .nav-menu li:has(.sub-menu),
+            nav li:has(.sub-menu),
+            .navbar li:has(.sub-menu) {
+              position: relative;
+            }
+            
+            /* Style for submenu items */
+            .sub-menu li {
+              list-style: none;
+              margin: 0;
+              padding: 0;
+            }
+            
+            .sub-menu a,
+            .sub-menu .menu-group-title {
+              display: block !important;
+              padding: 10px 12px !important;
+              color: #333 !important;
+              font-weight: 600 !important;
+              text-decoration: none;
+              transition: background-color 0.2s;
+              white-space: nowrap;
+              cursor: default;
+            }
+            
+            .sub-menu a:hover {
+              background-color: #f5f5f5;
+            }
+            
+            /* CRITICAL: Override submenu styles for TOP-LEVEL Menu Groups only - must come AFTER submenu styles */
+            .nav-menu > li > .menu-group-title,
+            #navMenu > li > .menu-group-title {
+              display: inline-block !important;
+              padding: 0.5rem 1rem !important;
+              color: var(--nav-color) !important;
+              font-weight: 500 !important;
+              line-height: 1.7 !important;
+              cursor: default !important;
+              user-select: none !important;
+              vertical-align: middle !important;
+              text-decoration: none !important;
+              margin: 0 !important;
+              transition: color 0.3s ease !important;
+            }
+            
+            .nav-menu > li > .menu-group-title:hover,
+            #navMenu > li > .menu-group-title:hover {
+              color: var(--nav-hover-color) !important;
+              background-color: transparent !important;
+            }
+            
+            /* On mobile, show nested menus as expandable accordion */
+            @media (max-width: 768px) {
+              /* Mobile submenu styling */
+              .nav-menu .sub-menu,
+              nav .sub-menu,
+              .navbar .sub-menu {
+                position: static !important;
+                transform: none !important;
+                box-shadow: none !important;
+                background: transparent !important;
+                margin-top: 0 !important;
+                max-height: 0;
+                overflow: hidden;
+                opacity: 0;
+                visibility: hidden;
+                transition: max-height 0.3s ease, opacity 0.3s ease, visibility 0.3s ease, padding 0.3s ease;
+                padding: 0 !important;
+                border-radius: 0 !important;
+              }
+              
+              /* Expanded state — no internal scroll; parent navMenu scrolls */
+              .sub-menu.mobile-expanded {
+                max-height: none !important;
+                overflow-y: visible !important;
+                opacity: 1 !important;
+                visibility: visible !important;
+                padding: 8px 0 8px 16px !important;
+              }
+              
+              /* RTL padding adjustment */
+              [dir="rtl"] .sub-menu.mobile-expanded,
+              html[lang="he"] .sub-menu.mobile-expanded,
+              html[lang="ar"] .sub-menu.mobile-expanded {
+                padding: 8px 16px 8px 0 !important;
+              }
+              
+              /* Disable hover behavior on mobile */
+              .nav-menu li:hover > .sub-menu,
+              nav li:hover > .sub-menu,
+              .navbar li:hover > .sub-menu {
+                opacity: 0;
+                visibility: hidden;
+                pointer-events: none;
+              }
+              
+              /* Enable visibility for expanded submenus */
+              .nav-menu li > .sub-menu.mobile-expanded,
+              nav li > .sub-menu.mobile-expanded,
+              .navbar li > .sub-menu.mobile-expanded {
+                opacity: 1 !important;
+                visibility: visible !important;
+                pointer-events: auto !important;
+              }
+              
+              .sub-menu a {
+                padding: 10px 0 !important;
+                display: block !important;
+                font-size: 14px !important;
+                white-space: normal !important;
+              }
+              
+              .sub-menu a:hover {
+                background-color: transparent !important;
+              }
+              
+              /* Parent item wrapper - flex layout with relative positioning for absolute toggle */
+              .nav-menu li:has(.sub-menu),
+              nav li:has(.sub-menu),
+              .navbar li:has(.sub-menu) {
+                display: flex !important;
+                flex-wrap: wrap !important;
+                align-items: center !important;
+                position: relative !important;
+                min-height: 44px !important;
+              }
+              
+              /* Parent link - takes full width since toggle is absolute (not a flex child) */
+              .nav-menu li:has(.sub-menu) > a,
+              nav li:has(.sub-menu) > a,
+              .navbar li:has(.sub-menu) > a,
+              .nav-menu > li > .menu-group-title,
+              #navMenu > li > .menu-group-title {
+                flex: 1 !important;
+                min-width: 0 !important;
+              }
+              
+              /* Normalize menu-group-title in mobile nav to match link alignment */
+              .nav-menu > li > .menu-group-title,
+              #navMenu > li > .menu-group-title {
+                padding: 0 !important;
+                line-height: inherit !important;
+              }
+              
+              /* Submenu takes full width below parent */
+              .nav-menu li:has(.sub-menu) > .sub-menu,
+              nav li:has(.sub-menu) > .sub-menu,
+              .navbar li:has(.sub-menu) > .sub-menu {
+                flex-basis: 100% !important;
+                width: 100% !important;
+              }
+              
+              /* HIDE EXISTING CHEVRONS/ARROWS from cloned sites to prevent duplicates */
+              .nav-menu li:has(.sub-menu) > a .fa-chevron-down,
+              .nav-menu li:has(.sub-menu) > a .fa-angle-down,
+              .nav-menu li:has(.sub-menu) > a [class*="chevron"],
+              .nav-menu li:has(.sub-menu) > a [class*="arrow"],
+              nav li:has(.sub-menu) > a [class*="chevron"],
+              nav li:has(.sub-menu) > a [class*="arrow"],
+              #navMenu li:has(.sub-menu) > a [class*="chevron"],
+              #navMenu li:has(.sub-menu) > a [class*="arrow"] {
+                display: none !important;
+                visibility: hidden !important;
+              }
+              
+              /* Toggle arrow button - flex child that stretches to match nav-link height */
+              .mobile-submenu-toggle {
+                display: flex !important;
+                align-items: center !important;
+                justify-content: center !important;
+                width: 44px !important;
+                height: auto !important;
+                background: transparent !important;
+                border: none !important;
+                cursor: pointer !important;
+                padding: 0 !important;
+                margin: 0 !important;
+                position: static !important;
+                flex-shrink: 0 !important;
+                align-self: stretch !important;
+                z-index: 2 !important;
+                -webkit-tap-highlight-color: transparent;
+              }
+              
+              .mobile-submenu-toggle::after {
+                content: '' !important;
+                display: block !important;
+                width: 0 !important;
+                height: 0 !important;
+                border-left: 6px solid transparent !important;
+                border-right: 6px solid transparent !important;
+                border-top: 7px solid currentColor !important;
+                transition: transform 0.3s ease !important;
+              }
+              
+              /* Rotate arrow when expanded */
+              .mobile-submenu-toggle.expanded::after {
+                transform: rotate(180deg) !important;
+              }
+            }
+            
+            /* Hide toggle button on desktop */
+            @media (min-width: 769px) {
+              .mobile-submenu-toggle {
+                display: none !important;
+              }
+            }
+          </style>
+          
+          <script id="zappy-mobile-menu-script">
+            // Mobile menu toggle for nested submenus (including Menu Groups)
+            // Uses separate toggle button - link navigates, arrow toggles submenu
+            (function() {
+              function initMobileMenuToggles() {
+                // Only run on mobile
+                if (window.innerWidth > 768) {
+                  // Remove any toggle buttons on desktop
+                  document.querySelectorAll('.mobile-submenu-toggle').forEach(btn => btn.remove());
+                  document.querySelectorAll('.sub-menu.mobile-expanded').forEach(menu => {
+                    menu.classList.remove('mobile-expanded');
+                  });
+                  console.log('[MOBILE MENU] Desktop mode - cleanup done');
+                  return;
+                }
+                
+                console.log('[MOBILE MENU] Initializing mobile menu toggles...');
+                
+                // Find all parent menu items (items with .sub-menu)
+                const menuItemsWithSubmenus = document.querySelectorAll(
+                  '.nav-menu li:has(.sub-menu), nav li:has(.sub-menu), .navbar li:has(.sub-menu), #navMenu li:has(.sub-menu)'
+                );
+                
+                console.log('[MOBILE MENU] Found', menuItemsWithSubmenus.length, 'items with submenus');
+                
+                menuItemsWithSubmenus.forEach(function(li) {
+                  // Skip if already has toggle button
+                  if (li.querySelector('.mobile-submenu-toggle')) {
+                    return;
+                  }
+                  
+                  const submenu = li.querySelector('.sub-menu');
+                  const parentLink = li.querySelector(':scope > a') || li.querySelector(':scope > .menu-group-title');
+                  
+                  if (!submenu || !parentLink) return;
+                  
+                  // Create toggle button
+                  const toggleBtn = document.createElement('button');
+                  toggleBtn.className = 'mobile-submenu-toggle';
+                  toggleBtn.setAttribute('aria-label', 'Toggle submenu');
+                  toggleBtn.setAttribute('type', 'button');
+
+                  // Insert toggle button after the link
+                  parentLink.insertAdjacentElement('afterend', toggleBtn);
+                  
+                  console.log('[MOBILE MENU] Created toggle button for:', parentLink.textContent?.trim());
+                  
+                  // Handle toggle button click - only toggles submenu
+                  toggleBtn.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    
+                    const isExpanded = submenu.classList.contains('mobile-expanded');
+                    
+                    // Close all other submenus first
+                    document.querySelectorAll('.sub-menu.mobile-expanded').forEach(function(menu) {
+                      if (menu !== submenu) {
+                        menu.classList.remove('mobile-expanded');
+                        const otherToggle = menu.parentElement.querySelector('.mobile-submenu-toggle');
+                        if (otherToggle) otherToggle.classList.remove('expanded');
+                      }
+                    });
+                    
+                    // Toggle this submenu
+                    submenu.classList.toggle('mobile-expanded');
+                    toggleBtn.classList.toggle('expanded');
+                    
+                    console.log('[MOBILE MENU] Toggled submenu:', !isExpanded ? 'expanded' : 'collapsed');
+                  });
+                  
+                  // Parent link navigates normally - no preventDefault
+                });
+              }
+              
+              // Initialize on DOM load
+              if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', initMobileMenuToggles);
+              } else {
+                initMobileMenuToggles();
+              }
+              
+              // Re-initialize on window resize (but use debounce to avoid too many calls)
+              let resizeTimer;
+              window.addEventListener('resize', function() {
+                clearTimeout(resizeTimer);
+                resizeTimer = setTimeout(initMobileMenuToggles, 250);
+              });
+              
+              // Also initialize when mobile menu becomes visible
+              // This handles cases where the mobile menu is hidden initially
+              const observer = new MutationObserver(function(mutations) {
+                mutations.forEach(function(mutation) {
+                  if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
+                    const target = mutation.target;
+                    if (target.classList.contains('active') || target.style.display !== 'none') {
+                      console.log('[MOBILE MENU] Mobile menu became visible, re-initializing...');
+                      setTimeout(initMobileMenuToggles, 100);
+                    }
+                  }
+                });
+              });
+              
+              // Observe mobile menu containers
+              const mobileMenus = document.querySelectorAll('.mobile-menu, .nav-menu, #navMenu');
+              mobileMenus.forEach(function(menu) {
+                observer.observe(menu, { attributes: true, attributeFilter: ['class', 'style'] });
+              });
+            })();
+          </script>
     <style id="zappy-critical-above-fold-css">
 html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{box-sizing:inherit}body{margin:0;min-width:320px;overflow-x:clip}img,svg,video{max-width:100%;height:auto}main{display:block}.container{width:min(100% - 32px,1200px);margin-inline:auto}.navbar,nav.navbar,header .navbar,header[role="banner"]{position:relative;z-index:1000;width:100%}.nav-container,.navbar .container{display:flex;align-items:center;justify-content:space-between;min-height:64px}.logo,.logo-link img{display:block;width:35px;height:35px;object-fit:contain}.nav-menu,#navMenu{list-style:none;margin:0;padding:0}.navbar a,.nav-menu a,#navMenu a,.navbar .nav-links a{color:inherit;text-decoration:none}.navbar .sub-menu,.nav-menu .sub-menu,#navMenu .sub-menu{display:none}.fa,.fas,.far,.fab,.fa-solid,.fa-regular,.fa-brands{display:inline-block;min-width:1em;text-align:center}html:not(#zappy-noop)[data-zappy-site-type="ecommerce"] .phone-header-btn,html:not(#zappy-noop) .navbar:has(.nav-ecommerce-icons)>.phone-header-btn{display:none!important;visibility:hidden!important;width:0!important;height:0!important;pointer-events:none!important}.zappy-preview-empty-store-cta{display:none!important;visibility:hidden!important;height:0!important;max-height:0!important;overflow:hidden!important;margin:0!important;padding:0!important;border:0!important;box-shadow:none!important}.zappy-catalog-menu{background:var(--surface-color,var(--surface,linear-gradient(135deg,#f8f9fa 0%,#fff 100%)));border-bottom:1px solid var(--border-color,#e5e7eb);padding:0;position:sticky;top:0;z-index:90}.zappy-catalog-menu[dir=rtl],.zappy-catalog-menu.rtl{direction:rtl}.zappy-catalog-menu[dir=ltr],.zappy-catalog-menu.ltr{direction:ltr}.catalog-menu-container{max-width:1440px;margin:0 auto;display:flex;align-items:center;gap:8px;padding:10px 24px;overflow:visible}.catalog-menu-categories,.catalog-menu-list{display:flex;align-items:center;gap:4px;flex-wrap:wrap;margin:0;padding:0;list-style:none}.catalog-menu-item{display:inline-flex;align-items:center;padding:8px 16px;font-size:14px;font-weight:500;color:var(--text-color,var(--text,#374151));text-decoration:none;border-radius:20px;white-space:nowrap}.catalog-menu-all{background:var(--primary-color,var(--primary,#111));color:var(--text-light,#fff)!important}.catalog-menu-parent{position:relative;display:inline-flex;align-items:center}.catalog-menu-trigger{display:inline-flex;align-items:center;gap:6px}.catalog-menu-chevron{flex-shrink:0}.catalog-menu-parent>.sub-menu{display:none!important;visibility:hidden!important;opacity:0!important;pointer-events:none!important}.hero-section,.index-hero-section,section[class*="hero"]{position:relative;overflow:hidden;min-height:560px}.hero-bg-wrapper,.hero-bg-image,section[class*="hero"] [class*="hero-bg"]{position:absolute;inset:0;width:100%;height:100%}.hero-bg-wrapper img,.hero-bg-image img,section[class*="hero"] [data-hero-bg],section[class*="hero"] img[data-hero-background="true"]{width:100%!important;height:100%!important;object-fit:cover!important;display:block}.hero-content,section[class*="hero"] .container{position:relative;z-index:2}@media(max-width:768px){:root{--header-height:72px;--total-header-height:72px;--zappy-mobile-menu-top:72px}html[data-zappy-site-type="ecommerce"] body{padding-top:var(--total-header-height,72px)}html[data-zappy-site-type="ecommerce"] body>nav.navbar,html[data-zappy-site-type="ecommerce"] body>.navbar:not(.zappy-catalog-menu){position:fixed!important;top:0;left:0;right:0;z-index:100000;width:100%;margin-bottom:0}.zappy-catalog-menu{position:fixed;top:var(--header-height,72px);left:0;right:0;z-index:99999}.nav-container,.navbar .container{min-height:60px}.nav-menu,#navMenu{max-width:100vw;overflow-x:hidden}.hero-section,.index-hero-section,section[class*="hero"]{min-height:100svh}.hero-bg-wrapper,.hero-bg-image,.hero-scrim{min-height:100svh}}
 :root{--nav-bg:#FFFFFF}.navbar{background-color:#FFFFFF!important}
@@ -676,56 +1115,6 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
 
 </style>
     <link rel="stylesheet" href="/styles.css" />
-
-    <style id="zappy-dropdown-submenu-styles">
-      /* ========== DESKTOP DROPDOWN SUBMENU STYLES ========== */
-      /* Base styles for dropdown submenus - parent must be positioned */
-      .nav-menu li:has(.sub-menu), nav li:has(.sub-menu), .navbar li:has(.sub-menu), #navMenu li:has(.sub-menu) { position: relative; }
-      /* Submenu base - hidden by default */
-      .nav-menu .sub-menu, nav .sub-menu, .navbar .sub-menu, #navMenu .sub-menu { display: block !important; position: absolute !important; top: 100%; left: 0; min-width: 220px; border-radius: 8px; box-shadow: 0 8px 25px rgba(0,0,0,0.15); padding: 8px 0; opacity: 0; visibility: hidden; transform: translateY(10px); transition: all 0.3s ease; z-index: 1000; list-style: none; pointer-events: none; }
-      /* CRITICAL: Desktop hover styles to show dropdown */
-      .nav-menu li:hover > .sub-menu, nav li:hover > .sub-menu, .navbar li:hover > .sub-menu, #navMenu li:hover > .sub-menu { opacity: 1 !important; visibility: visible !important; transform: translateY(0) !important; pointer-events: auto !important; }
-      /* Submenu item styling */
-      .sub-menu li { list-style: none; margin: 0; padding: 0; }
-      .sub-menu a { display: block !important; padding: 10px 16px !important; color: var(--text-dark, #333) !important; font-weight: 500; text-decoration: none; white-space: nowrap; transition: background-color 0.2s; }
-      .sub-menu .zappy-nav-child > a { padding-left: 28px !important; font-size: 0.9em !important; opacity: 0.85 !important; }
-      [dir="rtl"] .sub-menu .zappy-nav-child > a, html[lang="he"] .sub-menu .zappy-nav-child > a, html[lang="ar"] .sub-menu .zappy-nav-child > a { padding-left: 10px !important; padding-right: 28px !important; }
-      .sub-menu .zappy-nav-parent > a { font-weight: 600 !important; }
-      .sub-menu a:hover { background-color: #f5f5f5; }
-      /* RTL (Hebrew/Arabic) dropdown positioning */
-      [dir="rtl"] .nav-menu .sub-menu, [dir="rtl"] nav .sub-menu, [dir="rtl"] .navbar .sub-menu, html[lang="he"] .nav-menu .sub-menu, html[lang="he"] nav .sub-menu, html[lang="he"] .navbar .sub-menu, html[lang="ar"] .nav-menu .sub-menu, html[lang="ar"] nav .sub-menu, html[lang="ar"] .navbar .sub-menu { left: auto !important; right: 0 !important; }
-      /* Hide empty dropdown menus (exclude catalog sub-menus that use <a> children instead of <li>) */
-      .sub-menu:empty, .sub-menu:not(:has(li:not(.zappy-hidden-menu-item))):not(:has(> a)), .sub-menu:not(:has(li)):not(:has(> a)) { display: none !important; opacity: 0 !important; visibility: hidden !important; pointer-events: none !important; }
-      /* Desktop: show submenu on Menu Group hover */
-      li:has(.menu-group-title):hover > .sub-menu { opacity: 1 !important; visibility: visible !important; transform: translateY(0) !important; pointer-events: auto !important; }
-      /* Menu Group title styling */
-      .nav-menu > li > .menu-group-title, #navMenu > li > .menu-group-title { display: inline-block; padding: 0.5rem 1rem; cursor: default; user-select: none; }
-      
-      /* ========== MOBILE SUBMENU STYLES ========== */
-      @media (max-width: 768px) {
-        .nav-menu .sub-menu, nav .sub-menu, .navbar .sub-menu, #navMenu .sub-menu { position: static !important; transform: none !important; box-shadow: none !important; background: transparent !important; max-height: 0; overflow: hidden; opacity: 0; visibility: hidden; transition: max-height 0.3s ease, opacity 0.3s ease; padding: 0 !important; border-radius: 0 !important; }
-        .navbar .sub-menu.mobile-expanded, .nav-menu .sub-menu.mobile-expanded, #navMenu .sub-menu.mobile-expanded { max-height: none !important; overflow-y: visible !important; opacity: 1 !important; visibility: visible !important; padding: 8px 0 8px 16px !important; }
-        [dir="rtl"] .sub-menu.mobile-expanded, html[lang="he"] .sub-menu.mobile-expanded { padding: 8px 16px 8px 0 !important; }
-        /* Disable hover behavior on mobile */
-        .nav-menu li:hover > .sub-menu, nav li:hover > .sub-menu, .navbar li:hover > .sub-menu, #navMenu li:hover > .sub-menu { opacity: 0; visibility: hidden; pointer-events: none; }
-        .nav-menu li > .sub-menu.mobile-expanded, nav li > .sub-menu.mobile-expanded, .navbar li > .sub-menu.mobile-expanded, #navMenu li > .sub-menu.mobile-expanded { opacity: 1 !important; visibility: visible !important; pointer-events: auto !important; }
-        .nav-menu li:has(.sub-menu), nav li:has(.sub-menu), .navbar li:has(.sub-menu), #navMenu li:has(.sub-menu) { display: flex !important; flex-wrap: wrap !important; align-items: center !important; position: relative !important; min-height: 44px !important; }
-        .nav-menu li:has(.sub-menu) > a, nav li:has(.sub-menu) > a, .navbar li:has(.sub-menu) > a, #navMenu li:has(.sub-menu) > a { flex: 1 !important; min-width: 0 !important; }
-        .nav-menu li:has(.sub-menu) > .menu-group-title, nav li:has(.sub-menu) > .menu-group-title, .navbar li:has(.sub-menu) > .menu-group-title, #navMenu li:has(.sub-menu) > .menu-group-title { flex: 1 !important; min-width: 0 !important; padding: 0 !important; line-height: inherit !important; }
-        .nav-menu li:has(.sub-menu) > .sub-menu, nav li:has(.sub-menu) > .sub-menu, .navbar li:has(.sub-menu) > .sub-menu, #navMenu li:has(.sub-menu) > .sub-menu { flex-basis: 100% !important; width: 100% !important; }
-        .nav-menu li:has(.sub-menu) > a [class*="chevron"], .nav-menu li:has(.sub-menu) > a [class*="arrow"], .nav-menu li:has(.sub-menu) > a .fa-chevron-down, .nav-menu li:has(.sub-menu) > a .fa-angle-down, nav li:has(.sub-menu) > a [class*="chevron"], nav li:has(.sub-menu) > a [class*="arrow"], #navMenu li:has(.sub-menu) > a [class*="chevron"], #navMenu li:has(.sub-menu) > a [class*="arrow"] { display: none !important; visibility: hidden !important; }
-        .mobile-submenu-toggle { display: flex !important; align-items: center !important; justify-content: center !important; width: 44px !important; height: auto !important; background: transparent !important; border: none !important; cursor: pointer !important; color: var(--text-dark) !important; position: static !important; flex-shrink: 0 !important; align-self: stretch !important; z-index: 2 !important; padding: 0 !important; margin: 0 !important; }
-        .mobile-submenu-toggle::after { content: '' !important; width: 0 !important; height: 0 !important; border-left: 6px solid transparent !important; border-right: 6px solid transparent !important; border-top: 7px solid currentColor !important; transition: transform 0.3s ease !important; }
-        .mobile-submenu-toggle.expanded::after { transform: rotate(180deg) !important; }
-        .sub-menu a { padding: 10px 0 !important; display: block !important; color: var(--text-dark) !important; white-space: normal !important; }
-        .sub-menu .zappy-nav-child > a { padding-left: 28px !important; font-size: 0.9em !important; opacity: 0.85 !important; }
-        [dir="rtl"] .sub-menu .zappy-nav-child > a, html[lang="he"] .sub-menu .zappy-nav-child > a, html[lang="ar"] .sub-menu .zappy-nav-child > a { padding-left: 0 !important; padding-right: 28px !important; }
-        .sub-menu .zappy-nav-parent > a { font-weight: 600 !important; }
-        .nav-menu.active, #navMenu.active { max-width: 100vw !important; overflow-x: hidden !important; box-sizing: border-box !important; }
-        .navbar .sub-menu li a, nav.navbar .sub-menu li a, .zappy-products-dropdown .sub-menu a { color: var(--text-dark) !important; }
-      }
-      @media (min-width: 769px) { .mobile-submenu-toggle { display: none !important; } }
-    </style>
 
     <style id="zappy-widget-visibility">
       html[dir="rtl"] .whatsapp-float { right: 20px !important; left: auto !important; }
@@ -797,9 +1186,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
   <div class="nav-container">
     <div class="nav-right-group"><div class="nav-brand">
       <a href="/" class="logo-link"><img class="logo" src="/assets/site------------image-1.webp" alt="אנגלית בקלות ובהנאה Easy English with Efrat" decoding="async" width="35" height="35" /></a>
-    </div><ul class="nav-menu" id="navMenu">
-
-    <li class="menu-item-has-children zappy-products-dropdown">
+    </div><ul class="nav-menu" id="navMenu"><li><a href="/packaging">מארזים</a></li><li><a href="/parent-reviews">חוות דעת הורים</a></li><li><a href="/about">אודות אפרת</a></li><li class="menu-item-has-children zappy-products-dropdown">
       <a href="/products">
         מוצרים
         <svg class="dropdown-arrow" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -810,8 +1197,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
         <li><a href="/products" data-i18n="ecom_products">מוצרים</a></li>
         <!-- Categories will be loaded dynamically -->
       <li data-category-id="a6eefe27-9c53-4f30-91d2-ba448b4f57dc" data-category-slug="memory-games"><a href="/category/memory-games" dir="rtl">משחקי זיכרון</a></li><li data-category-id="76af1a55-ebcd-44fc-b609-ae5ef43c4af3" data-category-slug="reading-games"><a href="/category/reading-games" dir="rtl">משחקי קריאה</a></li><li data-category-id="ed8fde7b-5d0e-47b5-bf26-4ee54263135f" data-category-slug="reading-bars"><a href="/category/reading-bars" dir="rtl">סרגלי קריאה</a></li><li data-category-id="9614b62d-9152-4678-9b89-065fb2d752b7" data-category-slug="grammar-posters"><a href="/category/grammar-posters" dir="rtl">פוסטרים דקדוקיים</a></li></ul>
-    </li>
-  <li><a href="/">בית</a></li><li><a href="/packaging">מארזים</a></li><li><a href="/parent-reviews">חוות דעת הורים</a></li><li><a href="/about">אודות אפרת</a></li><li><a href="/contact">צור קשר</a></li></ul><div class="nav-ecommerce-icons nav-icons-left"><a href="/login" class="login-link nav-login" title="התחברות"><svg class="login-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></a><a href="#cart" class="cart-link nav-cart" id="cart-drawer-toggle" title="עגלת קניות"><svg class="cart-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg><span class="cart-count">0</span></a><div class="nav-search-box">
+    </li><li><a href="/contact">צור קשר</a></li></ul><div class="nav-ecommerce-icons nav-icons-left"><a href="/login" class="login-link nav-login" title="התחברות"><svg class="login-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></a><a href="#cart" class="cart-link nav-cart" id="cart-drawer-toggle" title="עגלת קניות"><svg class="cart-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg><span class="cart-count">0</span></a><div class="nav-search-box">
     <input type="text" class="nav-search-input" id="nav-search-input" placeholder="חיפוש מוצרים..." autocomplete="off" />
     <button class="nav-search-btn" id="nav-search-btn" title="חיפוש">
       <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
@@ -1293,7 +1679,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
     <div class="about-about-intro-grid">
       <div class="about-about-intro-content">
         <h1 class="about-about-intro-heading">הכירו את אפרת – האישה מאחורי אנגלית בקלות ובהנאה</h1>
-        <p class="about-about-intro-description">אני אפרת, אמא לשני קטנטנים, מורה ומפתחת פתרונות למידה באנגלית.&nbsp;<br />בעלת תואר ראשון בהוראת האנגלית ותואר שני בניהול מערכות חינוך.<br />במהלך שנותיי כמורה במערכת החינוך, נחשפתי לקשיים איתם מתמודדים תלמידים בבתי הספר אשר מונעים מהם להצליח בלימוד ורכישת השפה האנגלית.<br />בעזרת הידע והניסיון שלי ומתוך רצון למצוא פתרון, פיתחתי סדרת מוצרי למידה ייחודית ומקיפה המספקת מענה פשוט ומדויק ומסייעת לכל תלמיד להתגבר על האתגרים, ללמוד אנגלית בהנאה ולהצליח!<br />Easy English with Efrat מציעה מגוון מוצרים איכותיים המעוצבים בצורה צבעונית ומושכת שתסייע לילדך להכיר את השפה האנגלית וללמוד בהנאה ובקלות! המוצרים מספקים מענה לחיזוק הקריאה, הכתיבה, הדקדוק, הדיבור והעשרת אוצר המילים.&nbsp;&nbsp;</p>
+        <p class="about-about-intro-description" style>אני אפרת, אמא לשני קטנטנים, מורה ומפתחת פתרונות למידה באנגלית.&nbsp;<br />בעלת תואר ראשון בהוראת האנגלית ותואר שני בניהול מערכות חינוך.<br />במהלך שנותיי כמורה במערכת החינוך, נחשפתי לקשיים איתם מתמודדים תלמידים בבתי הספר אשר מונעים מהם להצליח בלימוד ורכישת השפה האנגלית.<br />בעזרת הידע והניסיון שלי ומתוך רצון למצוא פתרון, פיתחתי סדרת מוצרי למידה ייחודית ומקיפה המספקת מענה פשוט ומדויק ומסייעת לכל תלמיד להתגבר על האתגרים, ללמוד אנגלית בהנאה ולהצליח!<br />Easy English with Efrat מציעה מגוון מוצרים איכותיים המעוצבים בצורה צבעונית ומושכת שתסייע לילדך להכיר את השפה האנגלית וללמוד בהנאה ובקלות! המוצרים מספקים מענה לחיזוק הקריאה, הכתיבה, הדקדוק, הדיבור והעשרת אוצר המילים.&nbsp;&nbsp;</p>
         <div class="about-about-intro-values">
           <div class="about-about-intro-value-item">
             <span class="about-about-intro-value-icon">✨</span>
@@ -1342,14 +1728,14 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
           </svg>
         </div>
         <h3 class="about-mission-block-title">נגיש להורים</h3>
-        <p class="about-mission-block-text">אני מאמינה שכל הורה יכול להוביל את הילד שלו להצלחה באנגלית — גם בלי רקע בהוראה. הערכות שלי בנויות כך שהכל ברור, מובנה וקל ליישום בבית, צעד אחר צעד.</p>
+        <p class="about-mission-block-text" style>אני מאמינה שכל הורה יכול להוביל את הילד שלו להצלחה באנגלית — גם בלי רקע בהוראה. הערכות שלי בנויות כך שהכל ברור, מובנה וקל ליישום בבית, צעד אחר צעד.</p>
       </div>
       <div class="about-mission-block" data-grid-item-index="1">
         <div class="about-mission-icon-wrapper">
           <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="50" height="50" viewBox="0 0 24 24" data-icon="mingcute:happy-line" data-iconify="mingcute:happy-line" data-element-type="icon" data-element-id="zappy-temp-icon-1783843044412-z18xwoed7" data-icon-type="iconify" data-size-adjusted="true" style="width: 50px !important; height: 50px !important; display: inline-block; vertical-align: -0.125em; color: rgb(255, 200, 87);" class="iconify iconify--mingcute"><g fill="none" fill-rule="evenodd"><path d="m12.594 23.258l-.012.002l-.071.035l-.02.004l-.014-.004l-.071-.036q-.016-.004-.024.006l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.016-.018m.264-.113l-.014.002l-.184.093l-.01.01l-.003.011l.018.43l.005.012l.008.008l.201.092q.019.005.029-.008l.004-.014l-.034-.614q-.005-.019-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.003-.011l.018-.43l-.003-.012l-.01-.01z"/><path fill="currentColor" d="M12 4a8 8 0 1 0 0 16a8 8 0 0 0 0-16M2 12C2 6.477 6.477 2 12 2s10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12m6.5-2c-.195 0-.444.124-.606.448a1 1 0 0 1-1.788-.896C6.542 8.68 7.413 8 8.5 8s1.957.68 2.394 1.552a1 1 0 0 1-1.788.896C8.944 10.124 8.696 10 8.5 10m7 0c-.195 0-.444.124-.606.448a1 1 0 1 1-1.788-.896C13.543 8.68 14.413 8 15.5 8s1.957.68 2.394 1.552a1 1 0 0 1-1.788.896c-.162-.324-.41-.448-.606-.448m-6.896 4.338a1 1 0 0 1 1.412-.088c.53.468 1.223.75 1.984.75s1.455-.282 1.984-.75a1 1 0 1 1 1.324 1.5A4.98 4.98 0 0 1 12 17a4.98 4.98 0 0 1-3.308-1.25a1 1 0 0 1-.088-1.412"/></g></svg>
         </div>
         <h3 class="about-mission-block-title">מלא שמחה לילדים</h3>
-        <p class="about-mission-block-text">למידה אפקטיבית מתרחשת כשילדים נהנים. המוצרים שלי משלבים משחק, צבע, דמויות אהובות ופעילויות יצירתיות — כך שכל מפגש עם אנגלית הופך לחוויה שהם מחכים לה.</p>
+        <p class="about-mission-block-text" style>למידה אפקטיבית מתרחשת כשילדים נהנים. המוצרים שלי משלבים משחק, צבע, דמויות אהובות ופעילויות יצירתיות — כך שכל מפגש עם אנגלית הופך לחוויה שהם מחכים לה.</p>
       </div>
       <div class="about-mission-block" data-grid-item-index="2">
         <div class="about-mission-icon-wrapper">
@@ -1360,7 +1746,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
           </svg>
         </div>
         <h3 class="about-mission-block-title">מובנה להתקדמות</h3>
-        <p class="about-mission-block-text">כל ערכה וכל מוצר נבנו על פי תוכנית לימודית מדורגת שמתאימה לשלבי ההתפתחות של הילד — מגן ועד כיתה ז'. אני מלווה את הילד שלכם מהאות הראשונה ועד לקריאה שוטפת.</p>
+        <p class="about-mission-block-text" style>כל ערכה וכל מוצר נבנו על פי תוכנית לימודית מדורגת שמתאימה לשלבי ההתפתחות של הילד — מגן ועד כיתה ז'. אני מלווה את הילד שלכם מהאות הראשונה ועד לקריאה שוטפת.</p>
       </div>
     </div>
   </div>
@@ -1375,7 +1761,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
     <div class="about-expertise-container">
         <div class="about-expertise-header">
             <h2 class="about-expertise-heading">עוצבה מתוך מחשבה על לומדים צעירים</h2>
-            <p class="about-expertise-subheading">כל כרטיס מסביר תחום חשיבה חינוכי מאחורי חומרי הלימוד שלי</p>
+            <p class="about-expertise-subheading" style>כל כרטיס מסביר תחום חשיבה חינוכי מאחורי חומרי הלימוד שלי</p>
         </div>
         <div class="about-expertise-grid zappy-preserve-css-grid" id="zappy-auto-grid-1783842982399-42484g" data-zappy-auto-grid="true" data-original-item-width="588" data-original-gap="24px" style="--zappy-grid-cols: repeat(auto-fit, minmax(min(100%, 480px), 1fr)); grid-template-columns: repeat(auto-fit, minmax(min(100%, 480px), 1fr)); display: grid; align-items: stretch !important;" data-zappy-explicit-columns="true">
             <!-- Card 1 -->
@@ -1391,7 +1777,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
                     </svg>
                 </div>
                 <h3 class="about-expertise-card-title">למידה בגיל הרך</h3>
-                <p class="about-expertise-card-text">אני מאמינה שחשיפה מוקדמת לאנגלית בגילאי גן עד כיתה ז׳ בונה בסיס איתן. הערכות שלי מותאמות לשלבי ההתפתחות הטבעיים של ילדים, עם דגש על משחקיות וסקרנות ככלי למידה מרכזי.</p>
+                <p class="about-expertise-card-text" style>אני מאמינה שחשיפה מוקדמת לאנגלית בגילאי גן עד כיתה ז׳ בונה בסיס איתן. הערכות שלי מותאמות לשלבי ההתפתחות הטבעיים של ילדים, עם דגש על משחקיות וסקרנות ככלי למידה מרכזי.</p>
             </div>
             <!-- Card 2 -->
             <div class="about-expertise-card" data-grid-item-index="1">
@@ -1405,7 +1791,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
                     </svg>
                 </div>
                 <h3 class="about-expertise-card-title">העשרת אוצר מילים</h3>
-                <p class="about-expertise-card-text">המוצרים שלי משלבים אוצר מילים יומיומי עם איורים צבעוניים ומשחקי זיכרון. כך ילדים רוכשים מילים חדשות בהקשר טבעי, מחזקים את הביטחון ומפתחים יכולת תקשורת בסיסית באנגלית.</p>
+                <p class="about-expertise-card-text" style>המוצרים שלי משלבים אוצר מילים יומיומי עם איורים צבעוניים ומשחקי זיכרון. כך ילדים רוכשים מילים חדשות בהקשר טבעי, מחזקים את הביטחון ומפתחים יכולת תקשורת בסיסית באנגלית.</p>
             </div>
             <!-- Card 3 -->
             <div class="about-expertise-card" data-grid-item-index="2">
@@ -1436,7 +1822,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
                     </svg>
                 </div>
                 <h3 class="about-expertise-card-title">שילוב בשגרת הבית</h3>
-                <p class="about-expertise-card-text">הערכות והמוצרים הבודדים שלי מתוכננים להשתלב בקלות בחיי היומיום של המשפחה. פעילויות קצרות וממוקדות מאפשרות להורים ללוות את ילדיהם בלימוד אנגלית בבית, בלי צורך בידע מוקדם.</p>
+                <p class="about-expertise-card-text" style>הערכות והמוצרים הבודדים שלי מתוכננים להשתלב בקלות בחיי היומיום של המשפחה. פעילויות קצרות וממוקדות מאפשרות להורים ללוות את ילדיהם בלימוד אנגלית בבית, בלי צורך בידע מוקדם.</p>
             </div>
         </div>
     </div>
@@ -1452,7 +1838,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
   <div class="about-values-section__container">
     <div class="about-values-section__header">
       <h2 class="about-values-section__title">הערכים שלנו</h2>
-      <p class="about-values-section__subtitle">אני מאמינה שהדרך ללמידה מוצלחת עוברת דרך חיבור, פשטות ותמיכה אמיתית</p>
+      <p class="about-values-section__subtitle" style>אני מאמינה שהדרך ללמידה מוצלחת עוברת דרך חיבור, פשטות ותמיכה אמיתית</p>
     </div>
     
     <div class="about-values-section__grid zappy-preserve-css-grid" id="zappy-auto-grid-1783842982410-2w3qgn" data-zappy-auto-grid="true" data-original-item-width="379" data-original-gap="32px" style="--zappy-grid-cols: repeat(auto-fit, minmax(min(100%, 379px), 1fr)); grid-template-columns: repeat(auto-fit, minmax(min(100%, 379px), 1fr)); display: grid; align-items: stretch !important;" data-zappy-explicit-columns="true">
@@ -1464,7 +1850,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
           </svg>
         </div>
         <h3 class="about-values-section__card-title">הלמידה צריכה להיות ברורה</h3>
-        <p class="about-values-section__card-text">אני מפשטת את לימודי האנגלית כך שכל ילד יוכל להבין, להתקדם בקצב שלו ולבנות ביטחון. החומרים שלי מתוכננים בשלבים ברורים, מהפשוט אל המורכב, בלי להעמיס ובלי לבלבל. כל ערכת לימוד אנגלית לילדים שלנו בנויה כך שההורה והילד יודעים בדיוק מה הצעד הבא.</p>
+        <p class="about-values-section__card-text" style>אני מפשטת את לימודי האנגלית כך שכל ילד יוכל להבין, להתקדם בקצב שלו ולבנות ביטחון. החומרים שלי מתוכננים בשלבים ברורים, מהפשוט אל המורכב, בלי להעמיס ובלי לבלבל. כל ערכת לימוד אנגלית לילדים שלנו בנויה כך שההורה והילד יודעים בדיוק מה הצעד הבא.</p>
       </div>
       
       <div class="about-values-section__card" data-grid-item-index="1">
@@ -1477,7 +1863,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
           </svg>
         </div>
         <h3 class="about-values-section__card-title">התרגול צריך להיות מהנה</h3>
-        <p class="about-values-section__card-text">אנגלית לילדים בגיל הרך חייבת לבוא עם חיוך. אנחנו משלבים משחקים ומוצרים שהופכים כל מפגש לימודי לחוויה שהילד מחכה לה. כשילדים נהנים — הם לומדים פי שניים, והסקרנות הטבעית שלהם פורחת.</p>
+        <p class="about-values-section__card-text" style>אנגלית לילדים בגיל הרך חייבת לבוא עם חיוך. אנחנו משלבים משחקים ומוצרים שהופכים כל מפגש לימודי לחוויה שהילד מחכה לה. כשילדים נהנים — הם לומדים פי שניים, והסקרנות הטבעית שלהם פורחת.</p>
       </div>
       
       <div class="about-values-section__card" data-grid-item-index="2">
@@ -1491,7 +1877,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
           </svg>
         </div>
         <h3 class="about-values-section__card-title">ההורים צריכים להרגיש בטוחים</h3>
-        <p class="about-values-section__card-text">לימוד אנגלית בבית לילדים יכול להיות מאתגר — אבל לא חייב להיות. אני מספקת להורים הדרכה צמודה, הסברים פשוטים וליווי לאורך כל הדרך. אתם לא לבד במסע הזה. אני כאן כדי לענות על שאלות, לתת טיפים ולוודא שאתם מרגישים לגמרי בנוח עם כל שלב.</p>
+        <p class="about-values-section__card-text" style>לימוד אנגלית בבית לילדים יכול להיות מאתגר — אבל לא חייב להיות. אני מספקת להורים הדרכה צמודה, הסברים פשוטים וליווי לאורך כל הדרך. אתם לא לבד במסע הזה. אני כאן כדי לענות על שאלות, לתת טיפים ולוודא שאתם מרגישים לגמרי בנוח עם כל שלב.</p>
       </div>
     </div>
     
@@ -1513,8 +1899,8 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
     <div class="footer-grid">
       <!-- Company Info -->
       <div class="footer-col footer-company-col">
-        <img src="/assets/easy-english-with-efrat-educational-products-e-commerce-logo.webp" alt="אנגלית בקלות ובהנאה Easy English with Efrat" class="logo" data-element-type="image" data-element-id="img-1783842737088-bjf01l7np" data-zappy-footer-image="true" decoding="async" width="35" height="35" />
-        <p class="footer-tagline">לומדים אנגלית בחיוך – ערכות, משחקים ומוצרים שהופכים כל ילד לדובר בטוח.</p>
+        <img src="/assets/easy-english-with-efrat-educational-products-e-commerce-logo.webp" alt="אנגלית בקלות ובהנאה Easy English with Efrat" class="logo" data-element-type="image" data-element-id="img-1783842737088-bjf01l7np" data-zappy-footer-image="true" style decoding="async" width="35" height="35" />
+        <p class="footer-tagline" style>לומדים אנגלית בחיוך – ערכות, משחקים ומוצרים שהופכים כל ילד לדובר בטוח.</p>
       </div>
 
       <!-- Quick Links -->
