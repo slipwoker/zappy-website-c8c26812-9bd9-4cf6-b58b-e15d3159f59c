@@ -10,10 +10,6 @@
 https://example.com
 העניקו לילדיכם יתרון באנגלית עם ערכות למידה וחומרי לימוד איכותיים לגיל הרך ועד כיתה ז&#39;. למידה מהנה, נגישה ומותאמת אישית שמביאה תוצאות. כנסו עכשיו לחנות!
 
-### הסוד ללימוד אנגלית בבית לילדים בכיף ובקלות — אנגלית בקלות ובהנאה Easy English with Efrat
-https://example.com/my-store
-גלו גישה ייחודית שהופכת לימוד אנגלית לחוויה משמחת לגיל הרך. שיטה מוכחת, משחקים וסיפורים שמפתחים אהבה לשפה. למה לחכות? התחילו עוד היום!
-
 ### הורים משתפים: ככה ערכת לימוד אנגלית לילדים שינתה לנו את החיים — אנגלית בקלות ובהנאה Easy English with Efrat
 https://example.com/celebrity-parent-recommendations
 קראו חוות דעת אמיתיות של הורים שילדיהם התאהבו באנגלית בזכות המוצרים שלנו. הצלחות מרגשות, חיוכים גדולים ותוצאות מדהימות. הצטרפו למשפחה המרוצה!
@@ -26,35 +22,35 @@ https://example.com/my-story
 https://example.com/contact-us
 צריכים עזרה בבחירת מוצר או סתם רוצים להגיד שלום? מלאו את הפרטים ואפרת תחזור אליכם במהירות עם חיוך ותשובות שיקדמו את הילד שלכם באנגלית. צרו קשר עכשיו!
 
-### מוצרים
+### Products
 https://example.com/products
 המוצרים שלנו - אנגלית בקלות ובהנאה Easy English with Efrat
 
-### עגלת קניות
+### Cart
 https://example.com/cart
 עגלת הקניות שלך
 
-### תשלום
+### Checkout
 https://example.com/checkout
 תשלום
 
-### התחברות
+### Login
 https://example.com/login
 התחברות לקוחות
 
-### החשבון שלי
+### Account
 https://example.com/account
 החשבון שלי
 
-### ההזמנה התקבלה!
+### Order Success
 https://example.com/order-success
 תודה על ההזמנה
 
-### פרטי המוצר
+### Product Detail
 https://example.com/product/:slug
 פרטי המוצר - אנגלית בקלות ובהנאה Easy English with Efrat
 
-### מוצרים
+### Category
 https://example.com/category/:slug
 מוצרים - אנגלית בקלות ובהנאה Easy English with Efrat
 
