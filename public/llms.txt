@@ -76,79 +76,143 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 9**
+**Total active products: 17**
+
+### סט משחקי זיכרון להעשרת אוצר המילים + מבצע שני סטים + 1 מתנה! 
+https://example.com/product/st-mshchky-zykrvn-lhashrt-avtsr-hmylym-mbtsa-shny-stym-1-mtnh-xoukee
+- Price: 150.00 ILS (sale, was 250.00 ILS)
+- Availability: In stock
+- Category: מוצרים לבית ולמשפחה
+- Description: שדרגו את האנגלית של הילדים דרך משחק מהנה, צבעוני ואיכותי! 8 משחקי זיכרון בקלפים עמידים במיוחד בנושאים מגוונים: צבעים, מספרים, חיות, פעלים, תארים, מקצועות, משפחה ופירות/ירקות. 🔹מקדמים את השפה: מתאים לסידור לפי ה-ABC, להרכבת משפטים (I have a dog), ליצירת צירופי מילים מורכבים (Brown dog, Pretty mother) ולתרגול פעלים עם פוסטרי הדקדוק שלנו. 🔹 איכות ללא פשרות: קלפים חזקים וצבעוניים לשימוש ממושך. 🎉 מבצע חם: קונים 2 סטים ומקבלים סט שלישי במתנה! (24 משחקים ב-300 ₪ בלבד).
+- Image: https://example.com/assets/product-1784710615861-iguxlq.webp
+
+### סרגל אותיות ענק לכיתה (3 מטר) – צבעוני, איכותי ואפקטיבי
+https://example.com/product/srgl-avtyvt-ank-lkyth-3-mtr-tsbavny-aykvty-vapktyby-8z380g
+- Price: 100.00 ILS (sale, was 150.00 ILS)
+- Availability: In stock
+- Category: מוצרים לבתי ספר
+- Description: שדרגו את סביבת הלמידה עם סרגל אותיות פרונטלי, עשיר ומזמין! הסרגל, באורך 3 מטרים, מיועד לתלייה בולטת מעל הלוח ומציג את כל אותיות ה-ABC בליווי תמונות קוגניטיביות חכמות. האיורים הברורים מאפשרים לתלמידים לזהות את הצלילים בקלות ולקשר בינם לבין האותיות באופן אינטואיטיבי. 🔹 נוכחות מקסימלית: נראה בבהירות מכל פינה בכיתה. 🔹 איכות גבוהה ועמידות: מיועד לשימוש ממושך. 🔹 חיבור קוגניטיבי מדויק: בונה בסיס איתן לקריאה בכיף.
+- Image: https://example.com/assets/product-1784709977179-7ydl9v.webp
+
+### סט קלפי אותיות A5 למורות – ללמידה חווייתית
+https://example.com/product/st-klpy-avtyvt-a5-lmvrvt-llmydh-chvvyytyt-fo8bze
+- Price: 100.00 ILS (sale, was 150.00 ILS)
+- Availability: In stock
+- Category: מוצרים לבתי ספר
+- Description: שדרגו את שיעורי האנגלית עם ערכת קלפי אותיות מוגדלים, צבעוניים ואיכותיים! הערכה מכילה 52 קלפים (26 אותיות גדולות ו-26 קטנות) בליווי תמונות קוגניטיביות חכמות המאפשרות לילדים לזהות את צלילי האותיות בקלות ובמהירות. 🔹 גודל A5 נוח: מתאים במיוחד להצגה בכיתה ולעבודה קבוצתית. 🔹 איכות גבוהה ועמידות: מיועד לשימוש חוזר ויומיומי. 🔹 חיבור קוגניטיבי מדויק: מקצר את דרך הלמידה ובונה ביטחון בקריאה.
+- Image: https://example.com/assets/product-1784708235239-ehflvp.webp
+
+### סט ארבעה פוסטרים מנצח! 
+https://example.com/product/st-arbah-pvstrym-mntsch-ffp0ol
+- Price: 30.00 ILS (sale, was 40.00 ILS)
+- Availability: In stock
+- Category: מוצרים לבית ולמשפחה
+- Description: ערכת 4 הפוסטרים הבלעדית שלנו מעניקה מענה הדרגתי ומקיף לכל שלבי הלמידה – מגיל צעיר מאוד ועד כיתה ז'! הערכה כוללת: 🔹 פוסטר תבניות משפטים: 15 תבניות מגוונות לבניית משפטים ושפה עשירה ביום-יום. 🔹 פוסטר צירופי אותיות: 33 צירופים לפי צלילים + אותיות הניקוד לחשיפה מוקדמת וקריאה קלה. 🔹 פוסטר זמני הווה ועתיד: שליטה מלאה ב-Present Simple, Present Progressive ו-Future Simple. 🔹 פוסטר זמן עבר דו-צדדי : חוקי Past Simple מפורטים + טבלת פעלים חריגים (V2) מסודרת לפי A-B עם תרגום.
+- Image: https://example.com/assets/product-1784707709267-sa2hinj.webp
+
+### פוסטר זמן עבר ממוקד דו-צדדי
+https://example.com/product/pvstr-zmn-abr-mmvkd-dv-tsddy-yx9yl1
+- Price: 8.00 ILS (sale, was 10.00 ILS)
+- Availability: In stock
+- Category: מוצרים לבית ולמשפחה
+- Description: הפתרון המלא לזמן עבר (Past Simple) – בפוסטר דו-צדדי אחד! מנצחים את הבלבול בזמן עבר ומגיעים מוכנים לכיתה ו'! פוסטר דו-צדדי חכם ומקיף שמעניק מענה שלם לחוקי הדקדוק: צד 1 – חוקים ותבניות: הסבר ויזואלי וברור להבדל בין משפטים עם פועל לבין הטיות הפועל to be, עם דוגמאות מפורטות למשפטי חיוב, שלילה, שאלה ושאלת WH. צד 2 – טבלת פעלים חריגים (V2): רשימה עשירה של פעלים יוצאי דופן המסודרים לפי A-B-C עם תרגום לעברית – כל מה שצריך במקום אחד. כלי עזר חובה לכל תלמיד שרוצה להצליח בכתיבה, בקריאה ובדיבור!
+- Image: https://example.com/assets/product-1784670500938-qjid2c.webp
+
+### פוסטר זמני הווה ועתיד
+https://example.com/product/pvstr-zmny-hvvh-vatyd-l89yes
+- Price: 8.00 ILS (sale, was 10.00 ILS)
+- Availability: In stock
+- Category: מוצרים לבית ולמשפחה
+- Description: כל הזמנים של כיתה ה' – בפוסטר אחד מנצח! נפרדים מהבלבול בדקדוק! פוסטר מרוכז ואינטואיטיבי המאגד את שלושת הזמנים הנלמדים בכיתה ה': הווה פשוט, הווה ממושך ועתיד פשוט. הפוסטר מציג בצורה שקופה וויזואלית את תבניות המשפטים והחוקים לכל זמן – מתי ואיך מרכיבים משפט חיובי, שלילי, שאלת כן/לא ושאלת WH, בליווי דוגמאות מובנות. כלי עזר חובה בחדר הלמידה להצלחה במבחנים ולביטחון בדיבור ובכתיבה!
+- Image: https://example.com/assets/product-1784670204496-k4x4b9.webp
+
+### פוסטר צירופי אותיות 
+https://example.com/product/pvstr-tsyrvpy-avtyvt-y45llg
+- Price: 8.00 ILS (sale, was 10.00 ILS)
+- Availability: In stock
+- Category: מוצרים לבית ולמשפחה
+- Description: המפתח לקריאה שוטפת: פוסטר צירופי אותיות! הפוסטר מציג באופן ברור 33 צירופי אותיות המחולקים לקבוצות בעלות צלילים משותפים, מה שהופך את הלמידה לאינטואיטיבית ומהנה. הפוסטר כולל גם את משפחת אותיות הניקוד, הבסיס לכל הגייה נכונה. חשיפה מוקדמת, מעבר למה שלומדים בבית הספר, בונה ביטחון ומוכנות אצל הילדים ומקילה על תהליך רכישת הקריאה באנגלית. כלי עזר חיוני לכל בית המעוניין לקדם את ילדיו באנגלית!
+- Image: https://example.com/assets/product-1784669878448-02w5k.webp
+
+### פוסטר תבניות משפטים 
+https://example.com/product/pvstr-tbnyvt-mshptym-ir09vm
+- Price: 8.00 ILS (sale, was 10.00 ILS)
+- Availability: In stock
+- Category: מוצרים לבית ולמשפחה
+- Description: הצעד הבא לאנגלית שוטפת ועשירה! הילדים שולטים במילים בודדות? פוסטר תבניות המשפטים יסייע להם לעבור ממילים למשפטים שלמים, להעשיר את ביטויים ולהתחיל לדבר בטבעיות. הפוסטר מציע 15 תבניות משפטים מגוונות לתרגול שפה עשירה ויומיומית. הילד לומד לחבר את אוצר המילים שהכיר למבנים שימושיים. כלי עזר חיוני לבית ולכיתה, מומלץ לתרגול מגיל צעיר מאוד להעלאת הדימוי והביטחון השפתי.
+- Image: https://example.com/assets/product-1784669411043-6l8lof.webp
 
 ### זוג סרגלי קריאה אותיות וצירופים
-https://example.com/product/zvg-srgly-kryah-avtyvt-vtsyrvpym-0e8yyy
+https://example.com/product/zvg-srgly-kryah-avtyvt-vtsyrvpym-g2yqg3
 - Price: 10.00 ILS (sale, was 15.00 ILS)
 - Availability: In stock
-- Category: סרגלי קריאה
+- Category: מוצרים לבית ולמשפחה
 - Description: הסוד לקריאה קלה וללא מאמץ מגיל צעיר! למרות שבבתי הספר לומדים את צלילי האותיות רק בכיתה ג' ואת הצירופים בכיתה ד', עם צמד הסרגלים האיכותי הזה ילדכם יכול להתחיל להכיר אותם בקלות כבר מגיל גן חובה. הערכה משמשת כתומך זיכרון ויזואלי מושלם: סרגל אותיות (26 אותיות עם קוגנייטס) וסרגל צירופים דו-צדדי (33 צירופים ומשפחת אותיות הניקוד), המלווים בתמונות צבעוניות ומעניקים לילדכם נקודת זינוק מנצחת בשפה.
-- Image: https://example.com/assets/product-1783679616306-1e3t2h.webp
+- Image: https://example.com/assets/product-1784667418709-cii56e.webp
 
 ### משחק זיכרון פירות וירקות 
-https://example.com/product/mshchk-zykrvn-pyrvt-vyrkvt-yxsbcr
+https://example.com/product/mshchk-zykrvn-pyrvt-vyrkvt-nkea8f
 - Price: 30.00 ILS (sale, was 35.00 ILS)
 - Availability: In stock
-- Category: משחקי זיכרון
+- Category: מוצרים לבית ולמשפחה
 - Description: להכניס את האנגלית הביתה בכיף עם תפוז, לימון, אבטיח ועוד! ערכת פירות וירקות צבעונית הכוללת 31 קלפים איכותיים [15 זוגות תואמים וקלף הדרכה להורים], המעניקה לילדכם מגוון אפשרויות משחק – ממשחק זיכרון ועד שינון ובניית משפטים לשיפור וחיזוק השפה ברגע.
-- Image: https://example.com/assets/product-enhanced-1783678501453-4iudtu.webp
+- Image: https://example.com/assets/product-ai-fit-1783678400464-ma3otw.webp
 
 ### משחק זיכרון חיות
-https://example.com/product/mshchk-zykrvn-chyvt-zo7neh
+https://example.com/product/mshchk-zykrvn-chyvt-nkem9q
 - Price: 30.00 ILS (sale, was 35.00 ILS)
 - Availability: In stock
-- Category: משחקי זיכרון
+- Category: מוצרים לבית ולמשפחה
 - Description: להכניס את האנגלית הביתה בכיף עם נמר, פיל, אריה ועוד! ערכת חיות צבעונית הכוללת 31 קלפים איכותיים [15 זוגות תואמים וקלף הדרכה להורים], המעניקה לילדכם מגוון אפשרויות משחק – ממשחק זיכרון ועד שינון ובניית משפטים לשיפור וחיזוק השפה ברגע.
-- Image: https://example.com/assets/product-enhanced-1783678813418-7snqu.webp
+- Image: https://example.com/assets/product-ai-fit-1783678267016-jj96gm.webp
 
 ### משחק זיכרון מקצועות 
-https://example.com/product/mshchk-zykrvn-mktsvavt-u2if4u
+https://example.com/product/mshchk-zykrvn-mktsvavt-c8ijg1
 - Price: 30.00 ILS (sale, was 35.00 ILS)
 - Availability: In stock
-- Category: משחקי זיכרון
+- Category: מוצרים לבית ולמשפחה
 - Description: להכניס את האנגלית הביתה בכיף עם שוטר, שופט, חייל ועוד! ערכת מקצועות צבעונית הכוללת 31 קלפים איכותיים [15 זוגות תואמים וקלף הדרכה להורים], המעניקה לילדכם מגוון אפשרויות משחק – ממשחק זיכרון ועד שינון ובניית משפטים לשיפור וחיזוק השפה ברגע.
-- Image: https://example.com/assets/product-enhanced-1783678779731-k1q8ge.webp
+- Image: https://example.com/assets/product-ai-fit-1783678047029-3v57wv.webp
 
 ### משחק זיכרון משפחה
-https://example.com/product/mshchk-zykrvn-mshpchh-zb3280
+https://example.com/product/mshchk-zykrvn-mshpchh-2nw0pt
 - Price: 30.00 ILS (sale, was 35.00 ILS)
 - Availability: In stock
-- Category: משחקי זיכרון
+- Category: מוצרים לבית ולמשפחה
 - Description: להכניס את האנגלית הביתה בכיף עם אבא, אמא, אחיין ועוד! ערכת משפחה צבעונית הכוללת 31 קלפים איכותיים [15 זוגות תואמים וקלף הדרכה להורים], המעניקה לילדכם מגוון אפשרויות משחק – ממשחק זיכרון ועד שינון ובניית משפטים לשיפור וחיזוק השפה ברגע.
-- Image: https://example.com/assets/product-enhanced-1783674283357-45xlwh.webp
+- Image: https://example.com/assets/product-ai-fit-1783675723070-1qnedh.webp
 
 ### משחק זיכרון תארים
-https://example.com/product/mshchk-zykrvn-tarym-5erorr
+https://example.com/product/mshchk-zykrvn-tarym-int91z
 - Price: 30.00 ILS (sale, was 35.00 ILS)
 - Availability: In stock
-- Category: משחקי זיכרון
+- Category: מוצרים לבית ולמשפחה
 - Description: להכניס את האנגלית הביתה בכיף עם ארוך, קצר, שמח ועוד! ערכת צבעים נהדרת הכוללת 31 קלפים איכותיים [15 זוגות תואמים וקלף הדרכה להורים], המעניקה לילדכם מגוון אפשרויות משחק – ממשחק זיכרון ועד שינון ובניית משפטים לשיפור וחיזוק השפה ברגע.
-- Image: https://example.com/assets/product-enhanced-1783677722431-6cx3tu.webp
+- Image: https://example.com/assets/product-ai-fit-1783677872151-a2xvgf.webp
 
 ### משחק זיכרון פעלים
-https://example.com/product/mshchk-zykrvn-palym-g2smzk
+https://example.com/product/mshchk-zykrvn-palym-ypabam
 - Price: 30.00 ILS (sale, was 35.00 ILS)
 - Availability: In stock
-- Category: משחקי זיכרון
+- Category: מוצרים לבית ולמשפחה
 - Description: להכניס את האנגלית הביתה בכיף עם לשחות, לקפוץ, לרקוד ועוד! ערכת פעלים נהדרת הכוללת 31 קלפים איכותיים [15 זוגות תואמים וקלף הדרכה להורים], המעניקה לילדכם מגוון אפשרויות משחק – ממשחק זיכרון ועד שינון ובניית משפטים לשיפור וחיזוק השפה ברגע.
-- Image: https://example.com/assets/product-enhanced-1783673796336-w4g4s.webp
+- Image: https://example.com/assets/product-ai-fit-1783673308013-cojttd.webp
 
 ### משחק זיכרון מספרים
-https://example.com/product/mshchk-zykrvn-msprym-g1uy3w
+https://example.com/product/mshchk-zykrvn-msprym-cxv1i7
 - Price: 30.00 ILS (sale, was 35.00 ILS)
 - Availability: In stock
-- Category: משחקי זיכרון
+- Category: מוצרים לבית ולמשפחה
 - Description: להכניס את האנגלית הביתה בכיף עם 1, 20, 100 ועוד! ערכת מספרים צבעונית הכוללת 31 קלפים איכותיים [15 זוגות תואמים וקלף הדרכה להורים], המעניקה לילדכם מגוון אפשרויות משחק – ממשחק זיכרון ועד שינון ובניית משפטים לשיפור וחיזוק השפה ברגע.
-- Image: https://example.com/assets/product-enhanced-1783673745119-uuziui.webp
+- Image: https://example.com/assets/product-ai-fit-1783673182329-ypbt7e.webp
 
 ### משחק זיכרון צבעים
-https://example.com/product/mshchk-zykrvn-tsbaym-50d51y
+https://example.com/product/mshchk-zykrvn-tsbaym-kw7bdw
 - Price: 30.00 ILS (sale, was 35.00 ILS)
 - Availability: In stock
-- Category: משחקי זיכרון
+- Category: מוצרים לבית ולמשפחה
 - Description: להכניס את האנגלית הביתה בכיף עם אדום, זהב, תכלת ועוד! ערכת צבעים נהדרת הכוללת 31 קלפים איכותיים [15 זוגות תואמים וקלף הדרכה להורים], המעניקה לילדכם מגוון אפשרויות משחק – ממשחק זיכרון ועד שינון ובניית משפטים לשיפור וחיזוק השפה ברגע.
-- Image: https://example.com/assets/product-enhanced-1783673698297-je2wb8.webp
+- Image: https://example.com/assets/product-1783673097555-krvj8u.webp
 
 ---
 

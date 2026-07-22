@@ -1,13 +1,213 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-21T20:49:25.885Z",
+  "generated_at": "2026-07-22T10:08:08.126Z",
   "base_url": "https://example.com",
   "currency": "ILS",
-  "count": 9,
+  "count": 17,
   "products": [
     {
+      "id": "5b2530b9-f76c-4436-8f38-a1277bb8df77",
+      "slug": "st-mshchky-zykrvn-lhashrt-avtsr-hmylym-mbtsa-shny-stym-1-mtnh-xoukee",
+      "name": "סט משחקי זיכרון להעשרת אוצר המילים + מבצע שני סטים + 1 מתנה! ",
+      "name_translations": {},
+      "description": "",
+      "short_description": "שדרגו את האנגלית של הילדים דרך משחק מהנה, צבעוני ואיכותי! 8 משחקי זיכרון בקלפים עמידים במיוחד בנושאים מגוונים: צבעים, מספרים, חיות, פעלים, תארים, מקצועות, משפחה ופירות/ירקות.\n🔹מקדמים את השפה: מתאים לסידור לפי ה-ABC, להרכבת משפטים (I have a dog), ליצירת צירופי מילים מורכבים (Brown dog, Pretty mother) ולתרגול פעלים עם פוסטרי הדקדוק שלנו.\n🔹 איכות ללא פשרות: קלפים חזקים וצבעוניים לשימוש ממושך.\n🎉 מבצע חם: קונים 2 סטים ומקבלים סט שלישי במתנה! (24 משחקים ב-300 ₪ בלבד).",
+      "sku": null,
+      "brand": null,
+      "price": 150,
+      "base_price": 250,
+      "sale_price": 150,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-1784710615861-iguxlq.webp",
+        "https://example.com/assets/product-1784710621646-wynqur.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/st-mshchky-zykrvn-lhashrt-avtsr-hmylym-mbtsa-shny-stym-1-mtnh-xoukee",
+      "categories": [
+        "מוצרים לבית ולמשפחה"
+      ],
+      "updated_at": "2026-07-22T09:01:56.931Z"
+    },
+    {
+      "id": "da3ddac9-b629-4b6a-b957-2f240379205a",
+      "slug": "srgl-avtyvt-ank-lkyth-3-mtr-tsbavny-aykvty-vapktyby-8z380g",
+      "name": "סרגל אותיות ענק לכיתה (3 מטר) – צבעוני, איכותי ואפקטיבי",
+      "name_translations": {},
+      "description": "",
+      "short_description": "שדרגו את סביבת הלמידה עם סרגל אותיות פרונטלי, עשיר ומזמין!\nהסרגל, באורך 3 מטרים, מיועד לתלייה בולטת מעל הלוח ומציג את כל אותיות ה-ABC בליווי תמונות קוגניטיביות חכמות. האיורים הברורים מאפשרים לתלמידים לזהות את הצלילים בקלות ולקשר בינם לבין האותיות באופן אינטואיטיבי.\n🔹 נוכחות מקסימלית: נראה בבהירות מכל פינה בכיתה.\n🔹 איכות גבוהה ועמידות: מיועד לשימוש ממושך.\n🔹 חיבור קוגניטיבי מדויק: בונה בסיס איתן לקריאה בכיף.",
+      "sku": null,
+      "brand": null,
+      "price": 100,
+      "base_price": 150,
+      "sale_price": 100,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-1784709977179-7ydl9v.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/srgl-avtyvt-ank-lkyth-3-mtr-tsbavny-aykvty-vapktyby-8z380g",
+      "categories": [
+        "מוצרים לבתי ספר"
+      ],
+      "updated_at": "2026-07-22T08:46:39.454Z"
+    },
+    {
+      "id": "3483f04d-af63-4b41-ad6f-d3e164d614f8",
+      "slug": "st-klpy-avtyvt-a5-lmvrvt-llmydh-chvvyytyt-fo8bze",
+      "name": "סט קלפי אותיות A5 למורות – ללמידה חווייתית",
+      "name_translations": {},
+      "description": "",
+      "short_description": "שדרגו את שיעורי האנגלית עם ערכת קלפי אותיות מוגדלים, צבעוניים ואיכותיים!\nהערכה מכילה 52 קלפים (26 אותיות גדולות ו-26 קטנות) בליווי תמונות קוגניטיביות חכמות המאפשרות לילדים לזהות את צלילי האותיות בקלות ובמהירות.\n🔹 גודל A5 נוח: מתאים במיוחד להצגה בכיתה ולעבודה קבוצתית.\n🔹 איכות גבוהה ועמידות: מיועד לשימוש חוזר ויומיומי.\n🔹 חיבור קוגניטיבי מדויק: מקצר את דרך הלמידה ובונה ביטחון בקריאה.",
+      "sku": null,
+      "brand": null,
+      "price": 100,
+      "base_price": 150,
+      "sale_price": 100,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-1784708235239-ehflvp.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/st-klpy-avtyvt-a5-lmvrvt-llmydh-chvvyytyt-fo8bze",
+      "categories": [
+        "מוצרים לבתי ספר"
+      ],
+      "updated_at": "2026-07-22T08:17:32.584Z"
+    },
+    {
+      "id": "c509886c-79f2-44c7-a025-caf939be9574",
+      "slug": "st-arbah-pvstrym-mntsch-ffp0ol",
+      "name": "סט ארבעה פוסטרים מנצח! ",
+      "name_translations": {},
+      "description": "",
+      "short_description": "ערכת 4 הפוסטרים הבלעדית שלנו מעניקה מענה הדרגתי ומקיף לכל שלבי הלמידה – מגיל צעיר מאוד ועד כיתה ז'! הערכה כוללת:\n🔹 פוסטר תבניות משפטים: 15 תבניות מגוונות לבניית משפטים ושפה עשירה ביום-יום.\n🔹 פוסטר צירופי אותיות: 33 צירופים לפי צלילים + אותיות הניקוד לחשיפה מוקדמת וקריאה קלה.\n🔹 פוסטר זמני הווה ועתיד: שליטה מלאה ב-Present Simple, Present Progressive ו-Future Simple.\n🔹 פוסטר זמן עבר דו-צדדי : חוקי Past Simple מפורטים + טבלת פעלים חריגים (V2) מסודרת לפי A-B עם תרגום.\n",
+      "sku": null,
+      "brand": null,
+      "price": 30,
+      "base_price": 40,
+      "sale_price": 30,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-1784707709267-sa2hinj.webp",
+        "https://example.com/assets/product-1784707732918-3p5grr.webp",
+        "https://example.com/assets/product-1784707739518-uz7kao.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/st-arbah-pvstrym-mntsch-ffp0ol",
+      "categories": [
+        "מוצרים לבית ולמשפחה",
+        "מוצרים לבתי ספר"
+      ],
+      "updated_at": "2026-07-22T08:09:42.499Z"
+    },
+    {
+      "id": "eb0e3253-9dca-424e-a03b-9aceafe922f1",
+      "slug": "pvstr-zmn-abr-mmvkd-dv-tsddy-yx9yl1",
+      "name": "פוסטר זמן עבר ממוקד דו-צדדי",
+      "name_translations": {},
+      "description": "",
+      "short_description": "הפתרון המלא לזמן עבר (Past Simple) – בפוסטר דו-צדדי אחד!\nמנצחים את הבלבול בזמן עבר ומגיעים מוכנים לכיתה ו'! פוסטר דו-צדדי חכם ומקיף שמעניק מענה שלם לחוקי הדקדוק:\nצד 1 – חוקים ותבניות: הסבר ויזואלי וברור להבדל בין משפטים עם פועל לבין הטיות הפועל to be, עם דוגמאות מפורטות למשפטי חיוב, שלילה, שאלה ושאלת WH. \nצד 2 – טבלת פעלים חריגים (V2): רשימה עשירה של פעלים יוצאי דופן המסודרים לפי A-B-C עם תרגום לעברית – כל מה שצריך במקום אחד.\nכלי עזר חובה לכל תלמיד שרוצה להצליח בכתיבה, בקריאה ובדיבור!",
+      "sku": null,
+      "brand": null,
+      "price": 8,
+      "base_price": 10,
+      "sale_price": 8,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-1784670500938-qjid2c.webp",
+        "https://example.com/assets/product-1784670531535-qfk38g.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/pvstr-zmn-abr-mmvkd-dv-tsddy-yx9yl1",
+      "categories": [
+        "מוצרים לבית ולמשפחה"
+      ],
+      "updated_at": "2026-07-21T21:49:06.110Z"
+    },
+    {
+      "id": "631b0eb9-0315-4566-8f6d-3b6529e38a38",
+      "slug": "pvstr-zmny-hvvh-vatyd-l89yes",
+      "name": "פוסטר זמני הווה ועתיד",
+      "name_translations": {},
+      "description": "",
+      "short_description": "כל הזמנים של כיתה ה' – בפוסטר אחד מנצח! נפרדים מהבלבול בדקדוק! \nפוסטר מרוכז ואינטואיטיבי המאגד את שלושת הזמנים הנלמדים בכיתה ה': הווה פשוט, הווה ממושך ועתיד פשוט. הפוסטר מציג בצורה שקופה וויזואלית את תבניות המשפטים והחוקים לכל זמן – מתי ואיך מרכיבים משפט חיובי, שלילי, שאלת כן/לא ושאלת WH, בליווי דוגמאות מובנות. \nכלי עזר חובה בחדר הלמידה להצלחה במבחנים ולביטחון בדיבור ובכתיבה!",
+      "sku": null,
+      "brand": null,
+      "price": 8,
+      "base_price": 10,
+      "sale_price": 8,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-1784670204496-k4x4b9.webp",
+        "https://example.com/assets/product-1784670186317-by180n.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/pvstr-zmny-hvvh-vatyd-l89yes",
+      "categories": [
+        "מוצרים לבית ולמשפחה"
+      ],
+      "updated_at": "2026-07-21T21:43:38.016Z"
+    },
+    {
+      "id": "978ab5d9-0340-455b-9d0c-7ef089402308",
+      "slug": "pvstr-tsyrvpy-avtyvt-y45llg",
+      "name": "פוסטר צירופי אותיות ",
+      "name_translations": {},
+      "description": "",
+      "short_description": "המפתח לקריאה שוטפת: פוסטר צירופי אותיות! הפוסטר מציג באופן ברור 33 צירופי אותיות המחולקים לקבוצות בעלות צלילים משותפים, מה שהופך את הלמידה לאינטואיטיבית ומהנה. הפוסטר כולל גם את משפחת אותיות הניקוד, הבסיס לכל הגייה נכונה. חשיפה מוקדמת, מעבר למה שלומדים בבית הספר, בונה ביטחון ומוכנות אצל הילדים ומקילה על תהליך רכישת הקריאה באנגלית. כלי עזר חיוני לכל בית המעוניין לקדם את ילדיו באנגלית!",
+      "sku": null,
+      "brand": null,
+      "price": 8,
+      "base_price": 10,
+      "sale_price": 8,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-1784669878448-02w5k.webp",
+        "https://example.com/assets/product-1784669899481-b1tmlx.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/pvstr-tsyrvpy-avtyvt-y45llg",
+      "categories": [
+        "מוצרים לבית ולמשפחה"
+      ],
+      "updated_at": "2026-07-21T21:38:31.617Z"
+    },
+    {
+      "id": "6fb31bdf-f6ab-4c03-9943-8205d8119dbb",
+      "slug": "pvstr-tbnyvt-mshptym-ir09vm",
+      "name": "פוסטר תבניות משפטים ",
+      "name_translations": {},
+      "description": "",
+      "short_description": "הצעד הבא לאנגלית שוטפת ועשירה! \nהילדים שולטים במילים בודדות? פוסטר תבניות המשפטים יסייע להם לעבור ממילים למשפטים שלמים, להעשיר את ביטויים ולהתחיל לדבר בטבעיות. הפוסטר מציע 15 תבניות משפטים מגוונות לתרגול שפה עשירה ויומיומית. הילד לומד לחבר את אוצר המילים שהכיר למבנים שימושיים. כלי עזר חיוני לבית ולכיתה, מומלץ לתרגול מגיל צעיר מאוד להעלאת הדימוי והביטחון השפתי.",
+      "sku": null,
+      "brand": null,
+      "price": 8,
+      "base_price": 10,
+      "sale_price": 8,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-1784669411043-6l8lof.webp",
+        "https://example.com/assets/product-1784667964062-6ygyah.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/pvstr-tbnyvt-mshptym-ir09vm",
+      "categories": [
+        "מוצרים לבית ולמשפחה"
+      ],
+      "updated_at": "2026-07-21T21:30:26.347Z"
+    },
+    {
       "id": "660193a4-531b-4cd2-893b-920b004a3a7c",
-      "slug": "zvg-srgly-kryah-avtyvt-vtsyrvpym-0e8yyy",
+      "slug": "zvg-srgly-kryah-avtyvt-vtsyrvpym-g2yqg3",
       "name": "זוג סרגלי קריאה אותיות וצירופים",
       "name_translations": {},
       "description": "",
@@ -19,20 +219,21 @@
       "sale_price": 10,
       "currency": "ILS",
       "images": [
+        "https://example.com/assets/product-1784667418709-cii56e.webp",
         "https://example.com/assets/product-1783679616306-1e3t2h.webp",
         "https://example.com/assets/product-1783679624486-948i5.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://example.com/product/zvg-srgly-kryah-avtyvt-vtsyrvpym-0e8yyy",
+      "url": "https://example.com/product/zvg-srgly-kryah-avtyvt-vtsyrvpym-g2yqg3",
       "categories": [
-        "סרגלי קריאה"
+        "מוצרים לבית ולמשפחה"
       ],
-      "updated_at": "2026-07-10T10:34:14.549Z"
+      "updated_at": "2026-07-21T20:58:10.436Z"
     },
     {
       "id": "58d75373-cd62-4cab-b7d7-fdc3dc94c14a",
-      "slug": "mshchk-zykrvn-pyrvt-vyrkvt-yxsbcr",
+      "slug": "mshchk-zykrvn-pyrvt-vyrkvt-nkea8f",
       "name": "משחק זיכרון פירות וירקות ",
       "name_translations": {},
       "description": "",
@@ -44,21 +245,21 @@
       "sale_price": 30,
       "currency": "ILS",
       "images": [
-        "https://example.com/assets/product-enhanced-1783678501453-4iudtu.webp",
         "https://example.com/assets/product-ai-fit-1783678400464-ma3otw.webp",
+        "https://example.com/assets/product-enhanced-1783678501453-4iudtu.webp",
         "https://example.com/assets/product-ai-fit-1783678546173-4gzwva.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://example.com/product/mshchk-zykrvn-pyrvt-vyrkvt-yxsbcr",
+      "url": "https://example.com/product/mshchk-zykrvn-pyrvt-vyrkvt-nkea8f",
       "categories": [
-        "משחקי זיכרון"
+        "מוצרים לבית ולמשפחה"
       ],
-      "updated_at": "2026-07-10T10:15:56.765Z"
+      "updated_at": "2026-07-21T20:58:45.562Z"
     },
     {
       "id": "c491a91b-0b90-45b2-8886-c48a61b1ec9a",
-      "slug": "mshchk-zykrvn-chyvt-zo7neh",
+      "slug": "mshchk-zykrvn-chyvt-nkem9q",
       "name": "משחק זיכרון חיות",
       "name_translations": {},
       "description": "",
@@ -70,21 +271,21 @@
       "sale_price": 30,
       "currency": "ILS",
       "images": [
+        "https://example.com/assets/product-ai-fit-1783678267016-jj96gm.webp",
         "https://example.com/assets/product-enhanced-1783678813418-7snqu.webp",
-        "https://example.com/assets/product-1783678216425-lozldh.webp",
-        "https://example.com/assets/product-ai-fit-1783678267016-jj96gm.webp"
+        "https://example.com/assets/product-1783678216425-lozldh.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://example.com/product/mshchk-zykrvn-chyvt-zo7neh",
+      "url": "https://example.com/product/mshchk-zykrvn-chyvt-nkem9q",
       "categories": [
-        "משחקי זיכרון"
+        "מוצרים לבית ולמשפחה"
       ],
-      "updated_at": "2026-07-10T10:20:20.737Z"
+      "updated_at": "2026-07-21T20:59:34.715Z"
     },
     {
       "id": "d3839637-d9a0-429e-ba48-8bf4cbb61198",
-      "slug": "mshchk-zykrvn-mktsvavt-u2if4u",
+      "slug": "mshchk-zykrvn-mktsvavt-c8ijg1",
       "name": "משחק זיכרון מקצועות ",
       "name_translations": {},
       "description": "",
@@ -96,21 +297,21 @@
       "sale_price": 30,
       "currency": "ILS",
       "images": [
+        "https://example.com/assets/product-ai-fit-1783678047029-3v57wv.webp",
         "https://example.com/assets/product-enhanced-1783678779731-k1q8ge.webp",
-        "https://example.com/assets/product-1783676605604-5c9b9.webp",
-        "https://example.com/assets/product-ai-fit-1783678047029-3v57wv.webp"
+        "https://example.com/assets/product-1783676605604-5c9b9.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://example.com/product/mshchk-zykrvn-mktsvavt-u2if4u",
+      "url": "https://example.com/product/mshchk-zykrvn-mktsvavt-c8ijg1",
       "categories": [
-        "משחקי זיכרון"
+        "מוצרים לבית ולמשפחה"
       ],
-      "updated_at": "2026-07-10T10:19:48.941Z"
+      "updated_at": "2026-07-21T20:59:49.548Z"
     },
     {
       "id": "744d0973-f696-412d-a544-88d6283134ed",
-      "slug": "mshchk-zykrvn-mshpchh-zb3280",
+      "slug": "mshchk-zykrvn-mshpchh-2nw0pt",
       "name": "משחק זיכרון משפחה",
       "name_translations": {},
       "description": "",
@@ -122,21 +323,21 @@
       "sale_price": 30,
       "currency": "ILS",
       "images": [
+        "https://example.com/assets/product-ai-fit-1783675723070-1qnedh.webp",
         "https://example.com/assets/product-enhanced-1783674283357-45xlwh.webp",
-        "https://example.com/assets/product-ai-fit-1783675693377-t4rzr.webp",
-        "https://example.com/assets/product-ai-fit-1783675723070-1qnedh.webp"
+        "https://example.com/assets/product-ai-fit-1783675693377-t4rzr.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://example.com/product/mshchk-zykrvn-mshpchh-zb3280",
+      "url": "https://example.com/product/mshchk-zykrvn-mshpchh-2nw0pt",
       "categories": [
-        "משחקי זיכרון"
+        "מוצרים לבית ולמשפחה"
       ],
-      "updated_at": "2026-07-10T10:05:42.362Z"
+      "updated_at": "2026-07-21T21:00:05.578Z"
     },
     {
       "id": "181513a3-3aa5-471d-9da9-1607778b4205",
-      "slug": "mshchk-zykrvn-tarym-5erorr",
+      "slug": "mshchk-zykrvn-tarym-int91z",
       "name": "משחק זיכרון תארים",
       "name_translations": {},
       "description": "",
@@ -148,21 +349,21 @@
       "sale_price": 30,
       "currency": "ILS",
       "images": [
+        "https://example.com/assets/product-ai-fit-1783677872151-a2xvgf.webp",
         "https://example.com/assets/product-enhanced-1783677722431-6cx3tu.webp",
-        "https://example.com/assets/product-ai-fit-1783677759913-vix42w.webp",
-        "https://example.com/assets/product-ai-fit-1783677872151-a2xvgf.webp"
+        "https://example.com/assets/product-ai-fit-1783677759913-vix42w.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://example.com/product/mshchk-zykrvn-tarym-5erorr",
+      "url": "https://example.com/product/mshchk-zykrvn-tarym-int91z",
       "categories": [
-        "משחקי זיכרון"
+        "מוצרים לבית ולמשפחה"
       ],
-      "updated_at": "2026-07-10T10:04:45.371Z"
+      "updated_at": "2026-07-21T21:00:24.820Z"
     },
     {
       "id": "3a18f833-c53e-4926-8819-c0d7d47d4c53",
-      "slug": "mshchk-zykrvn-palym-g2smzk",
+      "slug": "mshchk-zykrvn-palym-ypabam",
       "name": "משחק זיכרון פעלים",
       "name_translations": {},
       "description": "",
@@ -174,21 +375,21 @@
       "sale_price": 30,
       "currency": "ILS",
       "images": [
-        "https://example.com/assets/product-enhanced-1783673796336-w4g4s.webp",
         "https://example.com/assets/product-ai-fit-1783673308013-cojttd.webp",
+        "https://example.com/assets/product-enhanced-1783673796336-w4g4s.webp",
         "https://example.com/assets/product-1783673284154-r4v7f8.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://example.com/product/mshchk-zykrvn-palym-g2smzk",
+      "url": "https://example.com/product/mshchk-zykrvn-palym-ypabam",
       "categories": [
-        "משחקי זיכרון"
+        "מוצרים לבית ולמשפחה"
       ],
-      "updated_at": "2026-07-10T09:53:00.031Z"
+      "updated_at": "2026-07-21T21:03:47.963Z"
     },
     {
       "id": "2b5d8c8a-4df6-4e9c-a32f-947b6fdc3217",
-      "slug": "mshchk-zykrvn-msprym-g1uy3w",
+      "slug": "mshchk-zykrvn-msprym-cxv1i7",
       "name": "משחק זיכרון מספרים",
       "name_translations": {},
       "description": "",
@@ -200,21 +401,21 @@
       "sale_price": 30,
       "currency": "ILS",
       "images": [
-        "https://example.com/assets/product-enhanced-1783673745119-uuziui.webp",
         "https://example.com/assets/product-ai-fit-1783673182329-ypbt7e.webp",
+        "https://example.com/assets/product-enhanced-1783673745119-uuziui.webp",
         "https://example.com/assets/product-1783673212633-bcjl7m.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://example.com/product/mshchk-zykrvn-msprym-g1uy3w",
+      "url": "https://example.com/product/mshchk-zykrvn-msprym-cxv1i7",
       "categories": [
-        "משחקי זיכרון"
+        "מוצרים לבית ולמשפחה"
       ],
-      "updated_at": "2026-07-10T09:51:46.514Z"
+      "updated_at": "2026-07-21T21:04:12.547Z"
     },
     {
       "id": "e68e3c9f-abee-42c7-8fc2-01220e873727",
-      "slug": "mshchk-zykrvn-tsbaym-50d51y",
+      "slug": "mshchk-zykrvn-tsbaym-kw7bdw",
       "name": "משחק זיכרון צבעים",
       "name_translations": {},
       "description": "",
@@ -226,17 +427,17 @@
       "sale_price": 30,
       "currency": "ILS",
       "images": [
-        "https://example.com/assets/product-enhanced-1783673698297-je2wb8.webp",
         "https://example.com/assets/product-1783673097555-krvj8u.webp",
+        "https://example.com/assets/product-enhanced-1783673698297-je2wb8.webp",
         "https://example.com/assets/product-1783673080887-yurljp.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://example.com/product/mshchk-zykrvn-tsbaym-50d51y",
+      "url": "https://example.com/product/mshchk-zykrvn-tsbaym-kw7bdw",
       "categories": [
-        "משחקי זיכרון"
+        "מוצרים לבית ולמשפחה"
       ],
-      "updated_at": "2026-07-10T09:52:31.003Z"
+      "updated_at": "2026-07-21T21:04:32.050Z"
     }
   ]
 }
