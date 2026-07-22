@@ -14389,6 +14389,75 @@ async function loadRelatedProducts(currentProduct, t) {
 
 
 
+/* Added Component Script */
+(function() {
+  const track = document.querySelector('.celebs-carousel-track');
+  const slides = document.querySelectorAll('.celebs-carousel-slide');
+  const prevBtn = document.querySelector('.celebs-carousel-btn.prev');
+  const nextBtn = document.querySelector('.celebs-carousel-btn.next');
+  const dotsContainer = document.querySelector('.celebs-carousel-dots');
+  
+  if (!track || !slides.length) return;
+  
+  let currentIndex = 0;
+  const totalSlides = slides.length;
+  
+  // Create dots
+  slides.forEach((_, i) => {
+    const dot = document.createElement('button');
+    dot.classList.add('dot');
+    if (i === 0) dot.classList.add('active');
+    dot.setAttribute('aria-label', 'עבור לסרטון ' + (i + 1));
+    dot.addEventListener('click', () => goToSlide(i));
+    dotsContainer.appendChild(dot);
+  });
+  
+  const dots = document.querySelectorAll('.celebs-carousel-dots .dot');
+  
+  function updateSlides() {
+    slides.forEach((slide, i) => {
+      slide.classList.toggle('active', i === currentIndex);
+    });
+    dots.forEach((dot, i) => {
+      dot.classList.toggle('active', i === currentIndex);
+    });
+  }
+  
+  function goToSlide(index) {
+    if (index < 0 || index >= totalSlides) return;
+    currentIndex = index;
+    updateSlides();
+  }
+  
+  function nextSlide() {
+    currentIndex = (currentIndex + 1) % totalSlides;
+    updateSlides();
+  }
+  
+  function prevSlide() {
+    currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+    updateSlides();
+  }
+  
+  prevBtn.addEventListener('click', prevSlide);
+  nextBtn.addEventListener('click', nextSlide);
+  
+  // Keyboard navigation
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'ArrowRight') {
+      prevSlide();
+    } else if (e.key === 'ArrowLeft') {
+      nextSlide();
+    }
+  });
+  
+  // Optional: auto-play (uncomment to enable)
+  // let autoplay = setInterval(nextSlide, 5000);
+  // track.addEventListener('mouseenter', () => clearInterval(autoplay));
+  // track.addEventListener('mouseleave', () => { autoplay = setInterval(nextSlide, 5000); });
+})();
+
+
 /* ZAPPY_PUBLISHED_LIGHTBOX_RUNTIME */
 (function(){
   try {
