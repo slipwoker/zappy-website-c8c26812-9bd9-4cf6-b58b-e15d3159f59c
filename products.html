@@ -1172,10 +1172,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
     // Preview pages are served by the current Zappy origin, which may be a
     // remote tunnel/QA host rather than this server's baked SERVER_URL.
     // Deployed sites are static and must call the public Zappy API (never localhost).
-    window.ZAPPY_API_BASE = (window.location.pathname.includes('/preview'))
-      ? window.location.origin
-      : "https://api.zappy5.com";
-  </script>
+    window.ZAPPY_API_BASE = "https://api.zappy5.com"</script>
   
     <div class="mobile-search-panel" id="mobile-search-panel">
       <div class="search-wrapper">
@@ -1206,7 +1203,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
   <div class="nav-container">
     <div class="nav-right-group"><div class="nav-brand">
       <a href="/" class="logo-link"><img class="logo" src="/assets/site-----image-1.webp" alt="אנגלית בקלות ובהנאה Easy English with Efrat" decoding="async" width="35" height="35" /></a>
-    </div><ul class="nav-menu" id="navMenu">
+    </div><ul class="nav-menu" id="navMenu"><li><a href="/" data-i18n="nav-home">בית</a></li>
 
     <li class="menu-item-has-children zappy-products-dropdown">
       <a href="/products">
@@ -1246,9 +1243,9 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
 
 
 <section class="products-section" id="products-section"><div class="zappy-inserted-element" id="zappy-element-1784717962333-lvpuelitd" data-element-id="zappy-element-1784717962333-lvpuelitd" data-element-type="paragraph" data-zappy-newly-inserted="true" style="width: 100%;"></div>
-          <h1 id="products-page-title">החנות שלי</h1><div class="zappy-inserted-element" id="zappy-element-1784717902662-dzxjqhmyx" data-element-id="zappy-element-1784717902662-dzxjqhmyx" data-element-type="h2" style="width: 100%;"><h2 class="font-bold" data-element-type="h2" data-element-id="zappy-element-1784717902662-dzxjqhmyx" id="zappy-element-1784717902662-dzxjqhmyx" style>כותרת חדשהעעעעעכככככ</h2></div>
+          <h1 id="products-page-title">החנות שלי</h1><div class="zappy-inserted-element" id="zappy-element-1784717902662-dzxjqhmyx" data-element-id="zappy-element-1784717902662-dzxjqhmyx" data-element-type="h2" style="width: 100%;"><h2 class="font-bold" data-element-type="h2" data-element-id="zappy-element-1784717902662-dzxjqhmyx" id="zappy-element-1784717902662-dzxjqhmyx">כותרת חדשהעעעעעכככככ</h2></div>
           <script>/* ZAPPY_PRODUCTS_SEARCH_TITLE_BOOTSTRAP */(function(){try{var params=new URLSearchParams(window.location.search);var direct=(params.get('search')||'').trim();var page=params.get('page')||'';var nested='';if(page){try{nested=(new URL(page,window.location.origin).searchParams.get('search')||'').trim();}catch(e){}}if(!direct&&!nested)return;var title=document.getElementById('products-page-title');if(!title)return;var label="תוצאות חיפוש";if((title.textContent||'').trim()!==label)title.textContent=label;title.setAttribute('data-search-title-active','true');}catch(e){}})();</script>
-          <div class="products-toolbar" id="products-toolbar" style>
+          <div class="products-toolbar" id="products-toolbar">
             <button class="sidebar-toggle-btn" id="sidebar-toggle-btn" style="display:none;" aria-label="סינון">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h10M4 18h4"/></svg>
               <span>סינון</span>
@@ -1261,7 +1258,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
                 <select id="sort-select" aria-label="מיון">
                 </select>
               </div>
-              <div class="view-toggle" id="view-toggle" style>
+              <div class="view-toggle" id="view-toggle">
                 <button class="view-btn active" data-view="grid" aria-label="תצוגת רשת">
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
                 </button>
@@ -1285,8 +1282,8 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
     <div class="footer-grid">
       <!-- Company Info -->
       <div class="footer-col footer-company-col">
-        <img src="/assets/easy-english-with-efrat-educational-products-e-commerce-logo.webp" alt="אנגלית בקלות ובהנאה Easy English with Efrat" class="logo" data-element-type="image" data-element-id="img-1783842737088-bjf01l7np" data-zappy-footer-image="true" style decoding="async" width="35" height="35" />
-        <p class="footer-tagline" style>לומדים אנגלית בחיוך – ערכות, משחקים ומוצרים שהופכים כל ילד לדובר בטוח.</p>
+        <img src="/assets/easy-english-with-efrat-educational-products-e-commerce-logo.webp" alt="אנגלית בקלות ובהנאה Easy English with Efrat" class="logo" data-element-type="image" data-element-id="img-1783842737088-bjf01l7np" data-zappy-footer-image="true" decoding="async" width="35" height="35" />
+        <p class="footer-tagline">לומדים אנגלית בחיוך – ערכות, משחקים ומוצרים שהופכים כל ילד לדובר בטוח.</p>
       </div>
 
       <!-- Quick Links -->
