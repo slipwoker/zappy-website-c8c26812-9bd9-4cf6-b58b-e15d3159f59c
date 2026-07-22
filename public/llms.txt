@@ -87,7 +87,7 @@ https://example.com/product/st-mshchky-zykrvn-lhashrt-avtsr-hmylym-mbtsa-shny-st
 - Image: https://example.com/assets/product-1784710615861-iguxlq.webp
 
 ### סרגל אותיות ענק לכיתה (3 מטר) – צבעוני, איכותי ואפקטיבי
-https://example.com/product/srgl-avtyvt-ank-lkyth-3-mtr-tsbavny-aykvty-vapktyby-8z380g
+https://example.com/product/srgl-avtyvt-ank-lkyth-3-mtr-tsbavny-aykvty-vapktyby-4n8nwf
 - Price: 100.00 ILS (sale, was 150.00 ILS)
 - Availability: In stock
 - Category: מוצרים לבתי ספר
@@ -143,7 +143,7 @@ https://example.com/product/pvstr-tbnyvt-mshptym-ir09vm
 - Image: https://example.com/assets/product-1784669411043-6l8lof.webp
 
 ### זוג סרגלי קריאה אותיות וצירופים
-https://example.com/product/zvg-srgly-kryah-avtyvt-vtsyrvpym-g2yqg3
+https://example.com/product/zvg-srgly-kryah-avtyvt-vtsyrvpym-rsaiyz
 - Price: 10.00 ILS (sale, was 15.00 ILS)
 - Availability: In stock
 - Category: מוצרים לבית ולמשפחה

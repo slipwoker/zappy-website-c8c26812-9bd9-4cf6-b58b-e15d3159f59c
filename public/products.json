@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-22T11:20:22.200Z",
+  "generated_at": "2026-07-22T11:23:12.177Z",
   "base_url": "https://example.com",
   "currency": "ILS",
   "count": 17,
@@ -32,7 +32,7 @@
     },
     {
       "id": "da3ddac9-b629-4b6a-b957-2f240379205a",
-      "slug": "srgl-avtyvt-ank-lkyth-3-mtr-tsbavny-aykvty-vapktyby-8z380g",
+      "slug": "srgl-avtyvt-ank-lkyth-3-mtr-tsbavny-aykvty-vapktyby-4n8nwf",
       "name": "סרגל אותיות ענק לכיתה (3 מטר) – צבעוני, איכותי ואפקטיבי",
       "name_translations": {},
       "description": "",
@@ -48,11 +48,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://example.com/product/srgl-avtyvt-ank-lkyth-3-mtr-tsbavny-aykvty-vapktyby-8z380g",
+      "url": "https://example.com/product/srgl-avtyvt-ank-lkyth-3-mtr-tsbavny-aykvty-vapktyby-4n8nwf",
       "categories": [
         "מוצרים לבתי ספר"
       ],
-      "updated_at": "2026-07-22T08:46:39.454Z"
+      "updated_at": "2026-07-22T11:21:38.156Z"
     },
     {
       "id": "3483f04d-af63-4b41-ad6f-d3e164d614f8",
@@ -207,7 +207,7 @@
     },
     {
       "id": "660193a4-531b-4cd2-893b-920b004a3a7c",
-      "slug": "zvg-srgly-kryah-avtyvt-vtsyrvpym-g2yqg3",
+      "slug": "zvg-srgly-kryah-avtyvt-vtsyrvpym-rsaiyz",
       "name": "זוג סרגלי קריאה אותיות וצירופים",
       "name_translations": {},
       "description": "",
@@ -225,11 +225,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://example.com/product/zvg-srgly-kryah-avtyvt-vtsyrvpym-g2yqg3",
+      "url": "https://example.com/product/zvg-srgly-kryah-avtyvt-vtsyrvpym-rsaiyz",
       "categories": [
         "מוצרים לבית ולמשפחה"
       ],
-      "updated_at": "2026-07-21T20:58:10.436Z"
+      "updated_at": "2026-07-22T11:21:17.539Z"
     },
     {
       "id": "58d75373-cd62-4cab-b7d7-fdc3dc94c14a",
