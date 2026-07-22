@@ -1177,7 +1177,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
       </div>
       <div class="search-results" id="mobile-search-results"></div>
     </div>
-<script>window.ZAPPY_WEBSITE_ID = "c8c26812-9bd9-4cf6-b58b-e15d3159f59c";window.ZAPPY_API_BASE = "https://api.zappy5.com"</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
+<script>window.ZAPPY_WEBSITE_ID = "c8c26812-9bd9-4cf6-b58b-e15d3159f59c";window.ZAPPY_API_BASE = (window.location.pathname.includes('/preview') ? window.location.origin : "https://api.zappy5.com");</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg style="display:block !important" class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -1688,7 +1688,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
   
   <main id="main">
     <section data-band-index="0" class="index-hero-section" data-layout-spec="בית-hero" data-hero-treatment="fade-bleed" style="--hero-fade-color: var(--bg-light);" data-hero-type="fullscreen-scrim" id="index-hero-section">
-    <div data-zappy-zoom-wrapper="true" data-element-id="img-1783599930204-wbwbfaptf" data-element-type="image" data-zappy-zoom-wrapper-width-mode="full" style="position: absolute; top: 0px !important; left: 0px !important; width: 100%; height: 100%; max-width: none; margin-left: 0px !important; margin-right: 0px !important; z-index: 0 !important; overflow: hidden; inset: 0; max-height: none" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true" data-zappy-zoom-wrapper-width="1846px" data-zappy-zoom-wrapper-height="861px" data-zappy-zoom-wrapper-align="center"><img loading="eager" fetchpriority="high" class="hero-fade-img" data-hero-bg="true" data-placeholder="index-hero-image-1" data-context="A calm, bright table scene with a parent and young child using English flashcards and a workbook. Natural light from a window, clean classroom-shelf aesthetic, warm and trustworthy atmosphere. Subject composed toward the right/inline-end side." width="1200" height="600" src="/assets/easy-english-with-efrat-educational-products-e-commerce-hero-upload-1784292486036-mlwf2c.webp?v=1784292488634" alt="הורה וילד לומדים אנגלית יחד עם כרטיסיות וחוברת עבודה" data-hero-background="true" data-element-type="image" data-element-id="img-1783599930204-wbwbfaptf" style="object-position: 90% 56%; width: 120%; height: 120%; object-fit: cover; margin: 0; position: absolute; left: -18%; top: -11.200000000000001%; max-width: none; max-height: none; display: block !important" data-zappy-zoom="1.2" data-zappy-original-width="1846" data-zappy-original-height="861" data-zappy-object-position="90% 56%" decoding="async" /></div>
+    <div data-zappy-zoom-wrapper="true" data-element-id="img-1783599930204-wbwbfaptf" data-element-type="image" data-zappy-zoom-wrapper-width-mode="full" style="position: absolute !important; top: 0px !important; left: 0px !important; width: 100% !important; height: 100% !important; max-width: none !important; margin-left: 0px !important; margin-right: 0px !important; z-index: 0 !important; overflow: hidden !important;" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true" data-zappy-zoom-wrapper-width="1846px" data-zappy-zoom-wrapper-height="861px" data-zappy-zoom-wrapper-align="center"><img loading="eager" fetchpriority="high" class="hero-fade-img" data-hero-bg="true" data-placeholder="index-hero-image-1" data-context="A calm, bright table scene with a parent and young child using English flashcards and a workbook. Natural light from a window, clean classroom-shelf aesthetic, warm and trustworthy atmosphere. Subject composed toward the right/inline-end side." width="1200" height="600" src="/assets/easy-english-with-efrat-educational-products-e-commerce-hero-upload-1784292486036-mlwf2c.webp?v=1784292488634" alt="הורה וילד לומדים אנגלית יחד עם כרטיסיות וחוברת עבודה" data-hero-background="true" data-element-type="image" data-element-id="img-1783599930204-wbwbfaptf" style="object-position: 90% 56% !important; width: 120% !important; height: 143.599% !important; object-fit: cover !important; margin: 0px !important; position: absolute !important; left: -18% !important; top: -24.4157% !important; max-width: none !important; max-height: none !important; display: block !important;" data-zappy-zoom="1.2" data-zappy-original-width="1846" data-zappy-original-height="861" data-zappy-object-position="90% 56%" decoding="async" /></div>
 
     <div class="hero-fade-content">
         <p><span class="hero-eyebrow" style="color: rgb(31, 42, 68) !important;">לימוד אנגלית לקטנטנים</span>
@@ -1900,7 +1900,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
   </div>
 </section>
 
-<section data-band-index="4" class="index-social-proof-section" data-layout-spec="בית-social-proof">
+<section data-band-index="4" class="index-social-proof-section" data-layout-spec="בית-social-proof" id="index-social-proof-section">
   <div class="section-container">
     <!-- SECTION HEADING -->
     <div class="section-header">
@@ -1909,43 +1909,24 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
     </div>
 
     <!-- TESTIMONIAL CARDS GRID -->
-    <div class="testimonials-grid">
+    <div class="testimonials-grid zappy-preserve-css-grid" id="zappy-auto-grid-1784716378104-7i3bi1" data-zappy-auto-grid="true" data-original-item-width="384" data-original-gap="24px" style="display: grid; --zappy-grid-cols: repeat(2, minmax(0, 1fr)); grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: stretch !important;" data-zappy-explicit-columns="true">
       <!-- Card 1: Parent -->
-      <div class="testimonial-card">
-        <div class="card-quote-icon">
-          <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="currentColor" width="28" height="28" aria-hidden="true">
-            <path d="M10 11h-4v-1a3 3 0 0 1 3 -3v-1a4 4 0 0 0 -4 4v5h5z"/>
-            <path d="M20 11h-4v-1a3 3 0 0 1 3 -3v-1a4 4 0 0 0 -4 4v5h5z"/>
-          </svg>
-        </div>
-        <blockquote class="testimonial-text">
-          "הילדה שלי פשוט פורחת! היא מחכה כל יום לשיעור ומשתמשת במילים באנגלית גם מחוץ לזמן הלימוד. הביטחון שלה עלה בטירוף."
-        </blockquote>
-        <div class="testimonial-author">
-          <div class="author-avatar" aria-hidden="true">
-            <span>מ</span>
-          </div>
-          <div class="author-info">
-            <strong>מיכל כהן</strong>
-            <span>אמא של עלמה, בת 5</span>
-          </div>
-        </div>
-      </div>
+      
 
       <!-- Card 2: Educator -->
-      <div class="testimonial-card">
+      <div class="testimonial-card" data-grid-item-index="0">
         <div class="card-quote-icon">
           <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="currentColor" width="28" height="28" aria-hidden="true">
             <path d="M10 11h-4v-1a3 3 0 0 1 3 -3v-1a4 4 0 0 0 -4 4v5h5z"/>
             <path d="M20 11h-4v-1a3 3 0 0 1 3 -3v-1a4 4 0 0 0 -4 4v5h5z"/>
           </svg>
         </div>
-        <blockquote class="testimonial-text">
-          "כגננת, אני ממליצה על הערכות של אפרת לכל ההורים. החומרים מותאמים לגיל, צבעוניים ומאוד מזמינים. הילדים פשוט נהנים ללמוד."
+        <blockquote class="testimonial-text" style>
+          "כגננת, אני ממליצה על הערכות של אפרת זמינים. הילדים פשוט נהנם ללמוד."
         </blockquote>
         <div class="testimonial-author">
           <div class="author-avatar" aria-hidden="true">
-            <span>ר</span>
+            <span style="color: rgb(31, 42, 68) !important;">ר</span>
           </div>
           <div class="author-info">
             <strong>רותם לוי</strong>
@@ -1955,19 +1936,17 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
       </div>
 
       <!-- Card 3: Returning Family -->
-      <div class="testimonial-card">
+      <div class="testimonial-card" data-grid-item-index="1" style="display: flex !important; flex-direction: column !important; min-height: 0px !important; align-items: stretch !important; justify-content: flex-start !important;">
         <div class="card-quote-icon">
           <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="currentColor" width="28" height="28" aria-hidden="true">
             <path d="M10 11h-4v-1a3 3 0 0 1 3 -3v-1a4 4 0 0 0 -4 4v5h5z"/>
             <path d="M20 11h-4v-1a3 3 0 0 1 3 -3v-1a4 4 0 0 0 -4 4v5h5z"/>
           </svg>
         </div>
-        <blockquote class="testimonial-text">
-          "התחלנו עם הגדולה, ועכשיו גם הקטן משתמש באותה ערכה. החומרים עמידים, השירים קליטים, וזה פשוט כיף לראות אותם לומדים ביחד."
-        </blockquote>
+        <div class="zappy-inserted-element" id="zappy-element-1784716879694-08qg9nl06" data-element-id="zappy-element-1784716879694-08qg9nl06" data-element-type="image" data-zappy-newly-inserted="true" style="max-width: 100% !important; margin: 20px 0px !important; width: 100% !important; min-height: 0px !important; height: auto !important; overflow: hidden !important; max-height: none !important;" data-zappy-media-cell="true" data-zappy-original-height="218.875"><div data-zappy-zoom-wrapper="true" data-element-id="zappy-element-1784716879694-08qg9nl06" data-element-type="image" data-zappy-zoom-wrapper-width="318px" data-zappy-zoom-wrapper-height="219px" data-zappy-zoom-wrapper-width-mode="card-slot" data-zappy-zoom-wrapper-align="center" style="position: relative !important; overflow: hidden !important; width: 100% !important; max-width: 100% !important; margin-left: auto !important; margin-right: auto !important; height: 219px !important; display: block !important; min-height: 0px !important; max-height: none !important; padding-bottom: 0px !important;" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true" data-zappy-card-slot-fill="1"><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIwIiBoZWlnaHQ9IjE4MCIgdmlld0JveD0iMCAwIDMyMCAxODAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHJlY3Qgd2lkdGg9IjMyMCIgaGVpZ2h0PSIxODAiIGZpbGw9IiNFOEU4RTgiLz48cmVjdCB4PSIzMCIgeT0iMTUiIHdpZHRoPSIyNjAiIGhlaWdodD0iMTUwIiByeD0iNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjOUU5RTlFIiBzdHJva2Utd2lkdGg9IjQiLz48Y2lyY2xlIGN4PSI3NSIgY3k9IjUwIiByPSIxNSIgZmlsbD0iIzlFOUU5RSIvPjxwYXRoIGQ9Ik03NSAxMDAgTDEwNSA3MCBMMTM1IDkwIEwxNTAgNzUgTDE4MCA5MCBMMjI1IDUwIEwyNzUgODAgTDI3NSAxNTAgTDQ1IDE1MCBMNDUgMTE1IFoiIGZpbGw9IiNCMEIwQjAiLz48cGF0aCBkPSJNMTM1IDkwIEwxNTAgNzUgTDE4MCA5MCBMMjI1IDUwIEwyNzUgODAgTDI3NSAxNTAgTDEzNSAxNTAgWiIgZmlsbD0iIzlFOUU5RSIvPjwvc3ZnPg==" alt="Image" style="border-radius: 8px; object-position: 50% 50%; width: 100% !important; height: 100% !important; max-width: none !important; object-fit: cover !important; margin: 0px !important; min-height: 150px !important; display: block !important; left: 0% !important; top: 0% !important; max-height: none !important;" data-element-type="image" data-element-id="zappy-element-1784716879694-08qg9nl06" id="zappy-element-1784716879694-08qg9nl06" data-zappy-zoom="1" loading="lazy" decoding="async" fetchpriority="low" /></div></div><blockquote class="testimonial-text" style><br /></blockquote>
         <div class="testimonial-author">
           <div class="author-avatar" aria-hidden="true">
-            <span>י</span>
+            <span style="color: rgb(31, 42, 68) !important;">י</span>
           </div>
           <div class="author-info">
             <strong>יעל אברהם</strong>
@@ -1980,9 +1959,9 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
     <!-- CTA BAND -->
     <div class="cta-band">
       <div class="cta-band-content">
-        <p class="cta-band-text">צריכים עזרה בבחירה? נשמח להכיר ולהתאים לכם את המוצר המושלם</p>
-        <a href="/contact-us" class="cta-band-button">יצירת קשר</a>
-      </div>
+        <p class="cta-band-text" style="color: rgb(31, 42, 68) !important;">צריכים עזרה בבחירה? נשמח להכיר ולהתאים לכם את המוצר המושלם</p>
+        <p class="zappy-editable"><a href="/contact-us" class="cta-band-button">יצירת קשר</a>
+      </p></div>
     </div>
   </div>
 </section>
