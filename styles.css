@@ -12877,6 +12877,8 @@ nav.navbar .sub-menu li a:hover { color: #1a243a !important; background-color: r
   }
 }
 /* === NAVBAR STYLE OVERRIDES END === */
+
+
 /* Zappy custom logo size (desktop only — mobile stays at 110px/35px) */
 @media (min-width: 769px) {
   .logo, img.logo, .logo img, .logo-link img, .nav-brand img {
