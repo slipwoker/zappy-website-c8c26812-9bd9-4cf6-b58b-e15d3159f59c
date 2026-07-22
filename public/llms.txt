@@ -22,35 +22,35 @@ https://example.com/my-story
 https://example.com/contact-us
 צריכים עזרה בבחירת מוצר או סתם רוצים להגיד שלום? מלאו את הפרטים ואפרת תחזור אליכם במהירות עם חיוך ותשובות שיקדמו את הילד שלכם באנגלית. צרו קשר עכשיו!
 
-### Products
+### החנות שלי
 https://example.com/products
 המוצרים שלנו - אנגלית בקלות ובהנאה Easy English with Efrat
 
-### Cart
+### עגלת קניות
 https://example.com/cart
 עגלת הקניות שלך
 
-### Checkout
+### תשלום
 https://example.com/checkout
 תשלום
 
-### Login
+### התחברות
 https://example.com/login
 התחברות לקוחות
 
-### Account
+### החשבון שלי
 https://example.com/account
 החשבון שלי
 
-### Order Success
+### ההזמנה התקבלה!
 https://example.com/order-success
 תודה על ההזמנה
 
-### Product Detail
+### פרטי המוצר
 https://example.com/product/:slug
 פרטי המוצר - אנגלית בקלות ובהנאה Easy English with Efrat
 
-### Category
+### מוצרים
 https://example.com/category/:slug
 מוצרים - אנגלית בקלות ובהנאה Easy English with Efrat
 
