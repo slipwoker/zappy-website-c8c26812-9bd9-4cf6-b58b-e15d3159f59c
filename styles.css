@@ -12631,6 +12631,46 @@ main,
 }
 
 /* ==END ZAPPY V2 E-COMMERCE THEME CSS== */
+
+.index-benefits-section__container {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+}
+
+.index-benefits-section__videos-row {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+  align-items: flex-start !important;
+  gap: 24px !important;
+  width: 100% !important;
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+}
+
+.index-benefits-section__videos-row .zappy-inserted-element {
+  margin: 0 !important;
+  flex: 0 0 auto !important;
+  width: auto !important;
+  max-width: 320px !important;
+}
+
+.index-benefits-section__videos-row .zappy-inserted-element > div {
+  max-width: 100% !important;
+}
+
+@media (max-width: 768px) {
+.index-benefits-section__videos-row {
+  flex-direction: column !important;
+  align-items: center !important;
+}
+
+.index-benefits-section__videos-row .zappy-inserted-element {
+  max-width: 90% !important;
+}
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
