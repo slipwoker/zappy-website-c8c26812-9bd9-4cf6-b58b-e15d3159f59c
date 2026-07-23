@@ -76,11 +76,45 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 17**
+**Total active products: 22**
+
+### מארז 'יסודות הקריאה' למורות ולבתי ספר – הכל להוראת ה-ABC!
+https://example.com/product/marz-ysvdvt-hkryah-lmvrvt-vlbty-spr-hkl-lhvrat-h-abc-igyd9o
+- Price: 550.00 ILS (sale, was 750.00 ILS)
+- Availability: In stock
+- Category: מוצרים לבתי ספר
+- Description: הערכה המושלמת להקמת חדר אנגלית מרהיב ולחשיפה קוגניטיבית חווייתית של אותיות וצלילי השפה! כל מה שמורה צריכה להוראת קריאה פרונטלית ופרטנית במארז אחד. 📏 2 סרגלי אותיות ענקיים לתלייה (3 מטר כל אחד): בולטים, ברורים ומותאמים במיוחד לתלייה מעל הלוח בכיתה! 🃏 ערכת קלפי אותיות A5 מוגדלים למורה: 52 קלפים איכותיים (גדולות וקטנות) עם תמונות קוגניטיביות לזיהוי צלילים מהיר. 🎲 3 סטים מלאים של משחקי זיכרון (24 משחקים בסה"כ!): לביסוס אוצר המילים בכיתה. 🌟 ציוד חובה למורה שרוצה להעניק לתלמידים זינוק מהיר בקריאה!
+
+### מארז "מצוינות בדקדוק" למורים ובתי ספר
+https://example.com/product/marz-mtsvynvt-bdkdvk-lmvrym-vbty-spr-jk0dna
+- Price: 250.00 ILS (sale, was 500.00 ILS)
+- Availability: In stock
+- Category: מוצרים לבתי ספר
+- Description: ערכה מוסדית עשירה, פרקטית וגמישה שנבנתה במיוחד עבור מורים לאנגלית! מגוון פוסטרים בגודל A4 קומפקטי ושימושי, מושלמים כלוחות עזר שולחניים ("פלייסמט"), לעבודה בקבוצות קטנות, לחדרי שילוב ולחלוקה אישית לתלמידים. 🎯 אתם בוחרים את התכולה! לרשותכם 50 פוסטרים לבחירה חופשית מתוך 4 נושאי הליבה (ניתן לערבב ולבחור כמויות לפי צורכי הכיתות): תבניות משפטים – לבניית משפטים ראשונים בביטחון צירופי אותיות – לביסוס צלילים ולקריאה זורמת זמני הווה ועתיד – לשליטה בדקדוק ובזמנים זמן עבר – להרחבת יכולת הדיבור והכתיבה.
+- Image: https://example.com/assets/product-1784845185674-71czp.webp
+
+### מארז 'חוויה לימודית לכל המשפחה' | הכל-כלול! [גן- כיתה ז']
+https://example.com/product/marz-chvvyh-lymvdyt-lkl-hmshpchh-hkl-klvl-gn-kyth-z-9mf2sq
+- Price: 175.00 ILS (sale, was 190.00 ILS)
+- Availability: In stock
+- Description: הופכים את הבית למרכז למידה חווייתי, צבעוני ומלא בביטחון! המארז המקיף והעשיר ביותר שלנו, שנבנה במיוחד כדי לתת מענה שלם לכל הילדים בבית – מתחילים ועד מתקדמים. מה מחכה לכם במארז הענק? 🃏 סט 8 משחקי הזיכרון המלא: צבעים, מספרים, חיות, פעלים, תארים, מקצועות, משפחה ופירות/ירקות. 📜 סט הפוסטרים המלא: כל פוסטרי הדקדוק, הצירופים ותבניות המשפטים. 📏 2 סרגלי קריאה איכותיים: סרגל אותיות + סרגל צירופים. 💡 הבחירה המשתלמת ביותר! ערכה אחת שסוגרת לכם את פינת האנגלית בבית לשנים קדימה.
+
+### מארז 'לשבור את מחסום השפה' | למתקדמים הצעירים (כיתות ג'–ה')
+https://example.com/product/marz-lshbvr-at-mchsvm-hshph-lmtkdmym-htsayrym-kytvt-gh-nfuot4
+- Price: 115.00 ILS (sale, was 145.00 ILS)
+- Availability: In stock
+- Description: ערכה מקיפה ועשירה שנועדה לחזק את הקריאה, להקנות שליטה בזמנים ובדקדוק, ולבנות ביטחון עצמי גבוה בדיבור ובכתיבה. מה מחכה לכם במארז? 📏 סרגל צירופי אותיות – לשליטה מהירה בצלילים ולקריאה זורמת. 📜 3 פוסטרים לימודיים מנצחים: פוסטר תבניות משפטים, פוסטר צירופי אותיות, פוסטר זמני הווה ועתיד (Present Simple, Progressive & Future) 🃏 3 משחקי זיכרון ממוקדים: פעלים, תארים ומשפחה (ניתן להחליף ולבחור נושאים אחרים לבקשתכם!). 💡 מעניקים לילדים את הכלים לדבר ולכתוב באנגלית ללא חשש - הזמינו עכשיו!
+
+### מארז 'התחלה קסומה באנגלית' | לגיל הרך [גן - כיתה ב']
+https://example.com/product/marz-htchlh-ksvmh-banglyt-lgyl-hrk-gn-kyth-b-l96nws
+- Price: 95.00 ILS (sale, was 120.00 ILS)
+- Availability: In stock
+- Category: מוצרים לבית ולמשפחה
+- Description: הצעדים הראשונים באנגלית מעולם לא היו מהנים ופשוטים יותר! ערכה קסומה ועשירה המעניקה לילדים חשיפה מוקדמת, חווייתית ומלאת ביטחון לשפה. מה מחכה לכם במארז? 📏 סרגל אותיות איכותי – לתלייה ולתרגול ויזואלי יומי. 💬 פוסטר תבניות משפטים – להרכבת משפטים ראשונים בקלות. 🃏 3 משחקי זיכרון אהובים: צבעים, מספרים וחיות (ניתן להחליף ולבחור נושאים אחרים לבקשתכם!). העניקו לילדכם את הבסיס המושלם להצלחה – הזמינו עכשיו!
 
 ### סט משחקי זיכרון להעשרת אוצר המילים + מבצע שני סטים + 1 מתנה! 
-https://example.com/product/st-mshchky-zykrvn-lhashrt-avtsr-hmylym-mbtsa-shny-stym-1-mtnh-xoukee
-- Price: 150.00 ILS (sale, was 250.00 ILS)
+https://example.com/product/st-mshchky-zykrvn-lhashrt-avtsr-hmylym-mbtsa-shny-stym-1-mtnh-fd9ukx
+- Price: 150.00 ILS (sale, was 240.00 ILS)
 - Availability: In stock
 - Category: מוצרים לבית ולמשפחה
 - Description: שדרגו את האנגלית של הילדים דרך משחק מהנה, צבעוני ואיכותי! 8 משחקי זיכרון בקלפים עמידים במיוחד בנושאים מגוונים: צבעים, מספרים, חיות, פעלים, תארים, מקצועות, משפחה ופירות/ירקות. 🔹מקדמים את השפה: מתאים לסידור לפי ה-ABC, להרכבת משפטים (I have a dog), ליצירת צירופי מילים מורכבים (Brown dog, Pretty mother) ולתרגול פעלים עם פוסטרי הדקדוק שלנו. 🔹 איכות ללא פשרות: קלפים חזקים וצבעוניים לשימוש ממושך. 🎉 מבצע חם: קונים 2 סטים ומקבלים סט שלישי במתנה! (24 משחקים ב-300 ₪ בלבד).
@@ -95,7 +129,7 @@ https://example.com/product/srgl-avtyvt-ank-lkyth-3-mtr-tsbavny-aykvty-vapktyby-
 - Image: https://example.com/assets/product-1784709977179-7ydl9v.webp
 
 ### סט קלפי אותיות A5 למורות – ללמידה חווייתית
-https://example.com/product/st-klpy-avtyvt-a5-lmvrvt-llmydh-chvvyytyt-fo8bze
+https://example.com/product/st-klpy-avtyvt-a5-lmvrvt-llmydh-chvvyytyt-1m8im9
 - Price: 100.00 ILS (sale, was 150.00 ILS)
 - Availability: In stock
 - Category: מוצרים לבתי ספר
@@ -103,15 +137,15 @@ https://example.com/product/st-klpy-avtyvt-a5-lmvrvt-llmydh-chvvyytyt-fo8bze
 - Image: https://example.com/assets/product-1784708235239-ehflvp.webp
 
 ### סט ארבעה פוסטרים מנצח! 
-https://example.com/product/st-arbah-pvstrym-mntsch-ffp0ol
+https://example.com/product/st-arbah-pvstrym-mntsch-4df7lf
 - Price: 30.00 ILS (sale, was 40.00 ILS)
 - Availability: In stock
 - Category: מוצרים לבית ולמשפחה
 - Description: ערכת 4 הפוסטרים הבלעדית שלנו מעניקה מענה הדרגתי ומקיף לכל שלבי הלמידה – מגיל צעיר מאוד ועד כיתה ז'! הערכה כוללת: 🔹 פוסטר תבניות משפטים: 15 תבניות מגוונות לבניית משפטים ושפה עשירה ביום-יום. 🔹 פוסטר צירופי אותיות: 33 צירופים לפי צלילים + אותיות הניקוד לחשיפה מוקדמת וקריאה קלה. 🔹 פוסטר זמני הווה ועתיד: שליטה מלאה ב-Present Simple, Present Progressive ו-Future Simple. 🔹 פוסטר זמן עבר דו-צדדי : חוקי Past Simple מפורטים + טבלת פעלים חריגים (V2) מסודרת לפי A-B עם תרגום.
 - Image: https://example.com/assets/product-1784707709267-sa2hinj.webp
 
-### פוסטר זמן עבר ממוקד דו-צדדי
-https://example.com/product/pvstr-zmn-abr-mmvkd-dv-tsddy-yx9yl1
+### פוסטר זמן עבר דו-צדדי
+https://example.com/product/pvstr-zmn-abr-dv-tsddy-6acp3t
 - Price: 8.00 ILS (sale, was 10.00 ILS)
 - Availability: In stock
 - Category: מוצרים לבית ולמשפחה
@@ -119,7 +153,7 @@ https://example.com/product/pvstr-zmn-abr-mmvkd-dv-tsddy-yx9yl1
 - Image: https://example.com/assets/product-1784670500938-qjid2c.webp
 
 ### פוסטר זמני הווה ועתיד
-https://example.com/product/pvstr-zmny-hvvh-vatyd-l89yes
+https://example.com/product/pvstr-zmny-hvvh-vatyd-spny7i
 - Price: 8.00 ILS (sale, was 10.00 ILS)
 - Availability: In stock
 - Category: מוצרים לבית ולמשפחה
@@ -127,7 +161,7 @@ https://example.com/product/pvstr-zmny-hvvh-vatyd-l89yes
 - Image: https://example.com/assets/product-1784670204496-k4x4b9.webp
 
 ### פוסטר צירופי אותיות 
-https://example.com/product/pvstr-tsyrvpy-avtyvt-y45llg
+https://example.com/product/pvstr-tsyrvpy-avtyvt-3znyeq
 - Price: 8.00 ILS (sale, was 10.00 ILS)
 - Availability: In stock
 - Category: מוצרים לבית ולמשפחה
@@ -135,7 +169,7 @@ https://example.com/product/pvstr-tsyrvpy-avtyvt-y45llg
 - Image: https://example.com/assets/product-1784669878448-02w5k.webp
 
 ### פוסטר תבניות משפטים 
-https://example.com/product/pvstr-tbnyvt-mshptym-ir09vm
+https://example.com/product/pvstr-tbnyvt-mshptym-6zt65n
 - Price: 8.00 ILS (sale, was 10.00 ILS)
 - Availability: In stock
 - Category: מוצרים לבית ולמשפחה
@@ -151,7 +185,7 @@ https://example.com/product/zvg-srgly-kryah-avtyvt-vtsyrvpym-rsaiyz
 - Image: https://example.com/assets/product-1784667418709-cii56e.webp
 
 ### משחק זיכרון פירות וירקות 
-https://example.com/product/mshchk-zykrvn-pyrvt-vyrkvt-nkea8f
+https://example.com/product/mshchk-zykrvn-pyrvt-vyrkvt-ci2qvv
 - Price: 30.00 ILS (sale, was 35.00 ILS)
 - Availability: In stock
 - Category: מוצרים לבית ולמשפחה
@@ -159,7 +193,7 @@ https://example.com/product/mshchk-zykrvn-pyrvt-vyrkvt-nkea8f
 - Image: https://example.com/assets/product-ai-fit-1783678400464-ma3otw.webp
 
 ### משחק זיכרון חיות
-https://example.com/product/mshchk-zykrvn-chyvt-nkem9q
+https://example.com/product/mshchk-zykrvn-chyvt-3rvhcb
 - Price: 30.00 ILS (sale, was 35.00 ILS)
 - Availability: In stock
 - Category: מוצרים לבית ולמשפחה
@@ -167,7 +201,7 @@ https://example.com/product/mshchk-zykrvn-chyvt-nkem9q
 - Image: https://example.com/assets/product-ai-fit-1783678267016-jj96gm.webp
 
 ### משחק זיכרון מקצועות 
-https://example.com/product/mshchk-zykrvn-mktsvavt-c8ijg1
+https://example.com/product/mshchk-zykrvn-mktsvavt-625dbe
 - Price: 30.00 ILS (sale, was 35.00 ILS)
 - Availability: In stock
 - Category: מוצרים לבית ולמשפחה
@@ -175,7 +209,7 @@ https://example.com/product/mshchk-zykrvn-mktsvavt-c8ijg1
 - Image: https://example.com/assets/product-ai-fit-1783678047029-3v57wv.webp
 
 ### משחק זיכרון משפחה
-https://example.com/product/mshchk-zykrvn-mshpchh-2nw0pt
+https://example.com/product/mshchk-zykrvn-mshpchh-hihmmf
 - Price: 30.00 ILS (sale, was 35.00 ILS)
 - Availability: In stock
 - Category: מוצרים לבית ולמשפחה
@@ -183,7 +217,7 @@ https://example.com/product/mshchk-zykrvn-mshpchh-2nw0pt
 - Image: https://example.com/assets/product-ai-fit-1783675723070-1qnedh.webp
 
 ### משחק זיכרון תארים
-https://example.com/product/mshchk-zykrvn-tarym-int91z
+https://example.com/product/mshchk-zykrvn-tarym-ebev7i
 - Price: 30.00 ILS (sale, was 35.00 ILS)
 - Availability: In stock
 - Category: מוצרים לבית ולמשפחה
@@ -191,7 +225,7 @@ https://example.com/product/mshchk-zykrvn-tarym-int91z
 - Image: https://example.com/assets/product-ai-fit-1783677872151-a2xvgf.webp
 
 ### משחק זיכרון פעלים
-https://example.com/product/mshchk-zykrvn-palym-ypabam
+https://example.com/product/mshchk-zykrvn-palym-j9vko4
 - Price: 30.00 ILS (sale, was 35.00 ILS)
 - Availability: In stock
 - Category: מוצרים לבית ולמשפחה
@@ -199,7 +233,7 @@ https://example.com/product/mshchk-zykrvn-palym-ypabam
 - Image: https://example.com/assets/product-ai-fit-1783673308013-cojttd.webp
 
 ### משחק זיכרון מספרים
-https://example.com/product/mshchk-zykrvn-msprym-cxv1i7
+https://example.com/product/mshchk-zykrvn-msprym-x7hchj
 - Price: 30.00 ILS (sale, was 35.00 ILS)
 - Availability: In stock
 - Category: מוצרים לבית ולמשפחה
@@ -207,7 +241,7 @@ https://example.com/product/mshchk-zykrvn-msprym-cxv1i7
 - Image: https://example.com/assets/product-ai-fit-1783673182329-ypbt7e.webp
 
 ### משחק זיכרון צבעים
-https://example.com/product/mshchk-zykrvn-tsbaym-kw7bdw
+https://example.com/product/mshchk-zykrvn-tsbaym-lbmhzy
 - Price: 30.00 ILS (sale, was 35.00 ILS)
 - Availability: In stock
 - Category: מוצרים לבית ולמשפחה

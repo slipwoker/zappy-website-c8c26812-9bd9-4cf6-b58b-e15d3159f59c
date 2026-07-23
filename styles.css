@@ -13474,6 +13474,42 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
 /* END ZAPPY_MOBILE_MENU_GROUP_TITLE */
 
 
+/* ZAPPY_MULTI_QTY_STEPPER_FIX */
+.variant-multi-qty-row .quantity-selector {
+  display: inline-flex !important;
+  align-items: center !important;
+  flex: 0 0 auto !important;
+  width: max-content !important;
+  max-width: 100% !important;
+  overflow: hidden !important;
+}
+.variant-multi-qty-row .quantity-selector button {
+  flex: 0 0 40px !important;
+  width: 40px !important;
+  min-width: 40px !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+}
+.variant-multi-qty-row .quantity-selector input {
+  width: 48px !important;
+  flex: 0 0 48px !important;
+  max-width: 48px !important;
+  min-width: 0 !important;
+  box-sizing: border-box !important;
+  padding: 0 !important;
+}
+.zappy-qv-multi-qty-row .zappy-qv-qty {
+  flex: 0 0 auto !important;
+  width: max-content !important;
+}
+.zappy-qv-multi-qty-row .zappy-qv-qty-input {
+  width: 48px !important;
+  flex: 0 0 48px !important;
+  max-width: 48px !important;
+  padding: 0 !important;
+}
+
+
 /* zappy-nav-child-indent */
 .zappy-products-dropdown .zappy-nav-child > a,
 .sub-menu .zappy-nav-child > a {

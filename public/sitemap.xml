@@ -2,102 +2,132 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://example.com</loc>
-    <lastmod>2026-07-22</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://example.com/celebrity-parent-recommendations</loc>
-    <lastmod>2026-07-22</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://example.com/my-story</loc>
-    <lastmod>2026-07-22</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://example.com/contact-us</loc>
-    <lastmod>2026-07-22</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://example.com/products</loc>
-    <lastmod>2026-07-22</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://example.com/cart</loc>
-    <lastmod>2026-07-22</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://example.com/checkout</loc>
-    <lastmod>2026-07-22</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://example.com/login</loc>
-    <lastmod>2026-07-22</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://example.com/account</loc>
-    <lastmod>2026-07-22</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://example.com/order-success</loc>
-    <lastmod>2026-07-22</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://example.com/product/:slug</loc>
-    <lastmod>2026-07-22</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://example.com/category/:slug</loc>
-    <lastmod>2026-07-22</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://example.com/thank-you</loc>
-    <lastmod>2026-07-22</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://example.com/privacy</loc>
-    <lastmod>2026-07-22</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://example.com/terms</loc>
-    <lastmod>2026-07-22</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://example.com/accessibility</loc>
-    <lastmod>2026-07-22</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://example.com/product/st-mshchky-zykrvn-lhashrt-avtsr-hmylym-mbtsa-shny-stym-1-mtnh-xoukee</loc>
+    <loc>https://example.com/product/marz-ysvdvt-hkryah-lmvrvt-vlbty-spr-hkl-lhvrat-h-abc-igyd9o</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://example.com/product/marz-mtsvynvt-bdkdvk-lmvrym-vbty-spr-jk0dna</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://example.com/product/marz-chvvyh-lymvdyt-lkl-hmshpchh-hkl-klvl-gn-kyth-z-9mf2sq</loc>
+    <lastmod>2026-07-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://example.com/product/marz-lshbvr-at-mchsvm-hshph-lmtkdmym-htsayrym-kytvt-gh-nfuot4</loc>
+    <lastmod>2026-07-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://example.com/product/marz-htchlh-ksvmh-banglyt-lgyl-hrk-gn-kyth-b-l96nws</loc>
+    <lastmod>2026-07-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://example.com/product/st-mshchky-zykrvn-lhashrt-avtsr-hmylym-mbtsa-shny-stym-1-mtnh-fd9ukx</loc>
     <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -109,38 +139,38 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/st-klpy-avtyvt-a5-lmvrvt-llmydh-chvvyytyt-fo8bze</loc>
+    <loc>https://example.com/product/st-klpy-avtyvt-a5-lmvrvt-llmydh-chvvyytyt-1m8im9</loc>
     <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/st-arbah-pvstrym-mntsch-ffp0ol</loc>
+    <loc>https://example.com/product/st-arbah-pvstrym-mntsch-4df7lf</loc>
     <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/pvstr-zmn-abr-mmvkd-dv-tsddy-yx9yl1</loc>
-    <lastmod>2026-07-21</lastmod>
+    <loc>https://example.com/product/pvstr-zmn-abr-dv-tsddy-6acp3t</loc>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/pvstr-zmny-hvvh-vatyd-l89yes</loc>
-    <lastmod>2026-07-21</lastmod>
+    <loc>https://example.com/product/pvstr-zmny-hvvh-vatyd-spny7i</loc>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/pvstr-tsyrvpy-avtyvt-y45llg</loc>
-    <lastmod>2026-07-21</lastmod>
+    <loc>https://example.com/product/pvstr-tsyrvpy-avtyvt-3znyeq</loc>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/pvstr-tbnyvt-mshptym-ir09vm</loc>
-    <lastmod>2026-07-21</lastmod>
+    <loc>https://example.com/product/pvstr-tbnyvt-mshptym-6zt65n</loc>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -151,50 +181,50 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/mshchk-zykrvn-pyrvt-vyrkvt-nkea8f</loc>
-    <lastmod>2026-07-21</lastmod>
+    <loc>https://example.com/product/mshchk-zykrvn-pyrvt-vyrkvt-ci2qvv</loc>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/mshchk-zykrvn-chyvt-nkem9q</loc>
-    <lastmod>2026-07-21</lastmod>
+    <loc>https://example.com/product/mshchk-zykrvn-chyvt-3rvhcb</loc>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/mshchk-zykrvn-mktsvavt-c8ijg1</loc>
-    <lastmod>2026-07-21</lastmod>
+    <loc>https://example.com/product/mshchk-zykrvn-mktsvavt-625dbe</loc>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/mshchk-zykrvn-mshpchh-2nw0pt</loc>
-    <lastmod>2026-07-21</lastmod>
+    <loc>https://example.com/product/mshchk-zykrvn-mshpchh-hihmmf</loc>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/mshchk-zykrvn-tarym-int91z</loc>
-    <lastmod>2026-07-21</lastmod>
+    <loc>https://example.com/product/mshchk-zykrvn-tarym-ebev7i</loc>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/mshchk-zykrvn-palym-ypabam</loc>
-    <lastmod>2026-07-21</lastmod>
+    <loc>https://example.com/product/mshchk-zykrvn-palym-j9vko4</loc>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/mshchk-zykrvn-msprym-cxv1i7</loc>
-    <lastmod>2026-07-21</lastmod>
+    <loc>https://example.com/product/mshchk-zykrvn-msprym-x7hchj</loc>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/mshchk-zykrvn-tsbaym-kw7bdw</loc>
-    <lastmod>2026-07-21</lastmod>
+    <loc>https://example.com/product/mshchk-zykrvn-tsbaym-lbmhzy</loc>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>

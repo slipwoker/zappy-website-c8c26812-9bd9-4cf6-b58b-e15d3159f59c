@@ -129,11 +129,9 @@ Description: העניקו לילדיכם יתרון באנגלית עם ערכו
 
 
 
-## מוצרים מומלצים
+## המארזים המשתלמים שלנו: פתרון מושלם לכל שלב בלמידה
 
-
-טוען מוצרים...
-
+עוד לא נבחרו מוצרים מומלצים. צפו בכל המוצרים שלנו!
 
 צפה בכל המוצרים →
 
@@ -176,71 +174,6 @@ Description: העניקו לילדיכם יתרון באנגלית עם ערכו
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-## ערכות מלאות או כלים בודדים – מה הכי מתאים לילד שלך?
-
-
-בחירה נכונה עושה את כל ההבדל. גלי מה מתאים יותר לסגנון הלמידה של הילד שלך – למידה מובנית עם ערכה שלמה, או תרגול ממוקד עם כלים בודדים.
-
-
-
-
-
-
-
-
-### ערכות לימוד מלאות
-
-
-ללמידה מובנית ומקיפה בבית
-
-
-- מסלול לימודי מלא – עוקבים אחר תכנית מסודרת צעד-אחר-צעד
-
-- כל החומרים במקום אחד – חוסכים זמן יקר בחיפוש אחר דפי עבודה ומשחקים
-
-- מותאם לגיל ולשלב – מתאים במיוחד לגילאי גן עד כיתה ז'
-
-
-
-
-
-
-
-
-### כלים בודדים ללמידה
-
-
-לתרגול ממוקד, חיזוק והוספת גיוון
-
-
-- בוחרים בדיוק את מה שצריך – חיזוק נושא ספציפי כמו אותיות, קריאה או אוצר מילים
-
-- גמישות מקסימלית – משלבים עם חומרים קיימים ומתאימים לקצב האישי של הילד
-
-- מחיר נגיש – אפשרות מצוינת להתחיל בקטן ולהרחיב בהדרגה
-
-
-
-
-
-
-לא בטוחים מה הכי מתאים? נשמח לעזור לכם לבחור.
-
-
-דברו איתנו
 
 
 
@@ -5138,9 +5071,44 @@ Description: תודה על פנייתך! הודעתך בנושא ערכת לימ
 
 ## Product Catalog
 
+### מארז 'יסודות הקריאה' למורות ולבתי ספר – הכל להוראת ה-ABC!
+URL: https://example.com/product/marz-ysvdvt-hkryah-lmvrvt-vlbty-spr-hkl-lhvrat-h-abc-igyd9o
+Price: 550.00 ILS (sale, was 750.00 ILS)
+Availability: In stock
+
+---
+
+### מארז "מצוינות בדקדוק" למורים ובתי ספר
+URL: https://example.com/product/marz-mtsvynvt-bdkdvk-lmvrym-vbty-spr-jk0dna
+Price: 250.00 ILS (sale, was 500.00 ILS)
+Availability: In stock
+
+---
+
+### מארז 'חוויה לימודית לכל המשפחה' | הכל-כלול! [גן- כיתה ז']
+URL: https://example.com/product/marz-chvvyh-lymvdyt-lkl-hmshpchh-hkl-klvl-gn-kyth-z-9mf2sq
+Price: 175.00 ILS (sale, was 190.00 ILS)
+Availability: In stock
+
+---
+
+### מארז 'לשבור את מחסום השפה' | למתקדמים הצעירים (כיתות ג'–ה')
+URL: https://example.com/product/marz-lshbvr-at-mchsvm-hshph-lmtkdmym-htsayrym-kytvt-gh-nfuot4
+Price: 115.00 ILS (sale, was 145.00 ILS)
+Availability: In stock
+
+---
+
+### מארז 'התחלה קסומה באנגלית' | לגיל הרך [גן - כיתה ב']
+URL: https://example.com/product/marz-htchlh-ksvmh-banglyt-lgyl-hrk-gn-kyth-b-l96nws
+Price: 95.00 ILS (sale, was 120.00 ILS)
+Availability: In stock
+
+---
+
 ### סט משחקי זיכרון להעשרת אוצר המילים + מבצע שני סטים + 1 מתנה! 
-URL: https://example.com/product/st-mshchky-zykrvn-lhashrt-avtsr-hmylym-mbtsa-shny-stym-1-mtnh-xoukee
-Price: 150.00 ILS (sale, was 250.00 ILS)
+URL: https://example.com/product/st-mshchky-zykrvn-lhashrt-avtsr-hmylym-mbtsa-shny-stym-1-mtnh-fd9ukx
+Price: 150.00 ILS (sale, was 240.00 ILS)
 Availability: In stock
 
 ---
@@ -5153,42 +5121,42 @@ Availability: In stock
 ---
 
 ### סט קלפי אותיות A5 למורות – ללמידה חווייתית
-URL: https://example.com/product/st-klpy-avtyvt-a5-lmvrvt-llmydh-chvvyytyt-fo8bze
+URL: https://example.com/product/st-klpy-avtyvt-a5-lmvrvt-llmydh-chvvyytyt-1m8im9
 Price: 100.00 ILS (sale, was 150.00 ILS)
 Availability: In stock
 
 ---
 
 ### סט ארבעה פוסטרים מנצח! 
-URL: https://example.com/product/st-arbah-pvstrym-mntsch-ffp0ol
+URL: https://example.com/product/st-arbah-pvstrym-mntsch-4df7lf
 Price: 30.00 ILS (sale, was 40.00 ILS)
 Availability: In stock
 
 ---
 
-### פוסטר זמן עבר ממוקד דו-צדדי
-URL: https://example.com/product/pvstr-zmn-abr-mmvkd-dv-tsddy-yx9yl1
+### פוסטר זמן עבר דו-צדדי
+URL: https://example.com/product/pvstr-zmn-abr-dv-tsddy-6acp3t
 Price: 8.00 ILS (sale, was 10.00 ILS)
 Availability: In stock
 
 ---
 
 ### פוסטר זמני הווה ועתיד
-URL: https://example.com/product/pvstr-zmny-hvvh-vatyd-l89yes
+URL: https://example.com/product/pvstr-zmny-hvvh-vatyd-spny7i
 Price: 8.00 ILS (sale, was 10.00 ILS)
 Availability: In stock
 
 ---
 
 ### פוסטר צירופי אותיות 
-URL: https://example.com/product/pvstr-tsyrvpy-avtyvt-y45llg
+URL: https://example.com/product/pvstr-tsyrvpy-avtyvt-3znyeq
 Price: 8.00 ILS (sale, was 10.00 ILS)
 Availability: In stock
 
 ---
 
 ### פוסטר תבניות משפטים 
-URL: https://example.com/product/pvstr-tbnyvt-mshptym-ir09vm
+URL: https://example.com/product/pvstr-tbnyvt-mshptym-6zt65n
 Price: 8.00 ILS (sale, was 10.00 ILS)
 Availability: In stock
 
@@ -5202,56 +5170,56 @@ Availability: In stock
 ---
 
 ### משחק זיכרון פירות וירקות 
-URL: https://example.com/product/mshchk-zykrvn-pyrvt-vyrkvt-nkea8f
+URL: https://example.com/product/mshchk-zykrvn-pyrvt-vyrkvt-ci2qvv
 Price: 30.00 ILS (sale, was 35.00 ILS)
 Availability: In stock
 
 ---
 
 ### משחק זיכרון חיות
-URL: https://example.com/product/mshchk-zykrvn-chyvt-nkem9q
+URL: https://example.com/product/mshchk-zykrvn-chyvt-3rvhcb
 Price: 30.00 ILS (sale, was 35.00 ILS)
 Availability: In stock
 
 ---
 
 ### משחק זיכרון מקצועות 
-URL: https://example.com/product/mshchk-zykrvn-mktsvavt-c8ijg1
+URL: https://example.com/product/mshchk-zykrvn-mktsvavt-625dbe
 Price: 30.00 ILS (sale, was 35.00 ILS)
 Availability: In stock
 
 ---
 
 ### משחק זיכרון משפחה
-URL: https://example.com/product/mshchk-zykrvn-mshpchh-2nw0pt
+URL: https://example.com/product/mshchk-zykrvn-mshpchh-hihmmf
 Price: 30.00 ILS (sale, was 35.00 ILS)
 Availability: In stock
 
 ---
 
 ### משחק זיכרון תארים
-URL: https://example.com/product/mshchk-zykrvn-tarym-int91z
+URL: https://example.com/product/mshchk-zykrvn-tarym-ebev7i
 Price: 30.00 ILS (sale, was 35.00 ILS)
 Availability: In stock
 
 ---
 
 ### משחק זיכרון פעלים
-URL: https://example.com/product/mshchk-zykrvn-palym-ypabam
+URL: https://example.com/product/mshchk-zykrvn-palym-j9vko4
 Price: 30.00 ILS (sale, was 35.00 ILS)
 Availability: In stock
 
 ---
 
 ### משחק זיכרון מספרים
-URL: https://example.com/product/mshchk-zykrvn-msprym-cxv1i7
+URL: https://example.com/product/mshchk-zykrvn-msprym-x7hchj
 Price: 30.00 ILS (sale, was 35.00 ILS)
 Availability: In stock
 
 ---
 
 ### משחק זיכרון צבעים
-URL: https://example.com/product/mshchk-zykrvn-tsbaym-kw7bdw
+URL: https://example.com/product/mshchk-zykrvn-tsbaym-lbmhzy
 Price: 30.00 ILS (sale, was 35.00 ILS)
 Availability: In stock
 

@@ -8260,14 +8260,33 @@ function stripHtmlToText(html) {
             localStorage.setItem('zappy_customer_token_' + websiteId, confirmData.data.loginToken);
           }
           if (typeof window.zappyTrackEcomAnalytics === 'function') {
-            var purchaseCartItems = confirmData.data.cartItems || confirmData.data.cart_items || [];
+            /* ZAPPY_GA4_PURCHASE_ORDERDATA */
+            var purchaseOrderData = (confirmData.data && confirmData.data.orderData) || {};
+            var purchaseCartItems =
+              confirmData.data.cartItems ||
+              confirmData.data.cart_items ||
+              purchaseOrderData.cartItems ||
+              purchaseOrderData.cart_items ||
+              purchaseOrderData.items ||
+              [];
+            var purchaseTotal =
+              confirmData.data.total != null
+                ? confirmData.data.total
+                : (purchaseOrderData.total != null ? purchaseOrderData.total : null);
+            var purchaseCurrency =
+              confirmData.data.currency ||
+              purchaseOrderData.currency ||
+              (window.ZAPPY_MULTI_CURRENCY &&
+                window.ZAPPY_MULTI_CURRENCY.base &&
+                window.ZAPPY_MULTI_CURRENCY.base.currency) ||
+              null;
             window.zappyTrackEcomAnalytics('purchase', {
               orderId: confirmData.data.orderId || null,
               orderNumber: confirmData.data.orderNumber || orderDisplay,
               reference: reference,
-              total: confirmData.data.total || null,
-              value: confirmData.data.total || null,
-              currency: confirmData.data.currency || null,
+              total: purchaseTotal,
+              value: purchaseTotal,
+              currency: purchaseCurrency,
               cartItems: purchaseCartItems,
               items: purchaseCartItems,
               source: 'client'
@@ -9668,24 +9687,30 @@ function buildApiUrl(path) {
 
   // Get current language for API calls (uses the generated zappyI18n runtime, falls back to stored/html language)
 function getCurrentLanguage() {
+  /* ZAPPY_LANG_DETECTION_FIX */
+  /* ZAPPY_ADDITIONALJS_LANG_DETECTION_FIX */
   try {
     var queryLang = new URLSearchParams(window.location.search).get('lang');
-    if (queryLang) return queryLang;
+    if (queryLang) return String(queryLang).split('-')[0].toLowerCase();
   } catch (e) {}
+  try {
+    var pathMatch = (window.location.pathname || '').match(/^\/([a-z]{2})(?=\/|$)/i);
+    if (pathMatch) return pathMatch[1].toLowerCase();
+  } catch (e2) {}
   if (typeof zappyI18n !== 'undefined' && typeof zappyI18n.getCurrentLanguage === 'function') {
-    return zappyI18n.getCurrentLanguage();
+    var i18nLang = zappyI18n.getCurrentLanguage();
+    if (i18nLang) return String(i18nLang).split('-')[0].toLowerCase();
   }
   if (typeof zappyI18n !== 'undefined' && zappyI18n.language) {
-    return zappyI18n.language;
+    return String(zappyI18n.language).split('-')[0].toLowerCase();
+  }
+  var htmlLang = document.documentElement.getAttribute('lang');
+  if (htmlLang) {
+    return String(htmlLang).split('-')[0].toLowerCase();
   }
   var stored = localStorage.getItem('zappy_lang') || localStorage.getItem('zappy-language') || localStorage.getItem('selectedLanguage') || localStorage.getItem('language');
   if (stored) {
-    return stored;
-  }
-  // Fall back to HTML lang attribute
-  var htmlLang = document.documentElement.getAttribute('lang');
-  if (htmlLang) {
-    return htmlLang;
+    return String(stored).split('-')[0].toLowerCase();
   }
   return null;
 }
@@ -16675,11 +16700,12 @@ function fixContrast(){
 })();
 
 
-/* ZAPPY_VARIANT_SELECTION_FIX_V13 */
+/* ZAPPY_VARIANT_SELECTION_FIX_V14 */
 (function(){
   try {
     if (window.__zappyVariantFixInit) return;
     window.__zappyVariantFixInit = true;
+    function _isMultiQty(p){return !!(p&&p.card_variants&&p.card_variants.multiQuantity)||!!(typeof window.isProductMultiQuantity==='function'&&window.isProductMultiQuantity(p))||!!document.querySelector('[data-multi-quantity="true"]');}
 
     // Inject CSS for disabled/OOS variant styling
     if (!document.getElementById('zappy-variant-fix-css')) {
@@ -16709,7 +16735,7 @@ function fixContrast(){
     // so the runtime fix runs once data finally arrives. Deferred via setTimeout
     // so the page's own renderProductDetail finishes mutating the DOM first.
     function _hasMatrix(p){return !!(p&&p.card_variants&&Array.isArray(p.card_variants.matrix)&&p.card_variants.matrix.length>0)}
-    function _oivs(){if(_initOvr)return;if(typeof window.initVariantSelection==='function')_initOvr=true;window.initVariantSelection=function(p,t){if(p&&((p.variants&&p.variants.length>0)||_hasMatrix(p))){_vProduct=_augmentProductFromCardVariants(p);var tr=t||{};if(!tr.pleaseSelect){var rtl=document.documentElement.getAttribute('dir')==='rtl'||document.body.getAttribute('dir')==='rtl';tr.pleaseSelect=rtl?'נא לבחור':'Please select'}_vT=tr;setTimeout(function(){try{fixVariantSelection()}catch(e){}},0)}}}
+    function _oivs(){if(_initOvr)return;if(typeof window.initVariantSelection!=='function')return;_initOvr=true;var _origInit=window.initVariantSelection;window.initVariantSelection=function(p,t){if(_isMultiQty(p)){return _origInit.call(this,p,t);}if(p&&((p.variants&&p.variants.length>0)||_hasMatrix(p))){_vProduct=_augmentProductFromCardVariants(p);var tr=t||{};if(!tr.pleaseSelect){var rtl=document.documentElement.getAttribute('dir')==='rtl'||document.body.getAttribute('dir')==='rtl';tr.pleaseSelect=rtl?'נא לבחור':'Please select'}_vT=tr;setTimeout(function(){try{fixVariantSelection()}catch(e){}},0)}}}
     _oivs();
 
     function _augmentProductFromCardVariants(p){
@@ -16832,6 +16858,7 @@ function fixContrast(){
 
     // Document-level capture handler
     document.addEventListener('click',function(e){
+      if(_isMultiQty(_vProduct||window.currentProduct))return;
       var btn=e.target.closest?e.target.closest('.variant-option'):null;if(!btn)return;
       if(!_vProduct||_gv().length===0)return;
       e.preventDefault();e.stopImmediatePropagation();
@@ -16845,6 +16872,7 @@ function fixContrast(){
 
     // Document-level add-to-cart interceptor (capture phase) to prevent original alert()
     document.addEventListener('click',function(e){
+      if(_isMultiQty(_vProduct||window.currentProduct))return;
       var ab=e.target.closest?e.target.closest('.add-to-cart-btn,.add-to-cart,#add-to-cart-btn,[onclick*="addProductToCart"]'):null;if(!ab)return;
       if(!_vProduct||_gv().length===0)return;
       var t=_vT||{},keys=_gak();
@@ -16909,6 +16937,7 @@ function fixContrast(){
       _oivs();
       var product=_vProduct||window.currentProduct,t=_vT||window.productTranslations||{};
       if(!product)return;
+      if(_isMultiQty(product))return;
       if((!product.variants||product.variants.length===0)&&!_hasMatrix(product))return;
       if(document.querySelectorAll('.variant-option').length===0)return;
       if(window._zappyVariantFixed)return;window._zappyVariantFixed=true;
@@ -16921,6 +16950,7 @@ function fixContrast(){
       document.querySelectorAll('.variant-options').forEach(function(c){var b=Array.from(c.querySelectorAll('.variant-option'));if(b.length<2)return;b.sort(function(a,b){var va=a.getAttribute('data-value')||'',vb=b.getAttribute('data-value')||'';var sa=_so[va.toLowerCase()],sb=_so[vb.toLowerCase()];var na=sa===undefined?parseFloat(va):NaN,nb=sb===undefined?parseFloat(vb):NaN;if(!isNaN(na)&&!isNaN(nb))return na-nb;if(sa!==undefined&&sb!==undefined)return sa-sb;var ca=!isNaN(na)?0:sa!==undefined?1:2,cb=!isNaN(nb)?0:sb!==undefined?1:2;if(ca!==cb)return ca-cb;return va.localeCompare(vb)});b.forEach(function(x){c.appendChild(x)})});
       var origATC=window.addProductToCart;
       window.addProductToCart=function(){
+        var pNow=window.currentProduct;if(_isMultiQty(pNow)){if(origATC)return origATC.apply(this,arguments);return;}
         var keys=_gak();for(var i=0;i<keys.length;i++){if(!selectedAttributes.hasOwnProperty(keys[i])){
           var grp=document.querySelector('.variant-group[data-group="'+keys[i]+'"]'),lbl=grp?grp.querySelector('.variant-group-label'):null,name=lbl?lbl.textContent.replace(/[:\s]+$/,'').trim():keys[i];
           var sd=document.getElementById('product-stock-display');if(sd){sd.className='product-stock select-required';sd.innerHTML='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></svg>'+(t.pleaseSelect||'Please select')+' '+name}
@@ -17601,22 +17631,57 @@ function fixContrast(){
 })();
 
 
-/* ZAPPY_PRODUCTS_MENU_LABEL_LANG_GUARD */
+/* ZAPPY_PRODUCTS_MENU_LABEL_LANG_GUARD_V2 */
 (function(){
   var RTL_RE = /[\u0590-\u05FF\u0600-\u06FF]/;
   function isRTLPage() {
     if (document.documentElement.getAttribute('dir') === 'rtl') return true;
     var lang = (typeof getCurrentLanguage === 'function' ? getCurrentLanguage() : null) || document.documentElement.lang || '';
-    return ['he','iw','ar','fa','ur'].indexOf(lang.split('-')[0].toLowerCase()) !== -1;
+    return ['he','iw','ar','fa','ur'].indexOf(String(lang).split('-')[0].toLowerCase()) !== -1;
   }
-
+  function scriptMatchesPage(text, wantRtl) {
+    if (!text) return false;
+    var hasRtl = RTL_RE.test(text);
+    return wantRtl ? hasRtl : !hasRtl;
+  }
+  function pickFallback(wantRtl) {
+    var li = document.querySelector('.zappy-products-dropdown');
+    if (!li) return '';
+    var link = li.querySelector(':scope > a');
+    var fallback = '';
+    var i18nKey = (link && link.getAttribute('data-i18n')) || '';
+    if (i18nKey && window.zappyI18n && typeof window.zappyI18n.t === 'function') {
+      var t = window.zappyI18n.t(i18nKey);
+      if (t && t !== i18nKey && scriptMatchesPage(t, wantRtl)) fallback = t;
+    }
+    if (!fallback && window.zappyI18n && typeof window.zappyI18n.t === 'function') {
+      var keys = wantRtl
+        ? ['ecom_products', 'nav_products', 'products', 'catalog']
+        : ['nav_products', 'products', 'catalog', 'ecom_products'];
+      for (var ki = 0; ki < keys.length; ki++) {
+        var kv = window.zappyI18n.t(keys[ki]);
+        if (kv && kv !== keys[ki] && scriptMatchesPage(kv, wantRtl)) { fallback = kv; break; }
+      }
+    }
+    if (!fallback) {
+      var subLink = li.querySelector('.sub-menu a[data-i18n]');
+      if (subLink) {
+        var st = subLink.textContent.trim();
+        if (scriptMatchesPage(st, wantRtl)) fallback = st;
+      }
+    }
+    if (!fallback) fallback = wantRtl ? 'מוצרים' : 'Products';
+    return fallback;
+  }
+  function applyLabel(link, label) {
+    if (!link || !label) return;
+    var svg = link.querySelector('svg');
+    link.textContent = '';
+    link.appendChild(document.createTextNode(label + ' '));
+    if (svg) link.appendChild(svg);
+  }
   function fix() {
     try {
-      if (isRTLPage()) {
-        var rtlLi = document.querySelector('.zappy-products-dropdown');
-        if (rtlLi) rtlLi.style.removeProperty('display');
-        return;
-      }
       var li = document.querySelector('.zappy-products-dropdown');
       if (!li) return;
       var link = li.querySelector(':scope > a');
@@ -17624,38 +17689,24 @@ function fixContrast(){
       var textNode = link.firstChild;
       if (!textNode || textNode.nodeType !== 3) return;
       var label = textNode.textContent.trim();
-      if (!label || !RTL_RE.test(label)) { li.style.removeProperty('display'); return; }
-      var fallback = '';
-      var i18nKey = link.getAttribute('data-i18n') || '';
-      if (i18nKey && window.zappyI18n && typeof window.zappyI18n.t === 'function') {
-        var t = window.zappyI18n.t(i18nKey);
-        if (t && t !== i18nKey && !RTL_RE.test(t)) fallback = t;
-      }
-      if (!fallback) {
-        var subLink = li.querySelector('.sub-menu a[data-i18n]');
-        if (subLink) { var st = subLink.textContent.trim(); if (st && !RTL_RE.test(st)) fallback = st; }
-      }
-      if (fallback) {
-        var svg = link.querySelector('svg');
-        link.textContent = '';
-        link.appendChild(document.createTextNode(fallback + ' '));
-        if (svg) link.appendChild(svg);
+      var wantRtl = isRTLPage();
+      // Wrong-script label for the page direction → replace with a matching fallback.
+      // Covers Hebrew-on-English (legacy) AND English-on-Hebrew (re-add English bug).
+      if (!label || scriptMatchesPage(label, wantRtl)) {
         li.style.removeProperty('display');
-      } else {
+        return;
+      }
+      var fallback = pickFallback(wantRtl);
+      if (fallback) {
+        applyLabel(link, fallback);
+        li.style.removeProperty('display');
+      } else if (!wantRtl) {
         li.style.setProperty('display', 'none', 'important');
+      } else {
+        li.style.removeProperty('display');
       }
     } catch(e) {}
   }
-  try {
-    var li = document.querySelector('.zappy-products-dropdown');
-    if (li) {
-      var link = li.querySelector(':scope > a');
-      var tn = link && link.firstChild;
-      if (tn && tn.nodeType === 3 && RTL_RE.test(tn.textContent) && !isRTLPage()) {
-        li.style.setProperty('display', 'none', 'important');
-      }
-    }
-  } catch(e) {}
   fix();
   setTimeout(fix, 2000);
   setTimeout(fix, 5000);
@@ -18194,13 +18245,28 @@ function fixContrast(){
     // 2) Override initVariantSelection early to prevent the page's default selection behavior.
     // The page's initVariantSelection calls .click() on first options, auto-selecting defaults.
     // We replace it with a version that only does setup (CSS, sorting, handlers) but skips auto-select.
+    // Ticket-style multi-qty products keep the baked initMultiQuantitySelection path.
     var _initOverridden = false;
+    var _origInitVariantSelection = null;
+    function _isMultiQtyProduct(p) {
+      return !!(p && p.card_variants && p.card_variants.multiQuantity)
+        || !!(typeof window.isProductMultiQuantity === 'function' && window.isProductMultiQuantity(p))
+        || !!document.querySelector('[data-multi-quantity="true"]');
+    }
     function _overrideInitVariantSelection() {
       if (_initOverridden) return;
-      if (typeof window.initVariantSelection === 'function') {
-        _initOverridden = true;
-      }
+      // Wait until the page defines initVariantSelection so we can keep a real
+      // original for multi-qty products (ticket-style per-value steppers).
+      if (typeof window.initVariantSelection !== 'function') return;
+      _initOverridden = true;
+      _origInitVariantSelection = window.initVariantSelection;
       window.initVariantSelection = function(product, t) {
+        if (_isMultiQtyProduct(product)) {
+          if (typeof _origInitVariantSelection === 'function') {
+            return _origInitVariantSelection.call(this, product, t);
+          }
+          return;
+        }
         // Store product data for our fix (variants[] OR card_variants.matrix)
         if (product && ((product.variants && product.variants.length > 0) || _hasMatrix(product))) {
           _variantProduct = _augmentProductFromCardVariants(product);
@@ -18735,6 +18801,7 @@ function fixContrast(){
     
     // Document-level capture handler - fires BEFORE any element-level handlers
     document.addEventListener('click', function(e) {
+      if (_isMultiQtyProduct(_variantProduct || window.currentProduct)) return;
       var btn = e.target.closest ? e.target.closest('.variant-option') : null;
       if (!btn) return;
       if (!_variantProduct || _getVariants().length === 0) return;
@@ -18765,6 +18832,7 @@ function fixContrast(){
     // This fires before any element-level onclick or inline onclick handlers,
     // preventing the page's original alert()-based validation.
     document.addEventListener('click', function(e) {
+      if (_isMultiQtyProduct(_variantProduct || window.currentProduct)) return;
       var addBtn = e.target.closest ? e.target.closest('.add-to-cart-btn, .add-to-cart, #add-to-cart-btn, [onclick*="addProductToCart"]') : null;
       if (!addBtn) return;
       if (!_variantProduct || _getVariants().length === 0) return;
@@ -18816,6 +18884,7 @@ function fixContrast(){
       var product = _variantProduct || window.currentProduct;
       var t = _variantTranslations || window.productTranslations || {};
       if (!product) return;
+      if (_isMultiQtyProduct(product)) return;
       if ((!product.variants || product.variants.length === 0) && !_hasMatrix(product)) return;
       if (document.querySelectorAll('.variant-option').length === 0) return;
       if (window._zappyVariantFixed) return;
@@ -18914,6 +18983,10 @@ function fixContrast(){
       // Also override addProductToCart as a safety net
       var origAddToCart = window.addProductToCart;
       window.addProductToCart = function() {
+        if (_isMultiQtyProduct(window.currentProduct)) {
+          if (origAddToCart) return origAddToCart.apply(this, arguments);
+          return;
+        }
         var keys = _getAttributeKeys();
         for (var i = 0; i < keys.length; i++) {
           if (!selectedAttributes.hasOwnProperty(keys[i])) {
@@ -19805,10 +19878,10 @@ function fixContrast(){
 })();
 
 
-/* ZAPPY_ECOM_LANGUAGE_ROUTING_RUNTIME_V25 */
+/* ZAPPY_ECOM_LANGUAGE_ROUTING_RUNTIME_V26 */
 (function() {
-  if (window.__zappyEcomLanguageRoutingRuntime >= 25) return;
-  window.__zappyEcomLanguageRoutingRuntime = 25;
+  if (window.__zappyEcomLanguageRoutingRuntime >= 26) return;
+  window.__zappyEcomLanguageRoutingRuntime = 26;
 
   // Routing strategy: use path-based language URLs for ALL storefront pages
   // (including dynamic /product/:slug and /category/:slug). The publish
@@ -20246,18 +20319,19 @@ function fixContrast(){
   // declaration merging that was eating the standalone CSS injection.
   function ensureRuntimeCssInjected() {
     var existing = document.getElementById('zappy-ecom-routing-runtime-css');
-    if (existing && existing.getAttribute('data-v') === '30') return;
+    if (existing && existing.getAttribute('data-v') === '31') return;
     if (existing) existing.remove();
     var style = document.createElement('style');
     style.id = 'zappy-ecom-routing-runtime-css';
     style.setAttribute('data-zappy-runtime', 'ecom-routing');
-    style.setAttribute('data-v', '30');
+    style.setAttribute('data-v', '31');
     style.textContent =
       '@media (min-width: 769px){' +
         'html[dir="ltr"] .nav-container > .nav-brand,body[dir="ltr"] .nav-container > .nav-brand,html[dir="ltr"] .nav-right-group > .nav-brand,body[dir="ltr"] .nav-right-group > .nav-brand{order:-1!important}' +
         'html[dir="ltr"] .nav-container > .nav-menu,body[dir="ltr"] .nav-container > .nav-menu,html[dir="ltr"] .nav-right-group > .nav-menu,body[dir="ltr"] .nav-right-group > .nav-menu{order:1!important;margin-inline-start:0!important;flex:1 1 0!important;min-width:0!important;overflow:visible!important;align-items:center!important}' +
         'html[dir="ltr"] .nav-container > .nav-menu > li,body[dir="ltr"] .nav-container > .nav-menu > li,html[dir="ltr"] .nav-right-group > .nav-menu > li,body[dir="ltr"] .nav-right-group > .nav-menu > li{flex:0 0 auto!important}' +
         'html[dir="ltr"] .nav-container > .lang-switcher,body[dir="ltr"] .nav-container > .lang-switcher,html[dir="ltr"] .nav-container > .nav-ecommerce-icons,body[dir="ltr"] .nav-container > .nav-ecommerce-icons,html[dir="ltr"] .nav-container > .nav-cta-container,body[dir="ltr"] .nav-container > .nav-cta-container,html[dir="ltr"] .nav-right-group > .lang-switcher,body[dir="ltr"] .nav-right-group > .lang-switcher,html[dir="ltr"] .nav-right-group > .nav-ecommerce-icons,body[dir="ltr"] .nav-right-group > .nav-ecommerce-icons,html[dir="ltr"] .nav-right-group > .nav-cta-container,body[dir="ltr"] .nav-right-group > .nav-cta-container{order:2!important;flex:0 0 auto!important;min-width:max-content!important}' +
+        '.nav-ecommerce-icons .nav-search-box{order:1!important}.nav-ecommerce-icons .lang-switcher{order:2!important}.nav-ecommerce-icons .login-link.nav-login{order:3!important}.nav-ecommerce-icons .cart-link.nav-cart{order:4!important}' +
         'html[dir="ltr"] .nav-container > .nav-ecommerce-icons.nav-icons-left,body[dir="ltr"] .nav-container > .nav-ecommerce-icons.nav-icons-left,html[dir="ltr"] .nav-right-group > .nav-ecommerce-icons.nav-icons-left,body[dir="ltr"] .nav-right-group > .nav-ecommerce-icons.nav-icons-left{margin-inline-start:auto!important;flex:0 0 auto!important;min-width:max-content!important}' +
         'html[dir="rtl"] .nav-container > .nav-menu,body[dir="rtl"] .nav-container > .nav-menu,html[dir="rtl"] .nav-right-group > .nav-menu,body[dir="rtl"] .nav-right-group > .nav-menu{flex:1 1 0!important;min-width:0!important;overflow:visible!important;align-items:center!important}' +
         'html[dir="rtl"] .nav-container > .nav-menu > li,body[dir="rtl"] .nav-container > .nav-menu > li,html[dir="rtl"] .nav-right-group > .nav-menu > li,body[dir="rtl"] .nav-right-group > .nav-menu > li{flex:0 0 auto!important}' +
@@ -21815,4 +21889,110 @@ if (document.readyState === 'complete') {
       observeButtons();
     }
   }
+})();
+
+
+/* ZAPPY_MULTI_QTY_BUNDLE_TOTAL_V2 */
+;(function(){
+  try {
+    if (window.__zappyMultiQtyBundleTotalV2Init) return;
+    window.__zappyMultiQtyBundleTotalV2Init = true;
+
+    function zappyMultiQtyMainContribution(product) {
+      var total = 0;
+      var mainLineCount = 0;
+      var variants = (product && Array.isArray(product.variants)) ? product.variants : [];
+      var matrix = (product && product.card_variants && Array.isArray(product.card_variants.matrix))
+        ? product.card_variants.matrix : [];
+      var inputs = document.querySelectorAll('.multi-qty-input[data-variant-id]');
+      for (var i = 0; i < inputs.length; i++) {
+        var input = inputs[i];
+        if (input.disabled) continue;
+        var qty = parseFloat(input.value) || 0;
+        if (qty <= 0) continue;
+        var vid = input.getAttribute('data-variant-id');
+        var variant = null;
+        for (var vi = 0; vi < variants.length; vi++) {
+          if (String(variants[vi].id) === String(vid)) { variant = variants[vi]; break; }
+        }
+        if (!variant) {
+          for (var mi = 0; mi < matrix.length; mi++) {
+            if (String(matrix[mi].id) === String(vid)) { variant = matrix[mi]; break; }
+          }
+        }
+        var unitPrice = window.productBasePrice || 0;
+        if (variant && variant.price !== null && variant.price !== undefined && variant.price !== '') {
+          var vp = parseFloat(variant.price);
+          if (Number.isFinite(vp)) unitPrice = vp;
+        }
+        total += unitPrice * qty;
+        mainLineCount += qty;
+      }
+      return { total: total, mainLineCount: mainLineCount };
+    }
+
+    function zappyIsMultiQtyProduct(product) {
+      if (window.productIsMultiQuantity) return true;
+      if (typeof window.isProductMultiQuantity === 'function' && window.isProductMultiQuantity(product)) return true;
+      return !!document.querySelector('[data-multi-quantity="true"]');
+    }
+
+    var orig = window.recomputeBundleTotal;
+    window.recomputeBundleTotal = function() {
+      var amountEl = document.getElementById('upsells-total-amount');
+      if (!amountEl) {
+        if (typeof orig === 'function') return orig.apply(this, arguments);
+        return;
+      }
+      var product = window.currentProduct;
+      if (!product || !zappyIsMultiQtyProduct(product)) {
+        if (typeof orig === 'function') return orig.apply(this, arguments);
+        return;
+      }
+      var t = window.productTranslations || {};
+      var main = zappyMultiQtyMainContribution(product);
+      var total = main.total;
+      var mainLineCount = main.mainLineCount;
+      var checkedCount = 0;
+      var checkedBoxes = document.querySelectorAll('.upsell-checkbox:checked');
+      for (var ci = 0; ci < checkedBoxes.length; ci++) {
+        var row = checkedBoxes[ci].closest('.upsell-row');
+        if (!row) continue;
+        var p = parseFloat(row.getAttribute('data-upsell-price')) || 0;
+        total += p;
+        checkedCount += 1;
+      }
+      var fmt = (typeof formatMoney === 'function')
+        ? formatMoney
+        : (typeof window.zappyFormatMoney === 'function' ? window.zappyFormatMoney : function(n){ return String(n); });
+      amountEl.textContent = fmt(total);
+      var btn = document.getElementById('add-to-cart-btn');
+      if (btn) {
+        var baseLabel = (typeof getEcomText === 'function')
+          ? getEcomText('addToCart', t.addToCart || 'Add to Cart')
+          : (t.addToCart || 'Add to Cart');
+        if (checkedCount > 0) {
+          var totalCount = mainLineCount + checkedCount;
+          var bundleLabel = (typeof getEcomText === 'function')
+            ? getEcomText('addBundleToCart', t.addBundleToCart || ('Add ' + totalCount + ' items to cart'))
+            : (t.addBundleToCart || ('Add ' + totalCount + ' items to cart'));
+          bundleLabel = String(bundleLabel).replace(/\{count\}/g, String(totalCount));
+          btn.textContent = bundleLabel;
+        } else {
+          btn.textContent = baseLabel;
+        }
+      }
+    };
+
+    document.addEventListener('input', function(e) {
+      var node = e && e.target;
+      if (!node || !node.classList || !node.classList.contains('multi-qty-input')) return;
+      if (typeof window.recomputeBundleTotal === 'function') window.recomputeBundleTotal();
+    }, true);
+    document.addEventListener('change', function(e) {
+      var node = e && e.target;
+      if (!node || !node.classList || !node.classList.contains('multi-qty-input')) return;
+      if (typeof window.recomputeBundleTotal === 'function') window.recomputeBundleTotal();
+    }, true);
+  } catch (err) {}
 })();
