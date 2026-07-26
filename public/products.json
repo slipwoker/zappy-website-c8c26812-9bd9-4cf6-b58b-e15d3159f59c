@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-26T17:11:07.124Z",
+  "generated_at": "2026-07-26T17:14:21.187Z",
   "base_url": "https://eewe.co.il",
   "currency": "ILS",
   "count": 23,
@@ -79,7 +79,7 @@
     },
     {
       "id": "a7695f10-c909-4ed2-a51c-96573c80984d",
-      "slug": "marz-chvvyh-lymvdyt-lkl-hmshpchh-hkl-klvl-gn-kyth-z-9mf2sq",
+      "slug": "marz-chvvyh-lymvdyt-lkl-hmshpchh-hkl-klvl-gn-kyth-z-rdw78m",
       "name": "מארז 'חוויה לימודית לכל המשפחה' | הכל-כלול! [גן- כיתה ז']",
       "name_translations": {},
       "description": "",
@@ -93,13 +93,15 @@
       "images": [],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://eewe.co.il/product/marz-chvvyh-lymvdyt-lkl-hmshpchh-hkl-klvl-gn-kyth-z-9mf2sq",
-      "categories": [],
-      "updated_at": "2026-07-22T12:23:07.152Z"
+      "url": "https://eewe.co.il/product/marz-chvvyh-lymvdyt-lkl-hmshpchh-hkl-klvl-gn-kyth-z-rdw78m",
+      "categories": [
+        "מוצרים לבית ולמשפחה"
+      ],
+      "updated_at": "2026-07-26T17:13:48.229Z"
     },
     {
       "id": "cdb50cb6-ba22-4ade-844d-11871fc07cf5",
-      "slug": "marz-lshbvr-at-mchsvm-hshph-lmtkdmym-htsayrym-kytvt-gh-nfuot4",
+      "slug": "marz-lshbvr-at-mchsvm-hshph-lmtkdmym-htsayrym-kytvt-gh-luyr4p",
       "name": "מארז 'לשבור את מחסום השפה' | למתקדמים הצעירים (כיתות ג'–ה')",
       "name_translations": {},
       "description": "",
@@ -113,9 +115,11 @@
       "images": [],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://eewe.co.il/product/marz-lshbvr-at-mchsvm-hshph-lmtkdmym-htsayrym-kytvt-gh-nfuot4",
-      "categories": [],
-      "updated_at": "2026-07-22T12:19:27.074Z"
+      "url": "https://eewe.co.il/product/marz-lshbvr-at-mchsvm-hshph-lmtkdmym-htsayrym-kytvt-gh-luyr4p",
+      "categories": [
+        "מוצרים לבית ולמשפחה"
+      ],
+      "updated_at": "2026-07-26T17:14:11.873Z"
     },
     {
       "id": "b5fab02b-4aa7-44e9-bd99-e5b4fcda4874",
