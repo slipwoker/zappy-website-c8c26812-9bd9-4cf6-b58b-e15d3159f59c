@@ -2,13 +2,13 @@
 
 An online store specializing in English language learning products for young children aged kindergarten through 7th grade. The store offers both complete learning kits and individual educational products, targeting parents who want to give their young children a head start in English. The brand focuses on making English learning fun, accessible, and age-appropriate for kids in their early developmental years.
 
-Source: https://example.com
+Source: https://easy-english-with-efrat.zappy5.app
 
 ---
 
 ## גלו את ערכת לימוד אנגלית לילדים שתשנה הכל — אנגלית בקלות ובהנאה Easy English with Efrat
 
-URL: https://example.com
+URL: https://easy-english-with-efrat.zappy5.app
 Description: העניקו לילדיכם יתרון באנגלית עם ערכות למידה וחומרי לימוד איכותיים לגיל הרך ועד כיתה ז&#39;. למידה מהנה, נגישה ומותאמת אישית שמביאה תוצאות. כנסו עכשיו לחנות!
 
 גלו את ערכת לימוד אנגלית לילדים שתשנה הכל — אנגלית בקלות ובהנאה Easy English with Efrat
@@ -396,7 +396,7 @@ Description: העניקו לילדיכם יתרון באנגלית עם ערכו
 
 ## הכירו את האישה שמחוללת קסמים בלימוד אנגלית לילדים — אנגלית בקלות ובהנאה Easy English with Efrat
 
-URL: https://example.com/my-story
+URL: https://easy-english-with-efrat.zappy5.app/my-story
 Description: אפרת, המומחית מאחורי המותג, חולקת את הסיפור האישי והחזון שלה להנגשת אנגלית לגיל הרך בדרך יצירתית ומלאת תשוקה. כנסו להכיר את הלב הפועם שלנו!
 
 הסיפור שלי
@@ -619,7 +619,7 @@ Description: אפרת, המומחית מאחורי המותג, חולקת את �
 
 ## יש שאלה על חומרי לימוד אנגלית לגן? בואו נדבר! — אנגלית בקלות ובהנאה Easy English with Efrat
 
-URL: https://example.com/contact-us
+URL: https://easy-english-with-efrat.zappy5.app/contact-us
 Description: צריכים עזרה בבחירת מוצר או סתם רוצים להגיד שלום? מלאו את הפרטים ואפרת תחזור אליכם במהירות עם חיוך ותשובות שיקדמו את הילד שלכם באנגלית. צרו קשר עכשיו!
 
 יצירת קשר
@@ -897,7 +897,7 @@ eavivi25@gmail.com
 
 ## החנות שלי
 
-URL: https://example.com/products
+URL: https://easy-english-with-efrat.zappy5.app/products
 Description: המוצרים שלנו - אנגלית בקלות ובהנאה Easy English with Efrat
 
 מוצרים - אנגלית בקלות ובהנאה Easy English with Efrat
@@ -1358,7 +1358,7 @@ Description: המוצרים שלנו - אנגלית בקלות ובהנאה Easy
 
 ## עגלת קניות
 
-URL: https://example.com/cart
+URL: https://easy-english-with-efrat.zappy5.app/cart
 Description: עגלת הקניות שלך
 
 עגלת קניות - אנגלית בקלות ובהנאה Easy English with Efrat
@@ -1600,7 +1600,7 @@ Description: עגלת הקניות שלך
 
 ## תשלום
 
-URL: https://example.com/checkout
+URL: https://easy-english-with-efrat.zappy5.app/checkout
 Description: תשלום
 
 תשלום - אנגלית בקלות ובהנאה Easy English with Efrat
@@ -2028,7 +2028,7 @@ Description: תשלום
 
 ## התחברות
 
-URL: https://example.com/login
+URL: https://easy-english-with-efrat.zappy5.app/login
 Description: התחברות לקוחות
 
 התחברות - אנגלית בקלות ובהנאה Easy English with Efrat
@@ -2277,7 +2277,7 @@ Description: התחברות לקוחות
 
 ## החשבון שלי
 
-URL: https://example.com/account
+URL: https://easy-english-with-efrat.zappy5.app/account
 Description: החשבון שלי
 
 החשבון שלי - אנגלית בקלות ובהנאה Easy English with Efrat
@@ -2681,7 +2681,7 @@ Description: החשבון שלי
 
 ## ההזמנה התקבלה!
 
-URL: https://example.com/order-success
+URL: https://easy-english-with-efrat.zappy5.app/order-success
 Description: תודה על ההזמנה
 
 ההזמנה התקבלה! - אנגלית בקלות ובהנאה Easy English with Efrat
@@ -2947,7 +2947,7 @@ Description: תודה על ההזמנה
 
 ## מדיניות החזרות
 
-URL: https://example.com/return-policy
+URL: https://easy-english-with-efrat.zappy5.app/return-policy
 Description: מדיניות החזרת מוצרים - זכויותיכם להחזרה והחלפה בהתאם לחוק
 
 מדיניות החזרות - אנגלית בקלות ובהנאה Easy English with Efrat
@@ -3242,7 +3242,7 @@ Description: מדיניות החזרת מוצרים - זכויותיכם להח�
 
 ## פרטי המוצר
 
-URL: https://example.com/product/:slug
+URL: https://easy-english-with-efrat.zappy5.app/product/:slug
 Description: פרטי המוצר - אנגלית בקלות ובהנאה Easy English with Efrat
 
 פרטי המוצר - אנגלית בקלות ובהנאה Easy English with Efrat
@@ -3486,7 +3486,7 @@ Description: פרטי המוצר - אנגלית בקלות ובהנאה Easy Eng
 
 ## מוצרים
 
-URL: https://example.com/category/:slug
+URL: https://easy-english-with-efrat.zappy5.app/category/:slug
 Description: מוצרים - אנגלית בקלות ובהנאה Easy English with Efrat
 
 מוצרים - אנגלית בקלות ובהנאה Easy English with Efrat
@@ -3754,7 +3754,7 @@ Description: מוצרים - אנגלית בקלות ובהנאה Easy English wi
 
 ## מדיניות פרטיות
 
-URL: https://example.com/privacy
+URL: https://easy-english-with-efrat.zappy5.app/privacy
 Description: מדיניות הפרטיות שלנו - כיצד אנו אוספים, משתמשים ומגנים על המידע שלכם
 
 מדיניות פרטיות
@@ -4049,7 +4049,7 @@ Description: מדיניות הפרטיות שלנו - כיצד אנו אוספי
 
 ## הצהרת נגישות
 
-URL: https://example.com/accessibility
+URL: https://easy-english-with-efrat.zappy5.app/accessibility
 Description: הצהרת הנגישות שלנו - מחויבותנו לנגישות דיגיטלית
 
 הצהרת נגישות
@@ -4353,7 +4353,7 @@ Description: הצהרת הנגישות שלנו - מחויבותנו לנגיש�
 
 ## תנאי שימוש
 
-URL: https://example.com/terms
+URL: https://easy-english-with-efrat.zappy5.app/terms
 Description: תנאי השימוש באתר - הזכויות והחובות של המשתמשים
 
 תנאי שימוש
@@ -4676,7 +4676,7 @@ Description: תנאי השימוש באתר - הזכויות והחובות של
 
 ## תודה רבה - פנייתך התקבלה
 
-URL: https://example.com/thank-you
+URL: https://easy-english-with-efrat.zappy5.app/thank-you
 Description: תודה על פנייתך! הודעתך בנושא ערכת לימוד אנגלית לילדים התקבלה בהצלחה ונחזור אליך בהקדם האפשרי.
 
 תודה רבה - פנייתך התקבלה
@@ -4912,161 +4912,161 @@ Description: תודה על פנייתך! הודעתך בנושא ערכת לימ
 ## Product Catalog
 
 ### 🌟 מארז מורחב: 3 סטים של משחקי זיכרון (24 משחקים בסה"כ!)
-URL: https://example.com/product/marz-mvrchb-3-stym-shl-mshchky-zykrvn-24-mshchkym-bshk-o925na
+URL: https://easy-english-with-efrat.zappy5.app/product/marz-mvrchb-3-stym-shl-mshchky-zykrvn-24-mshchkym-bshk-o925na
 Price: 300.00 ILS (sale, was 450.00 ILS)
 Availability: In stock
 
 ---
 
 ### מארז 'יסודות הקריאה' למורות ולבתי ספר – הכל להוראת ה-ABC!
-URL: https://example.com/product/marz-ysvdvt-hkryah-lmvrvt-vlbty-spr-hkl-lhvrat-h-abc-igyd9o
+URL: https://easy-english-with-efrat.zappy5.app/product/marz-ysvdvt-hkryah-lmvrvt-vlbty-spr-hkl-lhvrat-h-abc-igyd9o
 Price: 550.00 ILS (sale, was 750.00 ILS)
 Availability: In stock
 
 ---
 
 ### מארז "מצוינות בדקדוק" למורים ובתי ספר
-URL: https://example.com/product/marz-mtsvynvt-bdkdvk-lmvrym-vbty-spr-jxzdw4
+URL: https://easy-english-with-efrat.zappy5.app/product/marz-mtsvynvt-bdkdvk-lmvrym-vbty-spr-jxzdw4
 Price: 250.00 ILS (sale, was 500.00 ILS)
 Availability: In stock
 
 ---
 
 ### מארז 'חוויה לימודית לכל המשפחה' | הכל-כלול! [גן- כיתה ז']
-URL: https://example.com/product/marz-chvvyh-lymvdyt-lkl-hmshpchh-hkl-klvl-gn-kyth-z-9mf2sq
+URL: https://easy-english-with-efrat.zappy5.app/product/marz-chvvyh-lymvdyt-lkl-hmshpchh-hkl-klvl-gn-kyth-z-9mf2sq
 Price: 175.00 ILS (sale, was 190.00 ILS)
 Availability: In stock
 
 ---
 
 ### מארז 'לשבור את מחסום השפה' | למתקדמים הצעירים (כיתות ג'–ה')
-URL: https://example.com/product/marz-lshbvr-at-mchsvm-hshph-lmtkdmym-htsayrym-kytvt-gh-nfuot4
+URL: https://easy-english-with-efrat.zappy5.app/product/marz-lshbvr-at-mchsvm-hshph-lmtkdmym-htsayrym-kytvt-gh-nfuot4
 Price: 115.00 ILS (sale, was 145.00 ILS)
 Availability: In stock
 
 ---
 
 ### מארז 'התחלה קסומה באנגלית' | לגיל הרך [גן - כיתה ב']
-URL: https://example.com/product/marz-htchlh-ksvmh-banglyt-lgyl-hrk-gn-kyth-b-l96nws
+URL: https://easy-english-with-efrat.zappy5.app/product/marz-htchlh-ksvmh-banglyt-lgyl-hrk-gn-kyth-b-l96nws
 Price: 95.00 ILS (sale, was 120.00 ILS)
 Availability: In stock
 
 ---
 
 ### סט משחקי זיכרון להעשרת אוצר המילים 
-URL: https://example.com/product/st-mshchky-zykrvn-lhashrt-avtsr-hmylym-7nvme1
+URL: https://easy-english-with-efrat.zappy5.app/product/st-mshchky-zykrvn-lhashrt-avtsr-hmylym-7nvme1
 Price: 150.00 ILS (sale, was 240.00 ILS)
 Availability: In stock
 
 ---
 
 ### סרגל אותיות ענק לכיתה (3 מטר) – צבעוני, איכותי ואפקטיבי
-URL: https://example.com/product/srgl-avtyvt-ank-lkyth-3-mtr-tsbavny-aykvty-vapktyby-4n8nwf
+URL: https://easy-english-with-efrat.zappy5.app/product/srgl-avtyvt-ank-lkyth-3-mtr-tsbavny-aykvty-vapktyby-4n8nwf
 Price: 100.00 ILS (sale, was 150.00 ILS)
 Availability: In stock
 
 ---
 
 ### סט קלפי אותיות A5 למורות – ללמידה חווייתית
-URL: https://example.com/product/st-klpy-avtyvt-a5-lmvrvt-llmydh-chvvyytyt-1m8im9
+URL: https://easy-english-with-efrat.zappy5.app/product/st-klpy-avtyvt-a5-lmvrvt-llmydh-chvvyytyt-1m8im9
 Price: 100.00 ILS (sale, was 150.00 ILS)
 Availability: In stock
 
 ---
 
 ### סט ארבעה פוסטרים מנצח! 
-URL: https://example.com/product/st-arbah-pvstrym-mntsch-4df7lf
+URL: https://easy-english-with-efrat.zappy5.app/product/st-arbah-pvstrym-mntsch-4df7lf
 Price: 30.00 ILS (sale, was 40.00 ILS)
 Availability: In stock
 
 ---
 
 ### פוסטר זמן עבר דו-צדדי
-URL: https://example.com/product/pvstr-zmn-abr-dv-tsddy-6acp3t
+URL: https://easy-english-with-efrat.zappy5.app/product/pvstr-zmn-abr-dv-tsddy-6acp3t
 Price: 8.00 ILS (sale, was 10.00 ILS)
 Availability: In stock
 
 ---
 
 ### פוסטר זמני הווה ועתיד
-URL: https://example.com/product/pvstr-zmny-hvvh-vatyd-spny7i
+URL: https://easy-english-with-efrat.zappy5.app/product/pvstr-zmny-hvvh-vatyd-spny7i
 Price: 8.00 ILS (sale, was 10.00 ILS)
 Availability: In stock
 
 ---
 
 ### פוסטר צירופי אותיות 
-URL: https://example.com/product/pvstr-tsyrvpy-avtyvt-3znyeq
+URL: https://easy-english-with-efrat.zappy5.app/product/pvstr-tsyrvpy-avtyvt-3znyeq
 Price: 8.00 ILS (sale, was 10.00 ILS)
 Availability: In stock
 
 ---
 
 ### פוסטר תבניות משפטים 
-URL: https://example.com/product/pvstr-tbnyvt-mshptym-6zt65n
+URL: https://easy-english-with-efrat.zappy5.app/product/pvstr-tbnyvt-mshptym-6zt65n
 Price: 8.00 ILS (sale, was 10.00 ILS)
 Availability: In stock
 
 ---
 
 ### זוג סרגלי קריאה אותיות וצירופים
-URL: https://example.com/product/zvg-srgly-kryah-avtyvt-vtsyrvpym-rsaiyz
+URL: https://easy-english-with-efrat.zappy5.app/product/zvg-srgly-kryah-avtyvt-vtsyrvpym-rsaiyz
 Price: 10.00 ILS (sale, was 15.00 ILS)
 Availability: In stock
 
 ---
 
 ### משחק זיכרון פירות וירקות 
-URL: https://example.com/product/mshchk-zykrvn-pyrvt-vyrkvt-ci2qvv
+URL: https://easy-english-with-efrat.zappy5.app/product/mshchk-zykrvn-pyrvt-vyrkvt-ci2qvv
 Price: 30.00 ILS (sale, was 35.00 ILS)
 Availability: In stock
 
 ---
 
 ### משחק זיכרון חיות
-URL: https://example.com/product/mshchk-zykrvn-chyvt-3rvhcb
+URL: https://easy-english-with-efrat.zappy5.app/product/mshchk-zykrvn-chyvt-3rvhcb
 Price: 30.00 ILS (sale, was 35.00 ILS)
 Availability: In stock
 
 ---
 
 ### משחק זיכרון מקצועות 
-URL: https://example.com/product/mshchk-zykrvn-mktsvavt-625dbe
+URL: https://easy-english-with-efrat.zappy5.app/product/mshchk-zykrvn-mktsvavt-625dbe
 Price: 30.00 ILS (sale, was 35.00 ILS)
 Availability: In stock
 
 ---
 
 ### משחק זיכרון משפחה
-URL: https://example.com/product/mshchk-zykrvn-mshpchh-hihmmf
+URL: https://easy-english-with-efrat.zappy5.app/product/mshchk-zykrvn-mshpchh-hihmmf
 Price: 30.00 ILS (sale, was 35.00 ILS)
 Availability: In stock
 
 ---
 
 ### משחק זיכרון תארים
-URL: https://example.com/product/mshchk-zykrvn-tarym-ebev7i
+URL: https://easy-english-with-efrat.zappy5.app/product/mshchk-zykrvn-tarym-ebev7i
 Price: 30.00 ILS (sale, was 35.00 ILS)
 Availability: In stock
 
 ---
 
 ### משחק זיכרון פעלים
-URL: https://example.com/product/mshchk-zykrvn-palym-j9vko4
+URL: https://easy-english-with-efrat.zappy5.app/product/mshchk-zykrvn-palym-j9vko4
 Price: 30.00 ILS (sale, was 35.00 ILS)
 Availability: In stock
 
 ---
 
 ### משחק זיכרון מספרים
-URL: https://example.com/product/mshchk-zykrvn-msprym-x7hchj
+URL: https://easy-english-with-efrat.zappy5.app/product/mshchk-zykrvn-msprym-x7hchj
 Price: 30.00 ILS (sale, was 35.00 ILS)
 Availability: In stock
 
 ---
 
 ### משחק זיכרון צבעים
-URL: https://example.com/product/mshchk-zykrvn-tsbaym-lbmhzy
+URL: https://easy-english-with-efrat.zappy5.app/product/mshchk-zykrvn-tsbaym-lbmhzy
 Price: 30.00 ILS (sale, was 35.00 ILS)
 Availability: In stock
 

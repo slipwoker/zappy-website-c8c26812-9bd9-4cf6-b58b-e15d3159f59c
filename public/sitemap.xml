@@ -1,229 +1,229 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://example.com</loc>
+    <loc>https://easy-english-with-efrat.zappy5.app</loc>
     <lastmod>2026-07-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://example.com/my-story</loc>
+    <loc>https://easy-english-with-efrat.zappy5.app/my-story</loc>
     <lastmod>2026-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://example.com/contact-us</loc>
+    <loc>https://easy-english-with-efrat.zappy5.app/contact-us</loc>
     <lastmod>2026-07-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://example.com/products</loc>
+    <loc>https://easy-english-with-efrat.zappy5.app/products</loc>
     <lastmod>2026-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://example.com/cart</loc>
+    <loc>https://easy-english-with-efrat.zappy5.app/cart</loc>
     <lastmod>2026-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://example.com/checkout</loc>
+    <loc>https://easy-english-with-efrat.zappy5.app/checkout</loc>
     <lastmod>2026-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://example.com/login</loc>
+    <loc>https://easy-english-with-efrat.zappy5.app/login</loc>
     <lastmod>2026-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://example.com/account</loc>
+    <loc>https://easy-english-with-efrat.zappy5.app/account</loc>
     <lastmod>2026-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://example.com/order-success</loc>
+    <loc>https://easy-english-with-efrat.zappy5.app/order-success</loc>
     <lastmod>2026-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://example.com/product/:slug</loc>
+    <loc>https://easy-english-with-efrat.zappy5.app/product/:slug</loc>
     <lastmod>2026-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://example.com/category/:slug</loc>
+    <loc>https://easy-english-with-efrat.zappy5.app/category/:slug</loc>
     <lastmod>2026-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://example.com/thank-you</loc>
+    <loc>https://easy-english-with-efrat.zappy5.app/thank-you</loc>
     <lastmod>2026-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://example.com/privacy</loc>
-    <lastmod>2026-07-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://example.com/terms</loc>
+    <loc>https://easy-english-with-efrat.zappy5.app/privacy</loc>
     <lastmod>2026-07-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://example.com/accessibility</loc>
+    <loc>https://easy-english-with-efrat.zappy5.app/terms</loc>
     <lastmod>2026-07-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://example.com/product/marz-mvrchb-3-stym-shl-mshchky-zykrvn-24-mshchkym-bshk-o925na</loc>
+    <loc>https://easy-english-with-efrat.zappy5.app/accessibility</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://easy-english-with-efrat.zappy5.app/product/marz-mvrchb-3-stym-shl-mshchky-zykrvn-24-mshchkym-bshk-o925na</loc>
     <lastmod>2026-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/marz-ysvdvt-hkryah-lmvrvt-vlbty-spr-hkl-lhvrat-h-abc-igyd9o</loc>
+    <loc>https://easy-english-with-efrat.zappy5.app/product/marz-ysvdvt-hkryah-lmvrvt-vlbty-spr-hkl-lhvrat-h-abc-igyd9o</loc>
     <lastmod>2026-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/marz-mtsvynvt-bdkdvk-lmvrym-vbty-spr-jxzdw4</loc>
+    <loc>https://easy-english-with-efrat.zappy5.app/product/marz-mtsvynvt-bdkdvk-lmvrym-vbty-spr-jxzdw4</loc>
     <lastmod>2026-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/marz-chvvyh-lymvdyt-lkl-hmshpchh-hkl-klvl-gn-kyth-z-9mf2sq</loc>
+    <loc>https://easy-english-with-efrat.zappy5.app/product/marz-chvvyh-lymvdyt-lkl-hmshpchh-hkl-klvl-gn-kyth-z-9mf2sq</loc>
     <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/marz-lshbvr-at-mchsvm-hshph-lmtkdmym-htsayrym-kytvt-gh-nfuot4</loc>
+    <loc>https://easy-english-with-efrat.zappy5.app/product/marz-lshbvr-at-mchsvm-hshph-lmtkdmym-htsayrym-kytvt-gh-nfuot4</loc>
     <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/marz-htchlh-ksvmh-banglyt-lgyl-hrk-gn-kyth-b-l96nws</loc>
+    <loc>https://easy-english-with-efrat.zappy5.app/product/marz-htchlh-ksvmh-banglyt-lgyl-hrk-gn-kyth-b-l96nws</loc>
     <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/st-mshchky-zykrvn-lhashrt-avtsr-hmylym-7nvme1</loc>
+    <loc>https://easy-english-with-efrat.zappy5.app/product/st-mshchky-zykrvn-lhashrt-avtsr-hmylym-7nvme1</loc>
     <lastmod>2026-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/srgl-avtyvt-ank-lkyth-3-mtr-tsbavny-aykvty-vapktyby-4n8nwf</loc>
+    <loc>https://easy-english-with-efrat.zappy5.app/product/srgl-avtyvt-ank-lkyth-3-mtr-tsbavny-aykvty-vapktyby-4n8nwf</loc>
     <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/st-klpy-avtyvt-a5-lmvrvt-llmydh-chvvyytyt-1m8im9</loc>
+    <loc>https://easy-english-with-efrat.zappy5.app/product/st-klpy-avtyvt-a5-lmvrvt-llmydh-chvvyytyt-1m8im9</loc>
     <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/st-arbah-pvstrym-mntsch-4df7lf</loc>
+    <loc>https://easy-english-with-efrat.zappy5.app/product/st-arbah-pvstrym-mntsch-4df7lf</loc>
     <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/pvstr-zmn-abr-dv-tsddy-6acp3t</loc>
+    <loc>https://easy-english-with-efrat.zappy5.app/product/pvstr-zmn-abr-dv-tsddy-6acp3t</loc>
     <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/pvstr-zmny-hvvh-vatyd-spny7i</loc>
+    <loc>https://easy-english-with-efrat.zappy5.app/product/pvstr-zmny-hvvh-vatyd-spny7i</loc>
     <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/pvstr-tsyrvpy-avtyvt-3znyeq</loc>
+    <loc>https://easy-english-with-efrat.zappy5.app/product/pvstr-tsyrvpy-avtyvt-3znyeq</loc>
     <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/pvstr-tbnyvt-mshptym-6zt65n</loc>
+    <loc>https://easy-english-with-efrat.zappy5.app/product/pvstr-tbnyvt-mshptym-6zt65n</loc>
     <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/zvg-srgly-kryah-avtyvt-vtsyrvpym-rsaiyz</loc>
+    <loc>https://easy-english-with-efrat.zappy5.app/product/zvg-srgly-kryah-avtyvt-vtsyrvpym-rsaiyz</loc>
     <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/mshchk-zykrvn-pyrvt-vyrkvt-ci2qvv</loc>
+    <loc>https://easy-english-with-efrat.zappy5.app/product/mshchk-zykrvn-pyrvt-vyrkvt-ci2qvv</loc>
     <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/mshchk-zykrvn-chyvt-3rvhcb</loc>
+    <loc>https://easy-english-with-efrat.zappy5.app/product/mshchk-zykrvn-chyvt-3rvhcb</loc>
     <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/mshchk-zykrvn-mktsvavt-625dbe</loc>
+    <loc>https://easy-english-with-efrat.zappy5.app/product/mshchk-zykrvn-mktsvavt-625dbe</loc>
     <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/mshchk-zykrvn-mshpchh-hihmmf</loc>
+    <loc>https://easy-english-with-efrat.zappy5.app/product/mshchk-zykrvn-mshpchh-hihmmf</loc>
     <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/mshchk-zykrvn-tarym-ebev7i</loc>
+    <loc>https://easy-english-with-efrat.zappy5.app/product/mshchk-zykrvn-tarym-ebev7i</loc>
     <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/mshchk-zykrvn-palym-j9vko4</loc>
+    <loc>https://easy-english-with-efrat.zappy5.app/product/mshchk-zykrvn-palym-j9vko4</loc>
     <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/mshchk-zykrvn-msprym-x7hchj</loc>
+    <loc>https://easy-english-with-efrat.zappy5.app/product/mshchk-zykrvn-msprym-x7hchj</loc>
     <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/mshchk-zykrvn-tsbaym-lbmhzy</loc>
+    <loc>https://easy-english-with-efrat.zappy5.app/product/mshchk-zykrvn-tsbaym-lbmhzy</loc>
     <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
