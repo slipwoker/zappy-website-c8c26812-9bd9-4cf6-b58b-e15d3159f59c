@@ -1,10 +1,32 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-23T23:31:31.112Z",
+  "generated_at": "2026-07-26T09:57:16.847Z",
   "base_url": "https://example.com",
   "currency": "ILS",
-  "count": 22,
+  "count": 23,
   "products": [
+    {
+      "id": "21a71c29-fd09-42bd-bede-e9c20969d788",
+      "slug": "marz-mvrchb-3-stym-shl-mshchky-zykrvn-24-mshchkym-bshk-o925na",
+      "name": "🌟 מארז מורחב: 3 סטים של משחקי זיכרון (24 משחקים בסה\"כ!)",
+      "name_translations": {},
+      "description": "",
+      "short_description": "הפתרון המושלם לעבודה בקבוצות! מארז ענק הכולל 3 סטים מלאים המזניקים את אוצר המילים והביטחון באנגלית בצורה חווייתית.\n🔹 תרגול היקפי: פעלים, תארים, חיות, צבעים, מספרים, מקצועות, משפחה ופירות/ירקות.\n🔹 למידה פעילה: לפיתוח דיאלוגים, הרכבת משפטים ותרגול בקבוצות במקביל.\n🔹 איכות ללא פשרות: קלפים קשיחים ועמידים במיוחד.\n🎉 דיל מנצח: קונים 2 סטים ומקבלים את הסט השלישי במתנה!\n\nהצטיידו במארז המשולש והפכו כל שיעור וזמן איכות לחוויית הצלחה!",
+      "sku": null,
+      "brand": null,
+      "price": 300,
+      "base_price": 450,
+      "sale_price": 300,
+      "currency": "ILS",
+      "images": [],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/marz-mvrchb-3-stym-shl-mshchky-zykrvn-24-mshchkym-bshk-o925na",
+      "categories": [
+        "מוצרים לבתי ספר"
+      ],
+      "updated_at": "2026-07-23T23:57:35.539Z"
+    },
     {
       "id": "5db9a623-ff3e-4081-a4e3-1688af326311",
       "slug": "marz-ysvdvt-hkryah-lmvrvt-vlbty-spr-hkl-lhvrat-h-abc-igyd9o",
@@ -29,7 +51,7 @@
     },
     {
       "id": "29ede2ae-6e5e-44fe-a406-50714e9bce0d",
-      "slug": "marz-mtsvynvt-bdkdvk-lmvrym-vbty-spr-jk0dna",
+      "slug": "marz-mtsvynvt-bdkdvk-lmvrym-vbty-spr-jxzdw4",
       "name": "מארז \"מצוינות בדקדוק\" למורים ובתי ספר",
       "name_translations": {},
       "description": "",
@@ -49,11 +71,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://example.com/product/marz-mtsvynvt-bdkdvk-lmvrym-vbty-spr-jk0dna",
+      "url": "https://example.com/product/marz-mtsvynvt-bdkdvk-lmvrym-vbty-spr-jxzdw4",
       "categories": [
         "מוצרים לבתי ספר"
       ],
-      "updated_at": "2026-07-23T22:26:06.276Z"
+      "updated_at": "2026-07-23T23:57:53.160Z"
     },
     {
       "id": "a7695f10-c909-4ed2-a51c-96573c80984d",
@@ -119,11 +141,11 @@
     },
     {
       "id": "5b2530b9-f76c-4436-8f38-a1277bb8df77",
-      "slug": "st-mshchky-zykrvn-lhashrt-avtsr-hmylym-mbtsa-shny-stym-1-mtnh-fd9ukx",
-      "name": "סט משחקי זיכרון להעשרת אוצר המילים + מבצע שני סטים + 1 מתנה! ",
+      "slug": "st-mshchky-zykrvn-lhashrt-avtsr-hmylym-7nvme1",
+      "name": "סט משחקי זיכרון להעשרת אוצר המילים ",
       "name_translations": {},
       "description": "",
-      "short_description": "שדרגו את האנגלית של הילדים דרך משחק מהנה, צבעוני ואיכותי! 8 משחקי זיכרון בקלפים עמידים במיוחד בנושאים מגוונים: צבעים, מספרים, חיות, פעלים, תארים, מקצועות, משפחה ופירות/ירקות.\n🔹מקדמים את השפה: מתאים לסידור לפי ה-ABC, להרכבת משפטים (I have a dog), ליצירת צירופי מילים מורכבים (Brown dog, Pretty mother) ולתרגול פעלים עם פוסטרי הדקדוק שלנו.\n🔹 איכות ללא פשרות: קלפים חזקים וצבעוניים לשימוש ממושך.\n🎉 מבצע חם: קונים 2 סטים ומקבלים סט שלישי במתנה! (24 משחקים ב-300 ₪ בלבד).",
+      "short_description": "שדרגו את האנגלית של הילדים דרך משחק מהנה, צבעוני ואיכותי! 8 משחקי זיכרון בקלפים עמידים במיוחד בנושאים מגוונים: צבעים, מספרים, חיות, פעלים, תארים, מקצועות, משפחה ופירות/ירקות.\n🔹מקדמים את השפה: מתאים לסידור לפי ה-ABC, להרכבת משפטים (I have a dog), ליצירת צירופי מילים מורכבים (Brown dog, Pretty mother) ולתרגול פעלים עם פוסטרי הדקדוק שלנו.\n🔹 איכות ללא פשרות: קלפים חזקים וצבעוניים לשימוש ממושך.\n",
       "sku": null,
       "brand": null,
       "price": 150,
@@ -136,11 +158,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://example.com/product/st-mshchky-zykrvn-lhashrt-avtsr-hmylym-mbtsa-shny-stym-1-mtnh-fd9ukx",
+      "url": "https://example.com/product/st-mshchky-zykrvn-lhashrt-avtsr-hmylym-7nvme1",
       "categories": [
         "מוצרים לבית ולמשפחה"
       ],
-      "updated_at": "2026-07-22T11:51:01.508Z"
+      "updated_at": "2026-07-23T23:50:52.433Z"
     },
     {
       "id": "da3ddac9-b629-4b6a-b957-2f240379205a",

@@ -5964,6 +5964,11 @@ function stripHtmlToText(html) {
             };
 
             var showGrowError = function(msg) {
+              window.__growPendingAuthCode = null;
+              if (window.__growReadyTimer) {
+                clearTimeout(window.__growReadyTimer);
+                window.__growReadyTimer = null;
+              }
               sdkContainer.querySelector('.grow-sdk-wrapper').innerHTML = '<p style="color:#ef4444; text-align:center; padding:20px;">' + msg + '</p>';
               placeOrderBtn.disabled = false;
               placeOrderBtn.innerHTML = getEcomText('placeOrder', 'Place Order');
@@ -5977,19 +5982,70 @@ function stripHtmlToText(html) {
             // which showed a fatal error on the FIRST click on cold caches
             // (incognito / first visit) while the second click succeeded.
             // So: never call renderPaymentOptions until window.growRuntime exists.
+            var isGrowTransientNotReady = function(r) {
+              var msg = '';
+              if (typeof r === 'string') msg = r;
+              else if (r && r.message) msg = String(r.message);
+              return msg.indexOf('SDK was not loaded') !== -1 ||
+                msg.indexOf('Wallet not initialized') !== -1;
+            };
+
+            var ensureGrowWalletTarget = function() {
+              var wrapper = sdkContainer.querySelector('.grow-sdk-wrapper');
+              if (!wrapper) return;
+              if (!wrapper.querySelector('.grow-sdk-loading') && !document.getElementById('grow-wallet-target')) {
+                wrapper.innerHTML = '<div class="grow-sdk-loading"><div class="grow-sdk-loading-spinner"></div><span>' + (isRTL ? 'טוען אמצעי תשלום...' : 'Loading payment options...') + '</span></div><div id="grow-wallet-target"></div>';
+                return;
+              }
+              if (!document.getElementById('grow-wallet-target')) {
+                var target = document.createElement('div');
+                target.id = 'grow-wallet-target';
+                wrapper.appendChild(target);
+              }
+            };
+
             var renderWhenGrowRuntimeReady = function(authCode) {
-              if (window.growRuntime) { renderGrowWallet(authCode); return; }
-              var attempts = 0;
-              var pollReady = setInterval(function() {
-                attempts++;
-                if (window.growRuntime) {
-                  clearInterval(pollReady);
-                  renderGrowWallet(authCode);
-                } else if (attempts >= 80) { // 20 seconds
-                  clearInterval(pollReady);
+              window.__growPendingAuthCode = authCode;
+              window.__growReadyAttempts = 0;
+              if (window.__growReadyTimer) {
+                clearTimeout(window.__growReadyTimer);
+                window.__growReadyTimer = null;
+              }
+
+              var attempt = function() {
+                if (window.__growPendingAuthCode !== authCode) return;
+                window.__growReadyAttempts = (window.__growReadyAttempts || 0) + 1;
+                if (window.__growReadyAttempts > 80) {
+                  window.__growPendingAuthCode = null;
+                  if (window.__growReadyTimer) {
+                    clearTimeout(window.__growReadyTimer);
+                    window.__growReadyTimer = null;
+                  }
                   showGrowError(isRTL ? 'שגיאה בטעינת מערכת התשלום. נסו שוב.' : 'Failed to load payment system. Please try again.');
+                  return;
                 }
-              }, 250);
+                if (typeof growPayment === 'undefined' || !window.growRuntime) {
+                  window.__growReadyTimer = setTimeout(attempt, 250);
+                  return;
+                }
+                ensureGrowWalletTarget();
+                window.__growLastRenderTransient = false;
+                try {
+                  growPayment.renderPaymentOptions(authCode);
+                } catch (err) {
+                  window.__growReadyTimer = setTimeout(attempt, 250);
+                  return;
+                }
+                if (window.__growLastRenderTransient) {
+                  window.__growReadyTimer = setTimeout(attempt, 250);
+                  return;
+                }
+                window.__growReadyTimer = setTimeout(function() {
+                  if (window.__growPendingAuthCode === authCode) attempt();
+                }, 2000);
+              };
+
+              attempt();
             };
 
             var growSdkEvents = {
@@ -6000,18 +6056,34 @@ function stripHtmlToText(html) {
               },
               onFailure: function(r) { showGrowError(r && r.message ? r.message : (isRTL ? 'התשלום נכשל. נסו שוב.' : 'Payment failed. Please try again.')); },
               onError: function(r) {
-                // Ignore the loader shim's "not ready yet" pseudo-error — it is
-                // emitted when renderPaymentOptions runs before mp.min.js has
-                // loaded, and the growRuntime readiness poll will retry anyway.
-                if (typeof r === 'string' && r.indexOf('SDK was not loaded') !== -1) return;
-                showGrowError(r && r.message ? r.message : (isRTL ? 'שגיאה בתשלום. נסו שוב.' : 'Payment error. Please try again.'));
+                if (isGrowTransientNotReady(r)) {
+                  window.__growLastRenderTransient = true;
+                  return;
+                }
+                window.__growPendingAuthCode = null;
+                if (window.__growReadyTimer) {
+                  clearTimeout(window.__growReadyTimer);
+                  window.__growReadyTimer = null;
+                }
+                var errMsg = (r && r.message) ? r.message : (typeof r === 'string' ? r : '');
+                showGrowError(errMsg || (isRTL ? 'שגיאה בתשלום. נסו שוב.' : 'Payment error. Please try again.'));
               },
               onTimeout: function() { showGrowError(isRTL ? 'פג תוקף התשלום. נסו שוב.' : 'Payment session expired. Please try again.'); },
               onWalletChange: function(state) {
                 if (state === 'open') {
+                  window.__growPendingAuthCode = null;
+                  if (window.__growReadyTimer) {
+                    clearTimeout(window.__growReadyTimer);
+                    window.__growReadyTimer = null;
+                  }
                   var loader = sdkContainer.querySelector('.grow-sdk-loading');
                   if (loader) loader.style.display = 'none';
                 }
+              },
+              onPaymentStart: function() {},
+              onPaymentCancel: function() {
+                placeOrderBtn.disabled = false;
+                placeOrderBtn.innerHTML = getEcomText('placeOrder', 'Place Order');
               }
             };
 
@@ -21677,6 +21749,98 @@ if (document.readyState === 'complete') {
       attributeFilter: ['class', 'style']
     });
   } catch (e) {}
+})();
+
+/* ZAPPY_ANNOUNCEMENT_BAR_ROTATION_V4 */
+(function(){
+  if (window.__zappyAnnouncementBarRotationV4) return;
+  window.__zappyAnnouncementBarRotationV4 = true;
+  window.__zappyAnnouncementBarRotationV3 = true; // legacy guards
+  window.__zappyAnnouncementBarRotationV2 = true;
+
+  function readInterval(bar) {
+    var raw = bar && bar.getAttribute && bar.getAttribute('data-interval');
+    var ms = parseInt(raw, 10);
+    if (!isFinite(ms) || ms < 1000) ms = 4000;
+    return ms;
+  }
+
+  function remountMessages(bar) {
+    // Neutralize orphaned anonymous setIntervals from pre-V2 inline fallbacks
+    // that never stored their timer id — their NodeList closures keep ticking
+    // on the OLD nodes after we replace them with clones.
+    if (!bar) return;
+    var stale = bar.querySelectorAll('.zappy-announcement-message');
+    for (var s = 0; s < stale.length; s++) {
+      var node = stale[s];
+      if (!node || !node.parentNode) continue;
+      node.parentNode.replaceChild(node.cloneNode(true), node);
+    }
+  }
+
+  function startRotation(bar, intervalMs, force) {
+    if (!bar) return;
+    var ms = isFinite(intervalMs) && intervalMs >= 1000 ? intervalMs : readInterval(bar);
+    var messages = bar.querySelectorAll('.zappy-announcement-message');
+    if (messages.length <= 1) {
+      if (window.__zappyAnnouncementRotateTimer) {
+        clearInterval(window.__zappyAnnouncementRotateTimer);
+        window.__zappyAnnouncementRotateTimer = null;
+      }
+      window.__zappyAnnouncementRotateBar = null;
+      window.__zappyAnnouncementRotateMs = null;
+      return;
+    }
+    // Already driving this bar at this interval — leave the active slide alone.
+    if (
+      !force &&
+      window.__zappyAnnouncementRotateTimer &&
+      window.__zappyAnnouncementRotateBar === bar &&
+      window.__zappyAnnouncementRotateMs === ms
+    ) {
+      return;
+    }
+    if (window.__zappyAnnouncementRotateTimer) {
+      clearInterval(window.__zappyAnnouncementRotateTimer);
+      window.__zappyAnnouncementRotateTimer = null;
+    }
+    remountMessages(bar);
+    messages = bar.querySelectorAll('.zappy-announcement-message');
+    if (messages.length <= 1) return;
+    var current = 0;
+    for (var i = 0; i < messages.length; i++) {
+      if (i === 0) messages[i].classList.add('active');
+      else messages[i].classList.remove('active');
+    }
+    window.__zappyAnnouncementRotateBar = bar;
+    window.__zappyAnnouncementRotateMs = ms;
+    window.__zappyAnnouncementRotateTimer = setInterval(function() {
+      var all = bar.querySelectorAll('.zappy-announcement-message');
+      if (!all || all.length <= 1) return;
+      if (current >= all.length) current = 0;
+      all[current].classList.remove('active');
+      current = (current + 1) % all.length;
+      all[current].classList.add('active');
+    }, ms);
+  }
+
+  // Shared entry point — pass force:true after rebuilding message nodes.
+  window.zappyStartAnnouncementRotation = startRotation;
+
+  function boot() {
+    if (document.body && document.body.classList.contains('zappy-focused-page')) return;
+    var bar = document.querySelector('.zappy-announcement-bar');
+    if (!bar) return;
+    startRotation(bar, readInterval(bar), false);
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', boot);
+  } else {
+    boot();
+  }
+  // Settings fetch / dynamic bar create may land after first paint.
+  [300, 1000, 2500].forEach(function(ms){ setTimeout(boot, ms); });
 })();
 
 /* ZAPPY_MOBILE_MENU_CLOSED_ICONS_V1 */
