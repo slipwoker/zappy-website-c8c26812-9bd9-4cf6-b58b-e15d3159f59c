@@ -14147,6 +14147,39 @@ body.menu-open .navbar, body.nav-open .navbar, body.mobile-menu-open .navbar, .n
     height: 18px;
   }
 }
+
+@media (max-width: 768px) {
+#index-hero-section {
+  min-height: auto !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: stretch !important;
+  justify-content: flex-start !important;
+  padding-top: 320px !important;
+  overflow: hidden !important;
+}
+
+#index-hero-section > [data-zappy-zoom-wrapper] {
+  height: 320px !important;
+  max-height: 320px !important;
+  min-height: 320px !important;
+  top: 0 !important;
+}
+
+#index-hero-section .hero-fade-img {
+  mask-image: none !important;
+  -webkit-mask-image: none !important;
+  object-position: center 30% !important;
+}
+
+#index-hero-section .hero-fade-content {
+  position: relative !important;
+  z-index: 2 !important;
+  margin-inline-start: 0 !important;
+  border-radius: 20px 20px 0 0 !important;
+  margin-top: -24px !important;
+}
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
