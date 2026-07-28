@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-28T11:09:08.619Z",
+  "generated_at": "2026-07-28T11:09:58.712Z",
   "base_url": "https://eewe.co.il",
   "currency": "ILS",
   "count": 23,
@@ -56,7 +56,7 @@
     },
     {
       "id": "29ede2ae-6e5e-44fe-a406-50714e9bce0d",
-      "slug": "marz-mtsvynvt-bdkdvk-lmvrym-vbty-spr-jxzdw4",
+      "slug": "marz-mtsvynvt-bdkdvk-lmvrym-vbty-spr-edwkhy",
       "name": "מארז \"מצוינות בדקדוק\" למורים ובתי ספר",
       "name_translations": {},
       "description": "",
@@ -68,7 +68,7 @@
       "sale_price": 250,
       "currency": "ILS",
       "images": [
-        "https://eewe.co.il/assets/product-1784845185674-71czp.webp",
+        "https://eewe.co.il/assets/product-1785236951054-42zoes.webp",
         "https://eewe.co.il/assets/product-1784845204851-m3sjt.webp",
         "https://eewe.co.il/assets/product-1784845210739-5brtoc.webp",
         "https://eewe.co.il/assets/product-1784845216649-r6rf8ar.webp",
@@ -76,11 +76,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://eewe.co.il/product/marz-mtsvynvt-bdkdvk-lmvrym-vbty-spr-jxzdw4",
+      "url": "https://eewe.co.il/product/marz-mtsvynvt-bdkdvk-lmvrym-vbty-spr-edwkhy",
       "categories": [
         "מוצרים לבתי ספר"
       ],
-      "updated_at": "2026-07-23T23:57:53.160Z"
+      "updated_at": "2026-07-28T11:09:25.257Z"
     },
     {
       "id": "a7695f10-c909-4ed2-a51c-96573c80984d",
