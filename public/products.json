@@ -1,13 +1,13 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-28T11:05:44.027Z",
+  "generated_at": "2026-07-28T11:08:13.551Z",
   "base_url": "https://eewe.co.il",
   "currency": "ILS",
   "count": 23,
   "products": [
     {
       "id": "21a71c29-fd09-42bd-bede-e9c20969d788",
-      "slug": "marz-mvrchb-3-stym-shl-mshchky-zykrvn-24-mshchkym-bshk-o925na",
+      "slug": "marz-mvrchb-3-stym-shl-mshchky-zykrvn-24-mshchkym-bshk-bngs2t",
       "name": "🌟 מארז מורחב: 3 סטים של משחקי זיכרון (24 משחקים בסה\"כ!)",
       "name_translations": {},
       "description": "",
@@ -18,14 +18,17 @@
       "base_price": 450,
       "sale_price": 300,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://eewe.co.il/assets/product-1785236804952-qqsmy.webp",
+        "https://eewe.co.il/assets/product-1785236849750-mj8bah.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://eewe.co.il/product/marz-mvrchb-3-stym-shl-mshchky-zykrvn-24-mshchkym-bshk-o925na",
+      "url": "https://eewe.co.il/product/marz-mvrchb-3-stym-shl-mshchky-zykrvn-24-mshchkym-bshk-bngs2t",
       "categories": [
         "מוצרים לבתי ספר"
       ],
-      "updated_at": "2026-07-23T23:57:35.539Z"
+      "updated_at": "2026-07-28T11:07:39.932Z"
     },
     {
       "id": "5db9a623-ff3e-4081-a4e3-1688af326311",
