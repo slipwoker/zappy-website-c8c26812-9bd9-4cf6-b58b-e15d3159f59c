@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-02T13:45:11.077Z",
+  "generated_at": "2026-08-02T13:46:51.065Z",
   "base_url": "https://eewe.co.il",
   "currency": "ILS",
   "count": 23,
@@ -32,7 +32,7 @@
     },
     {
       "id": "5db9a623-ff3e-4081-a4e3-1688af326311",
-      "slug": "marz-ysvdvt-hkryah-lmvrvt-vlbty-spr-hkl-lhvrat-h-abc-vnqkwa",
+      "slug": "marz-ysvdvt-hkryah-lmvrvt-vlbty-spr-hkl-lhvrat-h-abc-wxmi3d",
       "name": "מארז 'יסודות הקריאה' למורות ולבתי ספר – הכל להוראת ה-ABC!",
       "name_translations": {},
       "description": "",
@@ -44,15 +44,15 @@
       "sale_price": 550,
       "currency": "ILS",
       "images": [
-        "https://eewe.co.il/assets/product-1785236906021-jpxwgt.webp"
+        "https://eewe.co.il/assets/product-1785678315847-6m76ea.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://eewe.co.il/product/marz-ysvdvt-hkryah-lmvrvt-vlbty-spr-hkl-lhvrat-h-abc-vnqkwa",
+      "url": "https://eewe.co.il/product/marz-ysvdvt-hkryah-lmvrvt-vlbty-spr-hkl-lhvrat-h-abc-wxmi3d",
       "categories": [
         "מוצרים לבתי ספר"
       ],
-      "updated_at": "2026-07-28T11:08:35.763Z"
+      "updated_at": "2026-08-02T13:46:14.318Z"
     },
     {
       "id": "29ede2ae-6e5e-44fe-a406-50714e9bce0d",
