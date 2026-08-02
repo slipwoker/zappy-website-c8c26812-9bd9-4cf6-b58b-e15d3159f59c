@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-02T13:50:56.043Z",
+  "generated_at": "2026-08-02T13:51:50.499Z",
   "base_url": "https://eewe.co.il",
   "currency": "ILS",
   "count": 23,
@@ -108,8 +108,8 @@
     },
     {
       "id": "cdb50cb6-ba22-4ade-844d-11871fc07cf5",
-      "slug": "marz-lshbvr-at-mchsvm-hshph-lmtkdmym-htsayrym-kytvt-gh-luyr4p",
-      "name": "מארז 'לשבור את מחסום השפה' | למתקדמים הצעירים (כיתות ג'–ה')",
+      "slug": "marz-lshbvr-at-mchsvm-hkryah-lmtkdmym-htsayrym-kytvt-gh-5664n8",
+      "name": "מארז 'לשבור את מחסום הקריאה' | למתקדמים הצעירים (כיתות ג'–ה')",
       "name_translations": {},
       "description": "",
       "short_description": "ערכה מקיפה ועשירה שנועדה לחזק את הקריאה, להקנות שליטה בזמנים ובדקדוק, ולבנות ביטחון עצמי גבוה בדיבור ובכתיבה. מה מחכה לכם במארז?\n📏 סרגל צירופי אותיות – לשליטה מהירה בצלילים ולקריאה זורמת.\n📜 3 פוסטרים לימודיים מנצחים: פוסטר תבניות משפטים, פוסטר צירופי אותיות, פוסטר זמני הווה ועתיד (Present Simple, Progressive & Future)\n🃏 3 משחקי זיכרון ממוקדים: פעלים, תארים ומשפחה (ניתן להחליף ולבחור נושאים אחרים לבקשתכם!).\n💡 מעניקים לילדים את הכלים לדבר ולכתוב באנגלית ללא חשש - הזמינו עכשיו! ",
@@ -119,18 +119,20 @@
       "base_price": 145,
       "sale_price": 115,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://eewe.co.il/assets/product-1785678664336-tho56h.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://eewe.co.il/product/marz-lshbvr-at-mchsvm-hshph-lmtkdmym-htsayrym-kytvt-gh-luyr4p",
+      "url": "https://eewe.co.il/product/marz-lshbvr-at-mchsvm-hkryah-lmtkdmym-htsayrym-kytvt-gh-5664n8",
       "categories": [
         "מוצרים לבית ולמשפחה"
       ],
-      "updated_at": "2026-07-26T17:14:11.873Z"
+      "updated_at": "2026-08-02T13:51:16.201Z"
     },
     {
       "id": "b5fab02b-4aa7-44e9-bd99-e5b4fcda4874",
-      "slug": "marz-htchlh-ksvmh-banglyt-lgyl-hrk-gn-kyth-b-l96nws",
+      "slug": "marz-htchlh-ksvmh-banglyt-lgyl-hrk-gn-kyth-b-0mgikn",
       "name": "מארז 'התחלה קסומה באנגלית' | לגיל הרך [גן - כיתה ב']",
       "name_translations": {},
       "description": "",
@@ -141,14 +143,16 @@
       "base_price": 120,
       "sale_price": 95,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://eewe.co.il/assets/product-1785678697229-u9qws.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://eewe.co.il/product/marz-htchlh-ksvmh-banglyt-lgyl-hrk-gn-kyth-b-l96nws",
+      "url": "https://eewe.co.il/product/marz-htchlh-ksvmh-banglyt-lgyl-hrk-gn-kyth-b-0mgikn",
       "categories": [
         "מוצרים לבית ולמשפחה"
       ],
-      "updated_at": "2026-07-22T12:15:06.417Z"
+      "updated_at": "2026-08-02T13:51:47.062Z"
     },
     {
       "id": "5b2530b9-f76c-4436-8f38-a1277bb8df77",
