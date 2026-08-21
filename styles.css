@@ -14420,6 +14420,10 @@ body.menu-open .navbar, body.nav-open .navbar, body.mobile-menu-open .navbar, .n
     font-size: 2.5rem;
   }
 }
+
+#featured-products.featured-products-section {
+  display: none !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
