@@ -4684,17 +4684,17 @@ Description: תודה על פנייתך! הודעתך בנושא ערכת לימ
 
 ## Product Catalog
 
-### 🌟 מארז השלישייה המנצחת: 3 סטים של משחקי זיכרון (24 משחקים בסה"כ!)
-URL: https://eewe.co.il/product/marz-hshlyshyyh-hmntscht-3-stym-shl-mshchky-zykrvn-24-mshchkym-bshk-ko230z
-Price: 300.00 ILS (sale, was 450.00 ILS)
-Availability: In stock
-
----
-
 ### מארז 'יסודות הקריאה' למורות ולבתי ספר – הכל להוראת ה-ABC!
 URL: https://eewe.co.il/product/marz-ysvdvt-hkryah-lmvrvt-vlbty-spr-hkl-lhvrat-h-abc-uc9fxp
 Price: 550.00 ILS (sale, was 750.00 ILS)
 Availability: Out of stock
+
+---
+
+### 🌟 מארז השלישייה המנצחת: 3 סטים של משחקי זיכרון (24 משחקים בסה"כ!)
+URL: https://eewe.co.il/product/marz-hshlyshyyh-hmntscht-3-stym-shl-mshchky-zykrvn-24-mshchkym-bshk-ko230z
+Price: 300.00 ILS (sale, was 450.00 ILS)
+Availability: In stock
 
 ---
 
