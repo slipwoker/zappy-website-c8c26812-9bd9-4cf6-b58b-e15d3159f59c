@@ -1,58 +1,81 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-21T11:03:15.798Z",
+  "generated_at": "2026-08-21T11:06:23.614Z",
   "base_url": "https://eewe.co.il",
   "currency": "ILS",
   "count": 23,
   "products": [
     {
-      "id": "5db9a623-ff3e-4081-a4e3-1688af326311",
-      "slug": "marz-ysvdvt-hkryah-lmvrvt-vlbty-spr-hkl-lhvrat-h-abc-uc9fxp",
-      "name": "מארז 'יסודות הקריאה' למורות ולבתי ספר – הכל להוראת ה-ABC!",
+      "id": "b5fab02b-4aa7-44e9-bd99-e5b4fcda4874",
+      "slug": "marz-htchlh-ksvmh-banglyt-lgyl-hrk-gn-kyth-b-0mgikn",
+      "name": "מארז 'התחלה קסומה באנגלית' | לגיל הרך [גן - כיתה ב']",
       "name_translations": {},
       "description": "",
-      "short_description": "הערכה המושלמת להקמת חדר אנגלית מרהיב ולחשיפה קוגניטיבית חווייתית של אותיות וצלילי השפה! כל מה שמורה צריכה להוראת קריאה פרונטלית ופרטנית במארז אחד.\n📏 2 סרגלי אותיות ענקיים לתלייה (3 מטר כל אחד): בולטים, ברורים ומותאמים במיוחד לתלייה מעל הלוח בכיתה!\n🃏 ערכת קלפי אותיות A5 מוגדלים למורה: 52 קלפים איכותיים (גדולות וקטנות) עם תמונות קוגניטיביות לזיהוי צלילים מהיר.\n🎲 3 סטים מלאים של משחקי זיכרון (24 משחקים בסה\"כ!): לביסוס אוצר המילים בכיתה.\n🌟 ציוד חובה למורה שרוצה להעניק לתלמידים זינוק מהיר בקריאה!",
+      "short_description": "הצעדים הראשונים באנגלית מעולם לא היו מהנים ופשוטים יותר! \nערכה קסומה ועשירה המעניקה לילדים חשיפה מוקדמת, חווייתית ומלאת ביטחון לשפה.\nמה מחכה לכם במארז?\n📏 סרגל אותיות איכותי – לתלייה ולתרגול ויזואלי יומי.\n💬 פוסטר תבניות משפטים – להרכבת משפטים ראשונים בקלות.\n🃏 3 משחקי זיכרון אהובים: צבעים, מספרים וחיות (ניתן להחליף ולבחור נושאים אחרים לבקשתכם!).\nהעניקו לילדכם את הבסיס המושלם להצלחה – הזמינו עכשיו!",
       "sku": null,
       "brand": null,
-      "price": 550,
-      "base_price": 750,
-      "sale_price": 550,
+      "price": 95,
+      "base_price": 120,
+      "sale_price": 95,
       "currency": "ILS",
       "images": [
-        "https://eewe.co.il/assets/product-1785678315847-6m76ea.webp"
-      ],
-      "in_stock": false,
-      "stock_status": "out_of_stock",
-      "url": "https://eewe.co.il/product/marz-ysvdvt-hkryah-lmvrvt-vlbty-spr-hkl-lhvrat-h-abc-uc9fxp",
-      "categories": [
-        "מוצרים לבתי ספר"
-      ],
-      "updated_at": "2026-08-21T11:03:04.189Z"
-    },
-    {
-      "id": "21a71c29-fd09-42bd-bede-e9c20969d788",
-      "slug": "marz-hshlyshyyh-hmntscht-3-stym-shl-mshchky-zykrvn-24-mshchkym-bshk-ko230z",
-      "name": "🌟 מארז השלישייה המנצחת: 3 סטים של משחקי זיכרון (24 משחקים בסה\"כ!)",
-      "name_translations": {},
-      "description": "",
-      "short_description": "הפתרון המושלם לעבודה בקבוצות! מארז ענק הכולל 3 סטים מלאים המזניקים את אוצר המילים והביטחון באנגלית בצורה חווייתית.\n🔹 תרגול היקפי: פעלים, תארים, חיות, צבעים, מספרים, מקצועות, משפחה ופירות/ירקות.\n🔹 למידה פעילה: לפיתוח דיאלוגים, הרכבת משפטים ותרגול בקבוצות במקביל.\n🔹 איכות ללא פשרות: קלפים קשיחים ועמידים במיוחד.\n🎉 דיל מנצח: קונים 2 סטים ומקבלים את הסט השלישי במתנה!\n\nהצטיידו במארז המשולש והפכו כל שיעור וזמן איכות לחוויית הצלחה!",
-      "sku": null,
-      "brand": null,
-      "price": 300,
-      "base_price": 450,
-      "sale_price": 300,
-      "currency": "ILS",
-      "images": [
-        "https://eewe.co.il/assets/product-1785678211189-dt5nw.webp",
-        "https://eewe.co.il/assets/product-1785236849750-mj8bah.webp"
+        "https://eewe.co.il/assets/product-1785678697229-u9qws.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://eewe.co.il/product/marz-hshlyshyyh-hmntscht-3-stym-shl-mshchky-zykrvn-24-mshchkym-bshk-ko230z",
+      "url": "https://eewe.co.il/product/marz-htchlh-ksvmh-banglyt-lgyl-hrk-gn-kyth-b-0mgikn",
       "categories": [
-        "מוצרים לבתי ספר"
+        "מוצרים לבית ולמשפחה"
       ],
-      "updated_at": "2026-08-21T11:03:04.189Z"
+      "updated_at": "2026-08-21T11:05:35.590Z"
+    },
+    {
+      "id": "cdb50cb6-ba22-4ade-844d-11871fc07cf5",
+      "slug": "marz-lshbvr-at-mchsvm-hkryah-lmtkdmym-htsayrym-kytvt-gh-5664n8",
+      "name": "מארז 'לשבור את מחסום הקריאה' | למתקדמים הצעירים (כיתות ג'–ה')",
+      "name_translations": {},
+      "description": "",
+      "short_description": "ערכה מקיפה ועשירה שנועדה לחזק את הקריאה, להקנות שליטה בזמנים ובדקדוק, ולבנות ביטחון עצמי גבוה בדיבור ובכתיבה. מה מחכה לכם במארז?\n📏 סרגל צירופי אותיות – לשליטה מהירה בצלילים ולקריאה זורמת.\n📜 3 פוסטרים לימודיים מנצחים: פוסטר תבניות משפטים, פוסטר צירופי אותיות, פוסטר זמני הווה ועתיד (Present Simple, Progressive & Future)\n🃏 3 משחקי זיכרון ממוקדים: פעלים, תארים ומשפחה (ניתן להחליף ולבחור נושאים אחרים לבקשתכם!).\n💡 מעניקים לילדים את הכלים לדבר ולכתוב באנגלית ללא חשש - הזמינו עכשיו! ",
+      "sku": null,
+      "brand": null,
+      "price": 115,
+      "base_price": 145,
+      "sale_price": 115,
+      "currency": "ILS",
+      "images": [
+        "https://eewe.co.il/assets/product-1785678664336-tho56h.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://eewe.co.il/product/marz-lshbvr-at-mchsvm-hkryah-lmtkdmym-htsayrym-kytvt-gh-5664n8",
+      "categories": [
+        "מוצרים לבית ולמשפחה"
+      ],
+      "updated_at": "2026-08-21T11:05:35.590Z"
+    },
+    {
+      "id": "a7695f10-c909-4ed2-a51c-96573c80984d",
+      "slug": "marz-chvvyh-lymvdyt-lkl-hmshpchh-hkl-klvl-gn-kyth-z-b78d18",
+      "name": "מארז 'חוויה לימודית לכל המשפחה' | הכל-כלול! [גן- כיתה ז']",
+      "name_translations": {},
+      "description": "",
+      "short_description": "הופכים את הבית למרכז למידה חווייתי, צבעוני ומלא בביטחון! המארז המקיף והעשיר ביותר שלנו, שנבנה במיוחד כדי לתת מענה שלם לכל הילדים בבית – מתחילים ועד מתקדמים.\nמה מחכה לכם במארז הענק?\n🃏 סט 8 משחקי הזיכרון המלא: צבעים, מספרים, חיות, פעלים, תארים, מקצועות, משפחה ופירות/ירקות.\n📜 סט הפוסטרים המלא: כל פוסטרי הדקדוק, הצירופים ותבניות המשפטים.\n📏 2 סרגלי קריאה איכותיים: סרגל אותיות + סרגל צירופים.\n\n💡 הבחירה המשתלמת ביותר! ערכה אחת שסוגרת לכם את פינת האנגלית בבית לשנים קדימה.",
+      "sku": null,
+      "brand": null,
+      "price": 175,
+      "base_price": 190,
+      "sale_price": 175,
+      "currency": "ILS",
+      "images": [
+        "https://eewe.co.il/assets/product-1785678605975-xprllg.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://eewe.co.il/product/marz-chvvyh-lymvdyt-lkl-hmshpchh-hkl-klvl-gn-kyth-z-b78d18",
+      "categories": [
+        "מוצרים לבית ולמשפחה"
+      ],
+      "updated_at": "2026-08-21T11:05:48.084Z"
     },
     {
       "id": "29ede2ae-6e5e-44fe-a406-50714e9bce0d",
@@ -80,79 +103,56 @@
       "categories": [
         "מוצרים לבתי ספר"
       ],
-      "updated_at": "2026-08-21T11:03:04.189Z"
+      "updated_at": "2026-08-21T11:05:35.590Z"
     },
     {
-      "id": "a7695f10-c909-4ed2-a51c-96573c80984d",
-      "slug": "marz-chvvyh-lymvdyt-lkl-hmshpchh-hkl-klvl-gn-kyth-z-eg6kjd",
-      "name": "מארז 'חוויה לימודית לכל המשפחה' | הכל-כלול! [גן- כיתה ז']",
+      "id": "21a71c29-fd09-42bd-bede-e9c20969d788",
+      "slug": "marz-hshlyshyyh-hmntscht-3-stym-shl-mshchky-zykrvn-24-mshchkym-bshk-ko230z",
+      "name": "🌟 מארז השלישייה המנצחת: 3 סטים של משחקי זיכרון (24 משחקים בסה\"כ!)",
       "name_translations": {},
       "description": "",
-      "short_description": "הופכים את הבית למרכז למידה חווייתי, צבעוני ומלא בביטחון! המארז המקיף והעשיר ביותר שלנו, שנבנה במיוחד כדי לתת מענה שלם לכל הילדים בבית – מתחילים ועד מתקדמים.\nמה מחכה לכם במארז הענק?\n🃏 סט 8 משחקי הזיכרון המלא: צבעים, מספרים, חיות, פעלים, תארים, מקצועות, משפחה ופירות/ירקות.\n📜 סט הפוסטרים המלא: כל פוסטרי הדקדוק, הצירופים ותבניות המשפטים.\n📏 2 סרגלי קריאה איכותיים: סרגל אותיות + סרגל צירופים.\n\n💡 הבחירה המשתלמת ביותר! ערכה אחת שסוגרת לכם את פינת האנגלית בבית לשנים קדימה.",
+      "short_description": "הפתרון המושלם לעבודה בקבוצות! מארז ענק הכולל 3 סטים מלאים המזניקים את אוצר המילים והביטחון באנגלית בצורה חווייתית.\n🔹 תרגול היקפי: פעלים, תארים, חיות, צבעים, מספרים, מקצועות, משפחה ופירות/ירקות.\n🔹 למידה פעילה: לפיתוח דיאלוגים, הרכבת משפטים ותרגול בקבוצות במקביל.\n🔹 איכות ללא פשרות: קלפים קשיחים ועמידים במיוחד.\n🎉 דיל מנצח: קונים 2 סטים ומקבלים את הסט השלישי במתנה!\n\nהצטיידו במארז המשולש והפכו כל שיעור וזמן איכות לחוויית הצלחה!",
       "sku": null,
       "brand": null,
-      "price": 175,
-      "base_price": 190,
-      "sale_price": 175,
+      "price": 300,
+      "base_price": 450,
+      "sale_price": 300,
       "currency": "ILS",
       "images": [
-        "https://eewe.co.il/assets/product-1785678605975-xprllg.webp"
+        "https://eewe.co.il/assets/product-1785678211189-dt5nw.webp",
+        "https://eewe.co.il/assets/product-1785236849750-mj8bah.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://eewe.co.il/product/marz-chvvyh-lymvdyt-lkl-hmshpchh-hkl-klvl-gn-kyth-z-eg6kjd",
+      "url": "https://eewe.co.il/product/marz-hshlyshyyh-hmntscht-3-stym-shl-mshchky-zykrvn-24-mshchkym-bshk-ko230z",
       "categories": [
-        "מוצרים לבית ולמשפחה"
+        "מוצרים לבתי ספר"
       ],
-      "updated_at": "2026-08-21T11:03:04.189Z"
+      "updated_at": "2026-08-21T11:05:35.590Z"
     },
     {
-      "id": "cdb50cb6-ba22-4ade-844d-11871fc07cf5",
-      "slug": "marz-lshbvr-at-mchsvm-hkryah-lmtkdmym-htsayrym-kytvt-gh-5664n8",
-      "name": "מארז 'לשבור את מחסום הקריאה' | למתקדמים הצעירים (כיתות ג'–ה')",
+      "id": "5db9a623-ff3e-4081-a4e3-1688af326311",
+      "slug": "marz-ysvdvt-hkryah-lmvrvt-vlbty-spr-hkl-lhvrat-h-abc-uc9fxp",
+      "name": "מארז 'יסודות הקריאה' למורות ולבתי ספר – הכל להוראת ה-ABC!",
       "name_translations": {},
       "description": "",
-      "short_description": "ערכה מקיפה ועשירה שנועדה לחזק את הקריאה, להקנות שליטה בזמנים ובדקדוק, ולבנות ביטחון עצמי גבוה בדיבור ובכתיבה. מה מחכה לכם במארז?\n📏 סרגל צירופי אותיות – לשליטה מהירה בצלילים ולקריאה זורמת.\n📜 3 פוסטרים לימודיים מנצחים: פוסטר תבניות משפטים, פוסטר צירופי אותיות, פוסטר זמני הווה ועתיד (Present Simple, Progressive & Future)\n🃏 3 משחקי זיכרון ממוקדים: פעלים, תארים ומשפחה (ניתן להחליף ולבחור נושאים אחרים לבקשתכם!).\n💡 מעניקים לילדים את הכלים לדבר ולכתוב באנגלית ללא חשש - הזמינו עכשיו! ",
+      "short_description": "הערכה המושלמת להקמת חדר אנגלית מרהיב ולחשיפה קוגניטיבית חווייתית של אותיות וצלילי השפה! כל מה שמורה צריכה להוראת קריאה פרונטלית ופרטנית במארז אחד.\n📏 2 סרגלי אותיות ענקיים לתלייה (3 מטר כל אחד): בולטים, ברורים ומותאמים במיוחד לתלייה מעל הלוח בכיתה!\n🃏 ערכת קלפי אותיות A5 מוגדלים למורה: 52 קלפים איכותיים (גדולות וקטנות) עם תמונות קוגניטיביות לזיהוי צלילים מהיר.\n🎲 3 סטים מלאים של משחקי זיכרון (24 משחקים בסה\"כ!): לביסוס אוצר המילים בכיתה.\n🌟 ציוד חובה למורה שרוצה להעניק לתלמידים זינוק מהיר בקריאה!",
       "sku": null,
       "brand": null,
-      "price": 115,
-      "base_price": 145,
-      "sale_price": 115,
+      "price": 550,
+      "base_price": 750,
+      "sale_price": 550,
       "currency": "ILS",
       "images": [
-        "https://eewe.co.il/assets/product-1785678664336-tho56h.webp"
+        "https://eewe.co.il/assets/product-1785678315847-6m76ea.webp"
       ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://eewe.co.il/product/marz-lshbvr-at-mchsvm-hkryah-lmtkdmym-htsayrym-kytvt-gh-5664n8",
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://eewe.co.il/product/marz-ysvdvt-hkryah-lmvrvt-vlbty-spr-hkl-lhvrat-h-abc-uc9fxp",
       "categories": [
-        "מוצרים לבית ולמשפחה"
+        "מוצרים לבתי ספר"
       ],
-      "updated_at": "2026-08-21T11:03:04.189Z"
-    },
-    {
-      "id": "b5fab02b-4aa7-44e9-bd99-e5b4fcda4874",
-      "slug": "marz-htchlh-ksvmh-banglyt-lgyl-hrk-gn-kyth-b-0mgikn",
-      "name": "מארז 'התחלה קסומה באנגלית' | לגיל הרך [גן - כיתה ב']",
-      "name_translations": {},
-      "description": "",
-      "short_description": "הצעדים הראשונים באנגלית מעולם לא היו מהנים ופשוטים יותר! \nערכה קסומה ועשירה המעניקה לילדים חשיפה מוקדמת, חווייתית ומלאת ביטחון לשפה.\nמה מחכה לכם במארז?\n📏 סרגל אותיות איכותי – לתלייה ולתרגול ויזואלי יומי.\n💬 פוסטר תבניות משפטים – להרכבת משפטים ראשונים בקלות.\n🃏 3 משחקי זיכרון אהובים: צבעים, מספרים וחיות (ניתן להחליף ולבחור נושאים אחרים לבקשתכם!).\nהעניקו לילדכם את הבסיס המושלם להצלחה – הזמינו עכשיו!",
-      "sku": null,
-      "brand": null,
-      "price": 95,
-      "base_price": 120,
-      "sale_price": 95,
-      "currency": "ILS",
-      "images": [
-        "https://eewe.co.il/assets/product-1785678697229-u9qws.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://eewe.co.il/product/marz-htchlh-ksvmh-banglyt-lgyl-hrk-gn-kyth-b-0mgikn",
-      "categories": [
-        "מוצרים לבית ולמשפחה"
-      ],
-      "updated_at": "2026-08-21T11:03:04.189Z"
+      "updated_at": "2026-08-21T11:05:35.590Z"
     },
     {
       "id": "5b2530b9-f76c-4436-8f38-a1277bb8df77",
@@ -177,7 +177,7 @@
       "categories": [
         "מוצרים לבית ולמשפחה"
       ],
-      "updated_at": "2026-08-21T11:03:04.189Z"
+      "updated_at": "2026-08-21T11:05:35.590Z"
     },
     {
       "id": "da3ddac9-b629-4b6a-b957-2f240379205a",
@@ -201,7 +201,7 @@
       "categories": [
         "מוצרים לבתי ספר"
       ],
-      "updated_at": "2026-08-21T11:03:04.189Z"
+      "updated_at": "2026-08-21T11:05:35.590Z"
     },
     {
       "id": "3483f04d-af63-4b41-ad6f-d3e164d614f8",
@@ -225,7 +225,7 @@
       "categories": [
         "מוצרים לבתי ספר"
       ],
-      "updated_at": "2026-08-21T11:03:04.189Z"
+      "updated_at": "2026-08-21T11:05:35.590Z"
     },
     {
       "id": "c509886c-79f2-44c7-a025-caf939be9574",
@@ -252,7 +252,7 @@
         "מוצרים לבית ולמשפחה",
         "מוצרים לבתי ספר"
       ],
-      "updated_at": "2026-08-21T11:03:04.189Z"
+      "updated_at": "2026-08-21T11:05:35.590Z"
     },
     {
       "id": "eb0e3253-9dca-424e-a03b-9aceafe922f1",
@@ -277,7 +277,7 @@
       "categories": [
         "מוצרים לבית ולמשפחה"
       ],
-      "updated_at": "2026-08-21T11:03:04.189Z"
+      "updated_at": "2026-08-21T11:05:35.590Z"
     },
     {
       "id": "631b0eb9-0315-4566-8f6d-3b6529e38a38",
@@ -302,7 +302,7 @@
       "categories": [
         "מוצרים לבית ולמשפחה"
       ],
-      "updated_at": "2026-08-21T11:03:04.189Z"
+      "updated_at": "2026-08-21T11:05:35.590Z"
     },
     {
       "id": "978ab5d9-0340-455b-9d0c-7ef089402308",
@@ -327,7 +327,7 @@
       "categories": [
         "מוצרים לבית ולמשפחה"
       ],
-      "updated_at": "2026-08-21T11:03:04.189Z"
+      "updated_at": "2026-08-21T11:05:35.590Z"
     },
     {
       "id": "6fb31bdf-f6ab-4c03-9943-8205d8119dbb",
@@ -352,7 +352,7 @@
       "categories": [
         "מוצרים לבית ולמשפחה"
       ],
-      "updated_at": "2026-08-21T11:03:04.189Z"
+      "updated_at": "2026-08-21T11:05:35.590Z"
     },
     {
       "id": "660193a4-531b-4cd2-893b-920b004a3a7c",
@@ -378,7 +378,7 @@
       "categories": [
         "מוצרים לבית ולמשפחה"
       ],
-      "updated_at": "2026-08-21T11:03:04.189Z"
+      "updated_at": "2026-08-21T11:05:35.590Z"
     },
     {
       "id": "58d75373-cd62-4cab-b7d7-fdc3dc94c14a",
@@ -404,7 +404,7 @@
       "categories": [
         "מוצרים לבית ולמשפחה"
       ],
-      "updated_at": "2026-08-21T11:03:04.189Z"
+      "updated_at": "2026-08-21T11:05:35.590Z"
     },
     {
       "id": "c491a91b-0b90-45b2-8886-c48a61b1ec9a",
@@ -430,7 +430,7 @@
       "categories": [
         "מוצרים לבית ולמשפחה"
       ],
-      "updated_at": "2026-08-21T11:03:04.189Z"
+      "updated_at": "2026-08-21T11:05:35.590Z"
     },
     {
       "id": "d3839637-d9a0-429e-ba48-8bf4cbb61198",
@@ -456,7 +456,7 @@
       "categories": [
         "מוצרים לבית ולמשפחה"
       ],
-      "updated_at": "2026-08-21T11:03:04.189Z"
+      "updated_at": "2026-08-21T11:05:35.590Z"
     },
     {
       "id": "744d0973-f696-412d-a544-88d6283134ed",
@@ -482,7 +482,7 @@
       "categories": [
         "מוצרים לבית ולמשפחה"
       ],
-      "updated_at": "2026-08-21T11:03:04.189Z"
+      "updated_at": "2026-08-21T11:05:35.590Z"
     },
     {
       "id": "181513a3-3aa5-471d-9da9-1607778b4205",
@@ -508,7 +508,7 @@
       "categories": [
         "מוצרים לבית ולמשפחה"
       ],
-      "updated_at": "2026-08-21T11:03:04.189Z"
+      "updated_at": "2026-08-21T11:05:35.590Z"
     },
     {
       "id": "3a18f833-c53e-4926-8819-c0d7d47d4c53",
@@ -534,7 +534,7 @@
       "categories": [
         "מוצרים לבית ולמשפחה"
       ],
-      "updated_at": "2026-08-21T11:03:04.189Z"
+      "updated_at": "2026-08-21T11:05:35.590Z"
     },
     {
       "id": "2b5d8c8a-4df6-4e9c-a32f-947b6fdc3217",
@@ -560,7 +560,7 @@
       "categories": [
         "מוצרים לבית ולמשפחה"
       ],
-      "updated_at": "2026-08-21T11:03:04.189Z"
+      "updated_at": "2026-08-21T11:05:35.590Z"
     },
     {
       "id": "e68e3c9f-abee-42c7-8fc2-01220e873727",
@@ -586,7 +586,7 @@
       "categories": [
         "מוצרים לבית ולמשפחה"
       ],
-      "updated_at": "2026-08-21T11:03:04.189Z"
+      "updated_at": "2026-08-21T11:05:35.590Z"
     }
   ]
 }
