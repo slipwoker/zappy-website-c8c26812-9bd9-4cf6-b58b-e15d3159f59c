@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-24T13:58:04.321Z",
+  "generated_at": "2026-08-24T13:59:34.872Z",
   "base_url": "https://eewe.co.il",
   "currency": "ILS",
   "count": 23,
@@ -382,16 +382,16 @@
     },
     {
       "id": "58d75373-cd62-4cab-b7d7-fdc3dc94c14a",
-      "slug": "mshchk-zykrvn-pyrvt-vyrkvt-ci2qvv",
+      "slug": "mshchk-zykrvn-pyrvt-vyrkvt-8lri3n",
       "name": "משחק זיכרון פירות וירקות ",
       "name_translations": {},
       "description": "",
       "short_description": "להכניס את האנגלית הביתה בכיף עם תפוז, לימון, אבטיח ועוד! ערכת פירות וירקות צבעונית הכוללת 31 קלפים איכותיים [15 זוגות תואמים וקלף הדרכה להורים], המעניקה לילדכם מגוון אפשרויות משחק – ממשחק זיכרון ועד שינון ובניית משפטים לשיפור וחיזוק השפה ברגע.",
       "sku": null,
       "brand": null,
-      "price": 30,
-      "base_price": 35,
-      "sale_price": 30,
+      "price": 35,
+      "base_price": 40,
+      "sale_price": 35,
       "currency": "ILS",
       "images": [
         "https://eewe.co.il/assets/product-ai-fit-1783678400464-ma3otw.webp",
@@ -400,11 +400,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://eewe.co.il/product/mshchk-zykrvn-pyrvt-vyrkvt-ci2qvv",
+      "url": "https://eewe.co.il/product/mshchk-zykrvn-pyrvt-vyrkvt-8lri3n",
       "categories": [
         "מוצרים לבית ולמשפחה"
       ],
-      "updated_at": "2026-08-21T11:05:35.590Z"
+      "updated_at": "2026-08-24T13:58:58.136Z"
     },
     {
       "id": "c491a91b-0b90-45b2-8886-c48a61b1ec9a",
