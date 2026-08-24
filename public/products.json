@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-24T13:26:39.236Z",
+  "generated_at": "2026-08-24T13:28:40.525Z",
   "base_url": "https://eewe.co.il",
   "currency": "ILS",
   "count": 23,
@@ -79,16 +79,16 @@
     },
     {
       "id": "29ede2ae-6e5e-44fe-a406-50714e9bce0d",
-      "slug": "marz-mtsvynvt-bdkdvk-lmvrym-vbty-spr-ade4zy",
+      "slug": "marz-mtsvynvt-bdkdvk-lmvrym-vbty-spr-ezv89g",
       "name": "מארז \"מצוינות בדקדוק\" למורים ובתי ספר",
       "name_translations": {},
       "description": "",
       "short_description": "ערכה מוסדית עשירה, פרקטית וגמישה שנבנתה במיוחד עבור מורים לאנגלית! מגוון פוסטרים בגודל A4 קומפקטי ושימושי, מושלמים כלוחות עזר שולחניים (\"פלייסמט\"), לעבודה בקבוצות קטנות, לחדרי שילוב ולחלוקה אישית לתלמידים.\n🎯 אתם בוחרים את התכולה!\nלרשותכם 50 פוסטרים לבחירה חופשית מתוך 4 נושאי הליבה (ניתן לערבב ולבחור כמויות לפי צורכי הכיתות):\nתבניות משפטים – לבניית משפטים ראשונים בביטחון\nצירופי אותיות – לביסוס צלילים ולקריאה זורמת\nזמני הווה ועתיד – לשליטה בדקדוק ובזמנים\nזמן עבר – להרחבת יכולת הדיבור והכתיבה.\n00\n",
       "sku": null,
       "brand": null,
-      "price": 250,
-      "base_price": 500,
-      "sale_price": 250,
+      "price": 299,
+      "base_price": 450,
+      "sale_price": 299,
       "currency": "ILS",
       "images": [
         "https://eewe.co.il/assets/product-1785678403652-n78v6.webp",
@@ -99,11 +99,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://eewe.co.il/product/marz-mtsvynvt-bdkdvk-lmvrym-vbty-spr-ade4zy",
+      "url": "https://eewe.co.il/product/marz-mtsvynvt-bdkdvk-lmvrym-vbty-spr-ezv89g",
       "categories": [
         "מוצרים לבתי ספר"
       ],
-      "updated_at": "2026-08-21T11:05:35.590Z"
+      "updated_at": "2026-08-24T13:28:03.479Z"
     },
     {
       "id": "21a71c29-fd09-42bd-bede-e9c20969d788",
