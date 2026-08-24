@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-24T14:07:14.002Z",
+  "generated_at": "2026-08-24T14:07:39.328Z",
   "base_url": "https://eewe.co.il",
   "currency": "ILS",
   "count": 23,
@@ -538,16 +538,16 @@
     },
     {
       "id": "2b5d8c8a-4df6-4e9c-a32f-947b6fdc3217",
-      "slug": "mshchk-zykrvn-msprym-x7hchj",
+      "slug": "mshchk-zykrvn-msprym-1kksiz",
       "name": "משחק זיכרון מספרים",
       "name_translations": {},
       "description": "",
       "short_description": "להכניס את האנגלית הביתה בכיף עם 1, 20, 100 ועוד! ערכת מספרים צבעונית הכוללת 31 קלפים איכותיים [15 זוגות תואמים וקלף הדרכה להורים], המעניקה לילדכם מגוון אפשרויות משחק – ממשחק זיכרון ועד שינון ובניית משפטים לשיפור וחיזוק השפה ברגע.",
       "sku": null,
       "brand": null,
-      "price": 30,
-      "base_price": 35,
-      "sale_price": 30,
+      "price": 35,
+      "base_price": 40,
+      "sale_price": 35,
       "currency": "ILS",
       "images": [
         "https://eewe.co.il/assets/product-ai-fit-1783673182329-ypbt7e.webp",
@@ -556,11 +556,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://eewe.co.il/product/mshchk-zykrvn-msprym-x7hchj",
+      "url": "https://eewe.co.il/product/mshchk-zykrvn-msprym-1kksiz",
       "categories": [
         "מוצרים לבית ולמשפחה"
       ],
-      "updated_at": "2026-08-21T11:05:35.590Z"
+      "updated_at": "2026-08-24T14:07:38.475Z"
     },
     {
       "id": "e68e3c9f-abee-42c7-8fc2-01220e873727",
