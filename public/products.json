@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-24T13:51:54.485Z",
+  "generated_at": "2026-08-24T13:52:38.857Z",
   "base_url": "https://eewe.co.il",
   "currency": "ILS",
   "count": 23,
@@ -181,51 +181,51 @@
     },
     {
       "id": "da3ddac9-b629-4b6a-b957-2f240379205a",
-      "slug": "srgl-avtyvt-ank-lkyth-3-mtr-tsbavny-aykvty-vapktyby-4n8nwf",
+      "slug": "srgl-avtyvt-ank-lkyth-3-mtr-tsbavny-aykvty-vapktyby-u5p59n",
       "name": "סרגל אותיות ענק לכיתה (3 מטר) – צבעוני, איכותי ואפקטיבי",
       "name_translations": {},
       "description": "",
       "short_description": "שדרגו את סביבת הלמידה עם סרגל אותיות פרונטלי, עשיר ומזמין!\nהסרגל, באורך 3 מטרים, מיועד לתלייה בולטת מעל הלוח ומציג את כל אותיות ה-ABC בליווי תמונות קוגניטיביות חכמות. האיורים הברורים מאפשרים לתלמידים לזהות את הצלילים בקלות ולקשר בינם לבין האותיות באופן אינטואיטיבי.\n🔹 נוכחות מקסימלית: נראה בבהירות מכל פינה בכיתה.\n🔹 איכות גבוהה ועמידות: מיועד לשימוש ממושך.\n🔹 חיבור קוגניטיבי מדויק: בונה בסיס איתן לקריאה בכיף.",
       "sku": null,
       "brand": null,
-      "price": 100,
-      "base_price": 150,
-      "sale_price": 100,
+      "price": 89,
+      "base_price": 120,
+      "sale_price": 89,
       "currency": "ILS",
       "images": [
         "https://eewe.co.il/assets/product-1784709977179-7ydl9v.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://eewe.co.il/product/srgl-avtyvt-ank-lkyth-3-mtr-tsbavny-aykvty-vapktyby-4n8nwf",
+      "url": "https://eewe.co.il/product/srgl-avtyvt-ank-lkyth-3-mtr-tsbavny-aykvty-vapktyby-u5p59n",
       "categories": [
         "מוצרים לבתי ספר"
       ],
-      "updated_at": "2026-08-21T11:05:35.590Z"
+      "updated_at": "2026-08-24T13:52:03.173Z"
     },
     {
       "id": "3483f04d-af63-4b41-ad6f-d3e164d614f8",
-      "slug": "st-klpy-avtyvt-a5-lmvrvt-llmydh-chvvyytyt-xup7kn",
+      "slug": "st-klpy-avtyvt-a5-lmvrvt-llmydh-chvvyytyt-cz578n",
       "name": "סט קלפי אותיות A5 למורות – ללמידה חווייתית",
       "name_translations": {},
       "description": "",
       "short_description": "שדרגו את שיעורי האנגלית עם ערכת קלפי אותיות מוגדלים, צבעוניים ואיכותיים!\nהערכה מכילה 52 קלפים (26 אותיות גדולות ו-26 קטנות) בליווי תמונות קוגניטיביות חכמות המאפשרות לילדים לזהות את צלילי האותיות בקלות ובמהירות.\n🔹 גודל A5 נוח: מתאים במיוחד להצגה בכיתה ולעבודה קבוצתית.\n🔹 איכות גבוהה ועמידות: מיועד לשימוש חוזר ויומיומי.\n🔹 חיבור קוגניטיבי מדויק: מקצר את דרך הלמידה ובונה ביטחון בקריאה.",
       "sku": null,
       "brand": null,
-      "price": 100,
-      "base_price": 150,
-      "sale_price": 100,
+      "price": 99,
+      "base_price": 140,
+      "sale_price": 99,
       "currency": "ILS",
       "images": [
         "https://eewe.co.il/assets/product-1784708235239-ehflvp.webp"
       ],
-      "in_stock": false,
-      "stock_status": "out_of_stock",
-      "url": "https://eewe.co.il/product/st-klpy-avtyvt-a5-lmvrvt-llmydh-chvvyytyt-xup7kn",
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://eewe.co.il/product/st-klpy-avtyvt-a5-lmvrvt-llmydh-chvvyytyt-cz578n",
       "categories": [
         "מוצרים לבתי ספר"
       ],
-      "updated_at": "2026-08-21T11:05:35.590Z"
+      "updated_at": "2026-08-24T13:52:32.284Z"
     },
     {
       "id": "c509886c-79f2-44c7-a025-caf939be9574",
