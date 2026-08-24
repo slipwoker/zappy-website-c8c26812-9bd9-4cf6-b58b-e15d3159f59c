@@ -941,6 +941,141 @@ Description: המוצרים שלנו - אנגלית בקלות ובהנאה Easy
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+טוען מוצרים...
+
+
+
+
+
+
+
+
+
+
+
+
+
 לומדים אנגלית בחיוך – ערכות, משחקים ומוצרים שהופכים כל ילד לדובר בטוח.
 
 
@@ -3051,6 +3186,8 @@ Description: מוצרים - אנגלית בקלות ובהנאה Easy English wi
 
 
 
+טוען מוצרים...
+
 
 
 
@@ -4423,8 +4560,8 @@ Availability: Out of stock
 ---
 
 ### סט משחקי זיכרון להעשרת אוצר המילים 
-URL: https://eewe.co.il/product/st-mshchky-zykrvn-lhashrt-avtsr-hmylym-7nvme1
-Price: 150.00 ILS (sale, was 240.00 ILS)
+URL: https://eewe.co.il/product/st-mshchky-zykrvn-lhashrt-avtsr-hmylym-ifts6j
+Price: 249.00 ILS (sale, was 320.00 ILS)
 Availability: In stock
 
 ---

@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-24T13:48:04.480Z",
+  "generated_at": "2026-08-24T13:51:54.485Z",
   "base_url": "https://eewe.co.il",
   "currency": "ILS",
   "count": 23,
@@ -156,16 +156,16 @@
     },
     {
       "id": "5b2530b9-f76c-4436-8f38-a1277bb8df77",
-      "slug": "st-mshchky-zykrvn-lhashrt-avtsr-hmylym-7nvme1",
+      "slug": "st-mshchky-zykrvn-lhashrt-avtsr-hmylym-ifts6j",
       "name": "סט משחקי זיכרון להעשרת אוצר המילים ",
       "name_translations": {},
       "description": "",
       "short_description": "שדרגו את האנגלית של הילדים דרך משחק מהנה, צבעוני ואיכותי! 8 משחקי זיכרון בקלפים עמידים במיוחד בנושאים מגוונים: צבעים, מספרים, חיות, פעלים, תארים, מקצועות, משפחה ופירות/ירקות.\n🔹מקדמים את השפה: מתאים לסידור לפי ה-ABC, להרכבת משפטים (I have a dog), ליצירת צירופי מילים מורכבים (Brown dog, Pretty mother) ולתרגול פעלים עם פוסטרי הדקדוק שלנו.\n🔹 איכות ללא פשרות: קלפים חזקים וצבעוניים לשימוש ממושך.\n",
       "sku": null,
       "brand": null,
-      "price": 150,
-      "base_price": 240,
-      "sale_price": 150,
+      "price": 249,
+      "base_price": 320,
+      "sale_price": 249,
       "currency": "ILS",
       "images": [
         "https://eewe.co.il/assets/product-1784710615861-iguxlq.webp",
@@ -173,11 +173,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://eewe.co.il/product/st-mshchky-zykrvn-lhashrt-avtsr-hmylym-7nvme1",
+      "url": "https://eewe.co.il/product/st-mshchky-zykrvn-lhashrt-avtsr-hmylym-ifts6j",
       "categories": [
         "מוצרים לבית ולמשפחה"
       ],
-      "updated_at": "2026-08-21T11:05:35.590Z"
+      "updated_at": "2026-08-24T13:51:18.981Z"
     },
     {
       "id": "da3ddac9-b629-4b6a-b957-2f240379205a",
