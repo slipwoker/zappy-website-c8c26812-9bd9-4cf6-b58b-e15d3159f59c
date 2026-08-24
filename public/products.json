@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-24T13:59:34.872Z",
+  "generated_at": "2026-08-24T14:03:05.043Z",
   "base_url": "https://eewe.co.il",
   "currency": "ILS",
   "count": 23,
@@ -408,16 +408,16 @@
     },
     {
       "id": "c491a91b-0b90-45b2-8886-c48a61b1ec9a",
-      "slug": "mshchk-zykrvn-chyvt-3rvhcb",
+      "slug": "mshchk-zykrvn-chyvt-9b9gxi",
       "name": "משחק זיכרון חיות",
       "name_translations": {},
       "description": "",
       "short_description": "להכניס את האנגלית הביתה בכיף עם נמר, פיל, אריה ועוד! ערכת חיות צבעונית הכוללת 31 קלפים איכותיים [15 זוגות תואמים וקלף הדרכה להורים], המעניקה לילדכם מגוון אפשרויות משחק – ממשחק זיכרון ועד שינון ובניית משפטים לשיפור וחיזוק השפה ברגע.",
       "sku": null,
       "brand": null,
-      "price": 30,
-      "base_price": 35,
-      "sale_price": 30,
+      "price": 35,
+      "base_price": 40,
+      "sale_price": 35,
       "currency": "ILS",
       "images": [
         "https://eewe.co.il/assets/product-ai-fit-1783678267016-jj96gm.webp",
@@ -426,24 +426,24 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://eewe.co.il/product/mshchk-zykrvn-chyvt-3rvhcb",
+      "url": "https://eewe.co.il/product/mshchk-zykrvn-chyvt-9b9gxi",
       "categories": [
         "מוצרים לבית ולמשפחה"
       ],
-      "updated_at": "2026-08-21T11:05:35.590Z"
+      "updated_at": "2026-08-24T14:02:29.010Z"
     },
     {
       "id": "d3839637-d9a0-429e-ba48-8bf4cbb61198",
-      "slug": "mshchk-zykrvn-mktsvavt-625dbe",
+      "slug": "mshchk-zykrvn-mktsvavt-kailrg",
       "name": "משחק זיכרון מקצועות ",
       "name_translations": {},
       "description": "",
       "short_description": "להכניס את האנגלית הביתה בכיף עם שוטר, שופט, חייל ועוד! ערכת מקצועות צבעונית הכוללת 31 קלפים איכותיים [15 זוגות תואמים וקלף הדרכה להורים], המעניקה לילדכם מגוון אפשרויות משחק – ממשחק זיכרון ועד שינון ובניית משפטים לשיפור וחיזוק השפה ברגע.",
       "sku": null,
       "brand": null,
-      "price": 30,
-      "base_price": 35,
-      "sale_price": 30,
+      "price": 35,
+      "base_price": 40,
+      "sale_price": 35,
       "currency": "ILS",
       "images": [
         "https://eewe.co.il/assets/product-ai-fit-1783678047029-3v57wv.webp",
@@ -452,11 +452,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://eewe.co.il/product/mshchk-zykrvn-mktsvavt-625dbe",
+      "url": "https://eewe.co.il/product/mshchk-zykrvn-mktsvavt-kailrg",
       "categories": [
         "מוצרים לבית ולמשפחה"
       ],
-      "updated_at": "2026-08-21T11:05:35.590Z"
+      "updated_at": "2026-08-24T14:02:49.116Z"
     },
     {
       "id": "744d0973-f696-412d-a544-88d6283134ed",
