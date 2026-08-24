@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-24T13:17:56.833Z",
+  "generated_at": "2026-08-24T13:18:46.822Z",
   "base_url": "https://eewe.co.il",
   "currency": "ILS",
   "count": 23,
@@ -55,27 +55,27 @@
     },
     {
       "id": "a7695f10-c909-4ed2-a51c-96573c80984d",
-      "slug": "marz-chvvyh-lymvdyt-lkl-hmshpchh-hkl-klvl-gn-kyth-z-b78d18",
+      "slug": "marz-chvvyh-lymvdyt-lkl-hmshpchh-hkl-klvl-gn-kyth-z-flif70",
       "name": "מארז 'חוויה לימודית לכל המשפחה' | הכל-כלול! [גן- כיתה ז']",
       "name_translations": {},
       "description": "",
       "short_description": "הופכים את הבית למרכז למידה חווייתי, צבעוני ומלא בביטחון! המארז המקיף והעשיר ביותר שלנו, שנבנה במיוחד כדי לתת מענה שלם לכל הילדים בבית – מתחילים ועד מתקדמים.\nמה מחכה לכם במארז הענק?\n🃏 סט 8 משחקי הזיכרון המלא: צבעים, מספרים, חיות, פעלים, תארים, מקצועות, משפחה ופירות/ירקות.\n📜 סט הפוסטרים המלא: כל פוסטרי הדקדוק, הצירופים ותבניות המשפטים.\n📏 2 סרגלי קריאה איכותיים: סרגל אותיות + סרגל צירופים.\n\n💡 הבחירה המשתלמת ביותר! ערכה אחת שסוגרת לכם את פינת האנגלית בבית לשנים קדימה.",
       "sku": null,
       "brand": null,
-      "price": 175,
-      "base_price": 190,
-      "sale_price": 175,
+      "price": 380,
+      "base_price": 289,
+      "sale_price": 380,
       "currency": "ILS",
       "images": [
         "https://eewe.co.il/assets/product-1785678605975-xprllg.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://eewe.co.il/product/marz-chvvyh-lymvdyt-lkl-hmshpchh-hkl-klvl-gn-kyth-z-b78d18",
+      "url": "https://eewe.co.il/product/marz-chvvyh-lymvdyt-lkl-hmshpchh-hkl-klvl-gn-kyth-z-flif70",
       "categories": [
         "מוצרים לבית ולמשפחה"
       ],
-      "updated_at": "2026-08-21T11:05:48.084Z"
+      "updated_at": "2026-08-24T13:18:13.773Z"
     },
     {
       "id": "29ede2ae-6e5e-44fe-a406-50714e9bce0d",
