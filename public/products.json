@@ -1,33 +1,33 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-24T10:39:06.746Z",
+  "generated_at": "2026-08-24T13:10:58.369Z",
   "base_url": "https://eewe.co.il",
   "currency": "ILS",
   "count": 23,
   "products": [
     {
       "id": "b5fab02b-4aa7-44e9-bd99-e5b4fcda4874",
-      "slug": "marz-htchlh-ksvmh-banglyt-lgyl-hrk-gn-kyth-b-0mgikn",
+      "slug": "marz-htchlh-ksvmh-banglyt-lgyl-hrk-gn-kyth-b-1wqiui",
       "name": "מארז 'התחלה קסומה באנגלית' | לגיל הרך [גן - כיתה ב']",
       "name_translations": {},
       "description": "",
       "short_description": "הצעדים הראשונים באנגלית מעולם לא היו מהנים ופשוטים יותר! \nערכה קסומה ועשירה המעניקה לילדים חשיפה מוקדמת, חווייתית ומלאת ביטחון לשפה.\nמה מחכה לכם במארז?\n📏 סרגל אותיות איכותי – לתלייה ולתרגול ויזואלי יומי.\n💬 פוסטר תבניות משפטים – להרכבת משפטים ראשונים בקלות.\n🃏 3 משחקי זיכרון אהובים: צבעים, מספרים וחיות (ניתן להחליף ולבחור נושאים אחרים לבקשתכם!).\nהעניקו לילדכם את הבסיס המושלם להצלחה – הזמינו עכשיו!",
       "sku": null,
       "brand": null,
-      "price": 95,
-      "base_price": 120,
-      "sale_price": 95,
+      "price": 120,
+      "base_price": 150,
+      "sale_price": 120,
       "currency": "ILS",
       "images": [
         "https://eewe.co.il/assets/product-1785678697229-u9qws.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://eewe.co.il/product/marz-htchlh-ksvmh-banglyt-lgyl-hrk-gn-kyth-b-0mgikn",
+      "url": "https://eewe.co.il/product/marz-htchlh-ksvmh-banglyt-lgyl-hrk-gn-kyth-b-1wqiui",
       "categories": [
         "מוצרים לבית ולמשפחה"
       ],
-      "updated_at": "2026-08-21T11:05:35.590Z"
+      "updated_at": "2026-08-24T13:10:22.750Z"
     },
     {
       "id": "cdb50cb6-ba22-4ade-844d-11871fc07cf5",
