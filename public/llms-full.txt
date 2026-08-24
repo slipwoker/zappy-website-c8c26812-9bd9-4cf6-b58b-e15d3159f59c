@@ -4879,15 +4879,15 @@ Description: תודה על פנייתך! הודעתך בנושא ערכת לימ
 ## Product Catalog
 
 ### מארז 'התחלה קסומה באנגלית' | לגיל הרך [גן - כיתה ב']
-URL: https://eewe.co.il/product/marz-htchlh-ksvmh-banglyt-lgyl-hrk-gn-kyth-b-66x6ps
-Price: 130.00 ILS (sale, was 150.00 ILS)
+URL: https://eewe.co.il/product/marz-htchlh-ksvmh-banglyt-lgyl-hrk-gn-kyth-b-8czaod
+Price: 139.00 ILS (sale, was 180.00 ILS)
 Availability: In stock
 
 ---
 
 ### מארז 'לשבור את מחסום הקריאה' | למתקדמים הצעירים (כיתות ג'–ה')
-URL: https://eewe.co.il/product/marz-lshbvr-at-mchsvm-hkryah-lmtkdmym-htsayrym-kytvt-gh-o8g0r1
-Price: 150.00 ILS (sale, was 170.00 ILS)
+URL: https://eewe.co.il/product/marz-lshbvr-at-mchsvm-hkryah-lmtkdmym-htsayrym-kytvt-gh-xkoi8o
+Price: 159.00 ILS (sale, was 210.00 ILS)
 Availability: In stock
 
 ---
