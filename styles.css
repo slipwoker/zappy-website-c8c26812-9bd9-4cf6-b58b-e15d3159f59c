@@ -14256,6 +14256,11 @@ body .nav-cart .cart-count {
   background: var(--secondary-color, var(--secondary, #2A9D8F)) !important;
   color: #FFFFFF !important;
 }
+
+.navbar .cart-link.nav-cart svg.cart-icon {
+  color: var(--primary-color, var(--primary, #E85D75)) !important;
+  stroke: var(--primary-color, var(--primary, #E85D75)) !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
