@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-24T14:05:30.287Z",
+  "generated_at": "2026-08-24T14:06:44.774Z",
   "base_url": "https://eewe.co.il",
   "currency": "ILS",
   "count": 23,
@@ -460,16 +460,16 @@
     },
     {
       "id": "744d0973-f696-412d-a544-88d6283134ed",
-      "slug": "mshchk-zykrvn-mshpchh-hihmmf",
+      "slug": "mshchk-zykrvn-mshpchh-cs816o",
       "name": "משחק זיכרון משפחה",
       "name_translations": {},
       "description": "",
       "short_description": "להכניס את האנגלית הביתה בכיף עם אבא, אמא, אחיין ועוד! ערכת משפחה צבעונית הכוללת 31 קלפים איכותיים [15 זוגות תואמים וקלף הדרכה להורים], המעניקה לילדכם מגוון אפשרויות משחק – ממשחק זיכרון ועד שינון ובניית משפטים לשיפור וחיזוק השפה ברגע.",
       "sku": null,
       "brand": null,
-      "price": 30,
-      "base_price": 35,
-      "sale_price": 30,
+      "price": 35,
+      "base_price": 40,
+      "sale_price": 35,
       "currency": "ILS",
       "images": [
         "https://eewe.co.il/assets/product-ai-fit-1783675723070-1qnedh.webp",
@@ -478,24 +478,24 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://eewe.co.il/product/mshchk-zykrvn-mshpchh-hihmmf",
+      "url": "https://eewe.co.il/product/mshchk-zykrvn-mshpchh-cs816o",
       "categories": [
         "מוצרים לבית ולמשפחה"
       ],
-      "updated_at": "2026-08-21T11:05:35.590Z"
+      "updated_at": "2026-08-24T14:06:11.587Z"
     },
     {
       "id": "181513a3-3aa5-471d-9da9-1607778b4205",
-      "slug": "mshchk-zykrvn-tarym-ebev7i",
+      "slug": "mshchk-zykrvn-tarym-yy5db5",
       "name": "משחק זיכרון תארים",
       "name_translations": {},
       "description": "",
       "short_description": "להכניס את האנגלית הביתה בכיף עם ארוך, קצר, שמח ועוד! ערכת צבעים נהדרת הכוללת 31 קלפים איכותיים [15 זוגות תואמים וקלף הדרכה להורים], המעניקה לילדכם מגוון אפשרויות משחק – ממשחק זיכרון ועד שינון ובניית משפטים לשיפור וחיזוק השפה ברגע.",
       "sku": null,
       "brand": null,
-      "price": 30,
-      "base_price": 35,
-      "sale_price": 30,
+      "price": 35,
+      "base_price": 40,
+      "sale_price": 35,
       "currency": "ILS",
       "images": [
         "https://eewe.co.il/assets/product-ai-fit-1783677872151-a2xvgf.webp",
@@ -504,11 +504,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://eewe.co.il/product/mshchk-zykrvn-tarym-ebev7i",
+      "url": "https://eewe.co.il/product/mshchk-zykrvn-tarym-yy5db5",
       "categories": [
         "מוצרים לבית ולמשפחה"
       ],
-      "updated_at": "2026-08-21T11:05:35.590Z"
+      "updated_at": "2026-08-24T14:06:41.320Z"
     },
     {
       "id": "3a18f833-c53e-4926-8819-c0d7d47d4c53",
