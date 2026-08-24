@@ -18,35 +18,35 @@ https://eewe.co.il/my-story
 https://eewe.co.il/contact-us
 צריכים עזרה בבחירת מוצר או סתם רוצים להגיד שלום? מלאו את הפרטים ואפרת תחזור אליכם במהירות עם חיוך ותשובות שיקדמו את הילד שלכם באנגלית. צרו קשר עכשיו!
 
-### החנות שלי
+### Products
 https://eewe.co.il/products
 המוצרים שלנו - אנגלית בקלות ובהנאה Easy English with Efrat
 
-### עגלת קניות
+### Cart
 https://eewe.co.il/cart
 עגלת הקניות שלך
 
-### תשלום
+### Checkout
 https://eewe.co.il/checkout
 תשלום
 
-### התחברות
+### Login
 https://eewe.co.il/login
 התחברות לקוחות
 
-### החשבון שלי
+### Account
 https://eewe.co.il/account
 החשבון שלי
 
-### ההזמנה התקבלה!
+### Order Success
 https://eewe.co.il/order-success
 תודה על ההזמנה
 
-### פרטי המוצר
+### Product Detail
 https://eewe.co.il/product/:slug
 פרטי המוצר - אנגלית בקלות ובהנאה Easy English with Efrat
 
-### מוצרים
+### Category
 https://eewe.co.il/category/:slug
 מוצרים - אנגלית בקלות ובהנאה Easy English with Efrat
 
