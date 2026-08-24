@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-24T14:03:24.076Z",
+  "generated_at": "2026-08-24T14:05:30.287Z",
   "base_url": "https://eewe.co.il",
   "currency": "ILS",
   "count": 23,
@@ -229,16 +229,16 @@
     },
     {
       "id": "c509886c-79f2-44c7-a025-caf939be9574",
-      "slug": "st-arbah-pvstrym-mntsch-yk3592",
+      "slug": "st-arbah-pvstrym-mntsch-mdiflp",
       "name": "סט ארבעה פוסטרים מנצח! ",
       "name_translations": {},
       "description": "",
       "short_description": "ערכת 4 הפוסטרים הבלעדית שלנו מעניקה מענה הדרגתי ומקיף לכל שלבי הלמידה – מגיל צעיר מאוד ועד כיתה ז'! הערכה כוללת:\n🔹 פוסטר תבניות משפטים: 15 תבניות מגוונות לבניית משפטים ושפה עשירה ביום-יום.\n🔹 פוסטר צירופי אותיות: 33 צירופים לפי צלילים + אותיות הניקוד לחשיפה מוקדמת וקריאה קלה.\n🔹 פוסטר זמני הווה ועתיד: שליטה מלאה ב-Present Simple, Present Progressive ו-Future Simple.\n🔹 פוסטר זמן עבר דו-צדדי : חוקי Past Simple מפורטים + טבלת פעלים חריגים (V2) מסודרת לפי A-B עם תרגום.\n",
       "sku": null,
       "brand": null,
-      "price": 40,
+      "price": 35,
       "base_price": 50,
-      "sale_price": 40,
+      "sale_price": 35,
       "currency": "ILS",
       "images": [
         "https://eewe.co.il/assets/product-1784707709267-sa2hinj.webp",
@@ -247,12 +247,12 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://eewe.co.il/product/st-arbah-pvstrym-mntsch-yk3592",
+      "url": "https://eewe.co.il/product/st-arbah-pvstrym-mntsch-mdiflp",
       "categories": [
         "מוצרים לבית ולמשפחה",
         "מוצרים לבתי ספר"
       ],
-      "updated_at": "2026-08-24T13:54:20.938Z"
+      "updated_at": "2026-08-24T14:04:55.243Z"
     },
     {
       "id": "eb0e3253-9dca-424e-a03b-9aceafe922f1",
