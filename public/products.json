@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-24T13:41:35.690Z",
+  "generated_at": "2026-08-24T13:44:49.243Z",
   "base_url": "https://eewe.co.il",
   "currency": "ILS",
   "count": 23,
@@ -132,27 +132,27 @@
     },
     {
       "id": "5db9a623-ff3e-4081-a4e3-1688af326311",
-      "slug": "marz-ysvdvt-hkryah-lmvrvt-vlbty-spr-hkl-lhvrat-h-abc-uc9fxp",
+      "slug": "marz-ysvdvt-hkryah-lmvrvt-vlbty-spr-hkl-lhvrat-h-abc-63nssp",
       "name": "מארז 'יסודות הקריאה' למורות ולבתי ספר – הכל להוראת ה-ABC!",
       "name_translations": {},
       "description": "",
       "short_description": "הערכה המושלמת להקמת חדר אנגלית מרהיב ולחשיפה קוגניטיבית חווייתית של אותיות וצלילי השפה! כל מה שמורה צריכה להוראת קריאה פרונטלית ופרטנית במארז אחד.\n📏 2 סרגלי אותיות ענקיים לתלייה (3 מטר כל אחד): בולטים, ברורים ומותאמים במיוחד לתלייה מעל הלוח בכיתה!\n🃏 ערכת קלפי אותיות A5 מוגדלים למורה: 52 קלפים איכותיים (גדולות וקטנות) עם תמונות קוגניטיביות לזיהוי צלילים מהיר.\n🎲 3 סטים מלאים של משחקי זיכרון (24 משחקים בסה\"כ!): לביסוס אוצר המילים בכיתה.\n🌟 ציוד חובה למורה שרוצה להעניק לתלמידים זינוק מהיר בקריאה!",
       "sku": null,
       "brand": null,
-      "price": 550,
-      "base_price": 750,
-      "sale_price": 550,
+      "price": 890,
+      "base_price": 1250,
+      "sale_price": 890,
       "currency": "ILS",
       "images": [
         "https://eewe.co.il/assets/product-1785678315847-6m76ea.webp"
       ],
       "in_stock": false,
       "stock_status": "out_of_stock",
-      "url": "https://eewe.co.il/product/marz-ysvdvt-hkryah-lmvrvt-vlbty-spr-hkl-lhvrat-h-abc-uc9fxp",
+      "url": "https://eewe.co.il/product/marz-ysvdvt-hkryah-lmvrvt-vlbty-spr-hkl-lhvrat-h-abc-63nssp",
       "categories": [
         "מוצרים לבתי ספר"
       ],
-      "updated_at": "2026-08-21T11:05:35.590Z"
+      "updated_at": "2026-08-24T13:44:05.641Z"
     },
     {
       "id": "5b2530b9-f76c-4436-8f38-a1277bb8df77",

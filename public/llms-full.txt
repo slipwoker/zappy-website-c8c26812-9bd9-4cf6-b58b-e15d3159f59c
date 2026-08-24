@@ -942,141 +942,6 @@ Description: המוצרים שלנו - אנגלית בקלות ובהנאה Easy
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-טוען מוצרים...
-
-
-
-
-
-
-
-
-
-
-
-
-
 לומדים אנגלית בחיוך – ערכות, משחקים ומוצרים שהופכים כל ילד לדובר בטוח.
 
 
@@ -3187,8 +3052,6 @@ Description: מוצרים - אנגלית בקלות ובהנאה Easy English wi
 
 
 
-טוען מוצרים...
-
 
 
 
@@ -4554,8 +4417,8 @@ Availability: In stock
 ---
 
 ### מארז 'יסודות הקריאה' למורות ולבתי ספר – הכל להוראת ה-ABC!
-URL: https://eewe.co.il/product/marz-ysvdvt-hkryah-lmvrvt-vlbty-spr-hkl-lhvrat-h-abc-uc9fxp
-Price: 550.00 ILS (sale, was 750.00 ILS)
+URL: https://eewe.co.il/product/marz-ysvdvt-hkryah-lmvrvt-vlbty-spr-hkl-lhvrat-h-abc-63nssp
+Price: 890.00 ILS (sale, was 1250.00 ILS)
 Availability: Out of stock
 
 ---
