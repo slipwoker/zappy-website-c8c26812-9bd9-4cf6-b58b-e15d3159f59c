@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-24T14:07:39.328Z",
+  "generated_at": "2026-08-24T14:08:14.276Z",
   "base_url": "https://eewe.co.il",
   "currency": "ILS",
   "count": 23,
@@ -564,16 +564,16 @@
     },
     {
       "id": "e68e3c9f-abee-42c7-8fc2-01220e873727",
-      "slug": "mshchk-zykrvn-tsbaym-lbmhzy",
+      "slug": "mshchk-zykrvn-tsbaym-yo7t6f",
       "name": "משחק זיכרון צבעים",
       "name_translations": {},
       "description": "",
       "short_description": "להכניס את האנגלית הביתה בכיף עם אדום, זהב, תכלת ועוד! ערכת צבעים נהדרת הכוללת 31 קלפים איכותיים [15 זוגות תואמים וקלף הדרכה להורים], המעניקה לילדכם מגוון אפשרויות משחק – ממשחק זיכרון ועד שינון ובניית משפטים לשיפור וחיזוק השפה ברגע.",
       "sku": null,
       "brand": null,
-      "price": 30,
-      "base_price": 35,
-      "sale_price": 30,
+      "price": 35,
+      "base_price": 40,
+      "sale_price": 35,
       "currency": "ILS",
       "images": [
         "https://eewe.co.il/assets/product-1783673097555-krvj8u.webp",
@@ -582,11 +582,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://eewe.co.il/product/mshchk-zykrvn-tsbaym-lbmhzy",
+      "url": "https://eewe.co.il/product/mshchk-zykrvn-tsbaym-yo7t6f",
       "categories": [
         "מוצרים לבית ולמשפחה"
       ],
-      "updated_at": "2026-08-21T11:05:35.590Z"
+      "updated_at": "2026-08-24T14:07:59.075Z"
     }
   ]
 }
