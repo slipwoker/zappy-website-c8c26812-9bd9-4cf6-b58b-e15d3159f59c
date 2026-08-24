@@ -942,6 +942,141 @@ Description: המוצרים שלנו - אנגלית בקלות ובהנאה Easy
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+טוען מוצרים...
+
+
+
+
+
+
+
+
+
+
+
+
+
 לומדים אנגלית בחיוך – ערכות, משחקים ומוצרים שהופכים כל ילד לדובר בטוח.
 
 
@@ -3052,6 +3187,8 @@ Description: מוצרים - אנגלית בקלות ובהנאה Easy English wi
 
 
 
+טוען מוצרים...
+
 
 
 
@@ -4396,8 +4533,8 @@ Availability: In stock
 ---
 
 ### מארז 'חוויה לימודית לכל המשפחה' | הכל-כלול! [גן- כיתה ז']
-URL: https://eewe.co.il/product/marz-chvvyh-lymvdyt-lkl-hmshpchh-hkl-klvl-gn-kyth-z-flif70
-Price: 380.00 ILS
+URL: https://eewe.co.il/product/marz-chvvyh-lymvdyt-lkl-hmshpchh-hkl-klvl-gn-kyth-z-cqbztw
+Price: 289.00 ILS (sale, was 399.00 ILS)
 Availability: In stock
 
 ---
