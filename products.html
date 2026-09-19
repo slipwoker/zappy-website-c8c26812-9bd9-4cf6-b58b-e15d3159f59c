@@ -399,10 +399,14 @@
     return 'zappy_purchase_fired_' + String(orderId || '');
   }
 
+  function purchaseMetaDedupKey(orderId) {
+    return 'zappy_purchase_meta_fired_' + String(orderId || '');
+  }
+
   function alreadyFiredPurchase(orderId) {
     if (!orderId) return false;
     try {
-      return sessionStorage.getItem(purchaseDedupKey(orderId)) === '1';
+      return window.sessionStorage.getItem(purchaseDedupKey(orderId)) === '1';
     } catch (e) {
       return false;
     }
@@ -410,8 +414,77 @@
 
   function markPurchaseFired(orderId) {
     if (!orderId) return;
-    try { sessionStorage.setItem(purchaseDedupKey(orderId), '1'); } catch (e) {}
+    try { window.sessionStorage.setItem(purchaseDedupKey(orderId), '1'); } catch (e) {}
   }
+
+  function alreadyFiredPurchaseMeta(orderId) {
+    if (!orderId) return false;
+    try {
+      return window.sessionStorage.getItem(purchaseMetaDedupKey(orderId)) === '1';
+    } catch (e) {
+      return false;
+    }
+  }
+
+  function markPurchaseMetaFired(orderId) {
+    if (!orderId) return;
+    try { window.sessionStorage.setItem(purchaseMetaDedupKey(orderId), '1'); } catch (e) {}
+  }
+
+  function getPendingMetaEvents() {
+    try {
+      if (!Array.isArray(window.__zappyPendingMetaEvents)) {
+        window.__zappyPendingMetaEvents = [];
+      }
+      return window.__zappyPendingMetaEvents;
+    } catch (e) {
+      return [];
+    }
+  }
+
+  function enqueueMetaEvent(eventName, params, orderId) {
+    var q = getPendingMetaEvents();
+    if (orderId) {
+      for (var i = 0; i < q.length; i++) {
+        if (q[i] && q[i].orderId === orderId && q[i].eventName === eventName) return;
+      }
+    }
+    q.push({ eventName: eventName, params: params || {}, orderId: orderId || null });
+  }
+
+  /**
+   * Live sites replace the eager Meta snippet with a consent-gated lazy
+   * loader. Payment providers bounce the shopper back to /order-success
+   * before CookieConsent hydrates, so confirm-order used to fire Purchase
+   * while window.fbq was still undefined — then sessionStorage blocked a
+   * retry. Queue until fbq exists, then flush.
+   */
+  function flushPendingMetaEvents() {
+    if (typeof window.fbq !== 'function') return;
+    var q = getPendingMetaEvents().slice();
+    try { window.__zappyPendingMetaEvents = []; } catch (e) {}
+    for (var i = 0; i < q.length; i++) {
+      var item = q[i];
+      if (!item || !item.eventName) continue;
+      if (item.orderId && alreadyFiredPurchaseMeta(item.orderId)) continue;
+      try {
+        window.fbq('track', item.eventName, item.params || {});
+        if (item.orderId) markPurchaseMetaFired(item.orderId);
+      } catch (e2) {}
+    }
+  }
+  window.zappyFlushPendingMetaEvents = flushPendingMetaEvents;
+
+  var metaFlushAttempts = 0;
+  var metaFlushTimer = setInterval(function() {
+    metaFlushAttempts++;
+    flushPendingMetaEvents();
+    var pendingLen = 0;
+    try { pendingLen = (window.__zappyPendingMetaEvents || []).length; } catch (e) {}
+    if ((pendingLen === 0 && typeof window.fbq === 'function') || metaFlushAttempts > 60) {
+      clearInterval(metaFlushTimer);
+    }
+  }, 500);
 
   /**
    * Fire a marketing event to first-party analytics + GA4/GTM/Meta when present.
@@ -431,15 +504,19 @@
         metadata.pagePath = pagePath();
       }
 
+      var oid = '';
+      var purchaseAlreadySent = false;
+      var purchaseMetaAlreadySent = false;
       if (eventId === 'checkout_complete') {
-        var oid = String(metadata.orderId || metadata.order_id || metadata.transaction_id || '');
-        if (oid && alreadyFiredPurchase(oid)) return;
-        if (oid) markPurchaseFired(oid);
+        oid = String(metadata.orderId || metadata.order_id || metadata.transaction_id || '');
+        purchaseAlreadySent = !!(oid && alreadyFiredPurchase(oid));
+        purchaseMetaAlreadySent = !!(oid && alreadyFiredPurchaseMeta(oid));
+        if (purchaseAlreadySent && purchaseMetaAlreadySent) return;
       }
 
       // First-party (skip when already tracked via zappyTrackEcomAnalytics path
       // that opts out, or when caller already recorded under a different name)
-      if (!opts.skipFirstParty) {
+      if (!opts.skipFirstParty && !purchaseAlreadySent) {
         try {
           if (window.zappyAnalytics && typeof window.zappyAnalytics.track === 'function') {
             window.zappyAnalytics.track(eventId, metadata);
@@ -448,40 +525,53 @@
       }
 
       // GTM / dataLayer — platform-standard ecommerce event names
-      try {
-        window.dataLayer = window.dataLayer || [];
-        if (plat.ecom) {
-          var ga4ForGtm = buildGa4Params(eventId, metadata);
-          var ecommerce = {};
-          if (ga4ForGtm.transaction_id) ecommerce.transaction_id = ga4ForGtm.transaction_id;
-          if (ga4ForGtm.value != null) ecommerce.value = ga4ForGtm.value;
-          if (ga4ForGtm.currency) ecommerce.currency = ga4ForGtm.currency;
-          if (ga4ForGtm.items) ecommerce.items = ga4ForGtm.items;
-          window.dataLayer.push({ event: plat.gtm, ecommerce: ecommerce });
-          // Secondary Zappy-specific trigger for merchants who want it
-          if (eventId === 'checkout_complete' || eventId === 'checkout_started') {
-            window.dataLayer.push({ event: eventId, ecommerce: ecommerce });
+      if (!purchaseAlreadySent) {
+        try {
+          window.dataLayer = window.dataLayer || [];
+          if (plat.ecom) {
+            var ga4ForGtm = buildGa4Params(eventId, metadata);
+            var ecommerce = {};
+            if (ga4ForGtm.transaction_id) ecommerce.transaction_id = ga4ForGtm.transaction_id;
+            if (ga4ForGtm.value != null) ecommerce.value = ga4ForGtm.value;
+            if (ga4ForGtm.currency) ecommerce.currency = ga4ForGtm.currency;
+            if (ga4ForGtm.items) ecommerce.items = ga4ForGtm.items;
+            window.dataLayer.push({ event: plat.gtm, ecommerce: ecommerce });
+            // Secondary Zappy-specific trigger for merchants who want it
+            if (eventId === 'checkout_complete' || eventId === 'checkout_started') {
+              window.dataLayer.push({ event: eventId, ecommerce: ecommerce });
+            }
+          } else {
+            var dl = { event: plat.gtm };
+            for (var k in metadata) {
+              if (Object.prototype.hasOwnProperty.call(metadata, k)) dl[k] = metadata[k];
+            }
+            window.dataLayer.push(dl);
           }
+        } catch (e2) {}
+
+        // GA4 gtag
+        try {
+          if (typeof window.gtag === 'function') {
+            window.gtag('event', plat.ga4, buildGa4Params(eventId, metadata));
+          }
+        } catch (e3) {}
+
+        if (oid) markPurchaseFired(oid);
+      }
+
+      // Meta Pixel — live sites lazy-load fbq after marketing consent. If the
+      // stub is not defined yet, queue and flush when the pixel arrives.
+      try {
+        if (purchaseMetaAlreadySent) {
+          // already delivered to Meta
         } else {
-          var dl = { event: plat.gtm };
-          for (var k in metadata) {
-            if (Object.prototype.hasOwnProperty.call(metadata, k)) dl[k] = metadata[k];
+          var metaParams = buildMetaParams(eventId, metadata);
+          if (typeof window.fbq === 'function') {
+            window.fbq('track', plat.meta, metaParams);
+            if (oid) markPurchaseMetaFired(oid);
+          } else {
+            enqueueMetaEvent(plat.meta, metaParams, eventId === 'checkout_complete' ? oid : null);
           }
-          window.dataLayer.push(dl);
-        }
-      } catch (e2) {}
-
-      // GA4 gtag
-      try {
-        if (typeof window.gtag === 'function') {
-          window.gtag('event', plat.ga4, buildGa4Params(eventId, metadata));
-        }
-      } catch (e3) {}
-
-      // Meta Pixel (only when fbq is loaded — consent-gated lazy loader)
-      try {
-        if (typeof window.fbq === 'function') {
-          window.fbq('track', plat.meta, buildMetaParams(eventId, metadata));
         }
       } catch (e4) {}
     } catch (err) {}
@@ -597,7 +687,7 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="מוצרים" />
     <meta name="twitter:description" content="המוצרים שלנו - אנגלית בקלות ובהנאה Easy English with Efrat" />
-    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"LocalBusiness","@id":"https://eewe.co.il#organization","name":"אנגלית בקלות ובהנאה Easy English with Efrat","url":"https://eewe.co.il","description":"An online store specializing in English language learning products for young children aged kindergarten through 7th grade. The store offers both complete learning kits and individual educational products, targeting parents who want to give their young children a head start in English. The brand focuses on making English learning fun, accessible, and age-appropriate for kids in their early developmental years.","address":{"@type":"PostalAddress","streetAddress":"השקמה 19, בני עי\"ש, 6086000, ישראל"},"contactPoint":[{"@type":"ContactPoint","contactType":"customer service","email":"eavivi25@gmail.com","telephone":"0528085630"}]},{"@type":"WebSite","@id":"https://eewe.co.il#website","url":"https://eewe.co.il","name":"אנגלית בקלות ובהנאה Easy English with Efrat","publisher":{"@id":"https://eewe.co.il#organization"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://eewe.co.il"},{"@type":"ListItem","position":2,"name":"Products","item":"https://eewe.co.il/products"}]},{"@type":"ItemList","@id":"https://eewe.co.il/products#itemlist","numberOfItems":23,"itemListElement":[{"@type":"ListItem","position":1,"url":"https://eewe.co.il/product/marz-htchlh-ksvmh-banglyt-lgyl-hrk-gn-kyth-b-8czaod","name":"מארז 'התחלה קסומה באנגלית' | לגיל הרך [גן - כיתה ב']"},{"@type":"ListItem","position":2,"url":"https://eewe.co.il/product/marz-lshbvr-at-mchsvm-hkryah-lmtkdmym-htsayrym-kytvt-gh-xkoi8o","name":"מארז 'לשבור את מחסום הקריאה' | למתקדמים הצעירים (כיתות ג'–ה')"},{"@type":"ListItem","position":3,"url":"https://eewe.co.il/product/marz-chvvyh-lymvdyt-lkl-hmshpchh-hkl-klvl-gn-kyth-z-cqbztw","name":"מארז 'חוויה לימודית לכל המשפחה' | הכל-כלול! [גן- כיתה ז']"},{"@type":"ListItem","position":4,"url":"https://eewe.co.il/product/marz-mtsvynvt-bdkdvk-lmvrym-vbty-spr-ezv89g","name":"מארז \"מצוינות בדקדוק\" למורים ובתי ספר"},{"@type":"ListItem","position":5,"url":"https://eewe.co.il/product/marz-hshlyshyyh-hmntscht-3-stym-shl-mshchky-zykrvn-24-mshchkym-bshk-znmsk1","name":"🌟 מארז השלישייה המנצחת: 3 סטים של משחקי זיכרון (24 משחקים בסה\"כ!)"},{"@type":"ListItem","position":6,"url":"https://eewe.co.il/product/marz-ysvdvt-hkryah-lmvrvt-vlbty-spr-hkl-lhvrat-h-abc-5qzjwy","name":"מארז 'יסודות הקריאה' למורות ולבתי ספר – הכל להוראת ה-ABC!"},{"@type":"ListItem","position":7,"url":"https://eewe.co.il/product/st-mshchky-zykrvn-lhashrt-avtsr-hmylym-ifts6j","name":"סט משחקי זיכרון להעשרת אוצר המילים "},{"@type":"ListItem","position":8,"url":"https://eewe.co.il/product/srgl-avtyvt-ank-lkyth-3-mtr-tsbavny-aykvty-vapktyby-u5p59n","name":"סרגל אותיות ענק לכיתה (3 מטר) – צבעוני, איכותי ואפקטיבי"},{"@type":"ListItem","position":9,"url":"https://eewe.co.il/product/st-klpy-avtyvt-a5-lmvrvt-llmydh-chvvyytyt-locsg1","name":"סט קלפי אותיות A5 למורות – ללמידה חווייתית"},{"@type":"ListItem","position":10,"url":"https://eewe.co.il/product/st-arbah-pvstrym-mntsch-mdiflp","name":"סט ארבעה פוסטרים מנצח! "},{"@type":"ListItem","position":11,"url":"https://eewe.co.il/product/pvstr-zmn-abr-dv-tsddy-kg3q1y","name":"פוסטר זמן עבר דו-צדדי"},{"@type":"ListItem","position":12,"url":"https://eewe.co.il/product/pvstr-zmny-hvvh-vatyd-34rpy5","name":"פוסטר זמני הווה ועתיד"},{"@type":"ListItem","position":13,"url":"https://eewe.co.il/product/pvstr-tsyrvpy-avtyvt-l2qiy5","name":"פוסטר צירופי אותיות "},{"@type":"ListItem","position":14,"url":"https://eewe.co.il/product/pvstr-tbnyvt-mshptym-qqxslj","name":"פוסטר תבניות משפטים "},{"@type":"ListItem","position":15,"url":"https://eewe.co.il/product/zvg-srgly-kryah-avtyvt-vtsyrvpym-rsaiyz","name":"זוג סרגלי קריאה אותיות וצירופים"},{"@type":"ListItem","position":16,"url":"https://eewe.co.il/product/mshchk-zykrvn-pyrvt-vyrkvt-8lri3n","name":"משחק זיכרון פירות וירקות "},{"@type":"ListItem","position":17,"url":"https://eewe.co.il/product/mshchk-zykrvn-chyvt-9b9gxi","name":"משחק זיכרון חיות"},{"@type":"ListItem","position":18,"url":"https://eewe.co.il/product/mshchk-zykrvn-mktsvavt-kailrg","name":"משחק זיכרון מקצועות "},{"@type":"ListItem","position":19,"url":"https://eewe.co.il/product/mshchk-zykrvn-mshpchh-cs816o","name":"משחק זיכרון משפחה"},{"@type":"ListItem","position":20,"url":"https://eewe.co.il/product/mshchk-zykrvn-tarym-yy5db5","name":"משחק זיכרון תארים"},{"@type":"ListItem","position":21,"url":"https://eewe.co.il/product/mshchk-zykrvn-palym-bb10vx","name":"משחק זיכרון פעלים"},{"@type":"ListItem","position":22,"url":"https://eewe.co.il/product/mshchk-zykrvn-msprym-1kksiz","name":"משחק זיכרון מספרים"},{"@type":"ListItem","position":23,"url":"https://eewe.co.il/product/mshchk-zykrvn-tsbaym-yo7t6f","name":"משחק זיכרון צבעים"}]}]}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"LocalBusiness","@id":"https://eewe.co.il#organization","name":"אנגלית בקלות ובהנאה Easy English with Efrat","url":"https://eewe.co.il","description":"An online store specializing in English language learning products for young children aged kindergarten through 7th grade. The store offers both complete learning kits and individual educational products, targeting parents who want to give their young children a head start in English. The brand focuses on making English learning fun, accessible, and age-appropriate for kids in their early developmental years.","address":{"@type":"PostalAddress","streetAddress":"השקמה 19, בני עי\"ש, 6086000, ישראל"},"contactPoint":[{"@type":"ContactPoint","contactType":"customer service","email":"eavivi25@gmail.com","telephone":"0528085630"}]},{"@type":"WebSite","@id":"https://eewe.co.il#website","url":"https://eewe.co.il","name":"אנגלית בקלות ובהנאה Easy English with Efrat","publisher":{"@id":"https://eewe.co.il#organization"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://eewe.co.il"},{"@type":"ListItem","position":2,"name":"Products","item":"https://eewe.co.il/products"}]},{"@type":"ItemList","@id":"https://eewe.co.il/products#itemlist","numberOfItems":23,"itemListElement":[{"@type":"ListItem","position":1,"url":"https://eewe.co.il/product/marz-htchlh-ksvmh-banglyt-lgyl-hrk-gn-kyth-b-8czaod","name":"מארז 'התחלה קסומה באנגלית' | לגיל הרך [גן - כיתה ב']"},{"@type":"ListItem","position":2,"url":"https://eewe.co.il/product/marz-lshbvr-at-mchsvm-hkryah-lmtkdmym-htsayrym-kytvt-gh-xkoi8o","name":"מארז 'לשבור את מחסום הקריאה' | למתקדמים הצעירים (כיתות ג'–ה')"},{"@type":"ListItem","position":3,"url":"https://eewe.co.il/product/marz-chvvyh-lymvdyt-lkl-hmshpchh-hkl-klvl-gn-kyth-z-xab9tu","name":"מארז 'חוויה לימודית לכל המשפחה' | הכל-כלול! [גן- כיתה ז']"},{"@type":"ListItem","position":4,"url":"https://eewe.co.il/product/marz-mtsvynvt-bdkdvk-lmvrym-vbty-spr-ezv89g","name":"מארז \"מצוינות בדקדוק\" למורים ובתי ספר"},{"@type":"ListItem","position":5,"url":"https://eewe.co.il/product/marz-hshlyshyyh-hmntscht-3-stym-shl-mshchky-zykrvn-24-mshchkym-bshk-znmsk1","name":"🌟 מארז השלישייה המנצחת: 3 סטים של משחקי זיכרון (24 משחקים בסה\"כ!)"},{"@type":"ListItem","position":6,"url":"https://eewe.co.il/product/marz-ysvdvt-hkryah-lmvrvt-vlbty-spr-hkl-lhvrat-h-abc-5qzjwy","name":"מארז 'יסודות הקריאה' למורות ולבתי ספר – הכל להוראת ה-ABC!"},{"@type":"ListItem","position":7,"url":"https://eewe.co.il/product/st-mshchky-zykrvn-lhashrt-avtsr-hmylym-ifts6j","name":"סט משחקי זיכרון להעשרת אוצר המילים "},{"@type":"ListItem","position":8,"url":"https://eewe.co.il/product/srgl-avtyvt-ank-lkyth-3-mtr-tsbavny-aykvty-vapktyby-u5p59n","name":"סרגל אותיות ענק לכיתה (3 מטר) – צבעוני, איכותי ואפקטיבי"},{"@type":"ListItem","position":9,"url":"https://eewe.co.il/product/st-klpy-avtyvt-a5-lmvrvt-llmydh-chvvyytyt-locsg1","name":"סט קלפי אותיות A5 למורות – ללמידה חווייתית"},{"@type":"ListItem","position":10,"url":"https://eewe.co.il/product/st-arbah-pvstrym-mntsch-mdiflp","name":"סט ארבעה פוסטרים מנצח! "},{"@type":"ListItem","position":11,"url":"https://eewe.co.il/product/pvstr-zmn-abr-dv-tsddy-kg3q1y","name":"פוסטר זמן עבר דו-צדדי"},{"@type":"ListItem","position":12,"url":"https://eewe.co.il/product/pvstr-zmny-hvvh-vatyd-34rpy5","name":"פוסטר זמני הווה ועתיד"},{"@type":"ListItem","position":13,"url":"https://eewe.co.il/product/pvstr-tsyrvpy-avtyvt-l2qiy5","name":"פוסטר צירופי אותיות "},{"@type":"ListItem","position":14,"url":"https://eewe.co.il/product/pvstr-tbnyvt-mshptym-qqxslj","name":"פוסטר תבניות משפטים "},{"@type":"ListItem","position":15,"url":"https://eewe.co.il/product/zvg-srgly-kryah-avtyvt-vtsyrvpym-rsaiyz","name":"זוג סרגלי קריאה אותיות וצירופים"},{"@type":"ListItem","position":16,"url":"https://eewe.co.il/product/mshchk-zykrvn-pyrvt-vyrkvt-8lri3n","name":"משחק זיכרון פירות וירקות "},{"@type":"ListItem","position":17,"url":"https://eewe.co.il/product/mshchk-zykrvn-chyvt-9b9gxi","name":"משחק זיכרון חיות"},{"@type":"ListItem","position":18,"url":"https://eewe.co.il/product/mshchk-zykrvn-mktsvavt-kailrg","name":"משחק זיכרון מקצועות "},{"@type":"ListItem","position":19,"url":"https://eewe.co.il/product/mshchk-zykrvn-mshpchh-cs816o","name":"משחק זיכרון משפחה"},{"@type":"ListItem","position":20,"url":"https://eewe.co.il/product/mshchk-zykrvn-tarym-yy5db5","name":"משחק זיכרון תארים"},{"@type":"ListItem","position":21,"url":"https://eewe.co.il/product/mshchk-zykrvn-palym-bb10vx","name":"משחק זיכרון פעלים"},{"@type":"ListItem","position":22,"url":"https://eewe.co.il/product/mshchk-zykrvn-msprym-1kksiz","name":"משחק זיכרון מספרים"},{"@type":"ListItem","position":23,"url":"https://eewe.co.il/product/mshchk-zykrvn-tsbaym-yo7t6f","name":"משחק זיכרון צבעים"}]}]}</script>
     <!-- ZAPPY_INTEGRATION_START analytics:add_facebook_pixel -->
 <!-- Facebook Pixel -->
 <!-- ZAPPY_INTEGRATION_END analytics:add_facebook_pixel -->
@@ -1072,7 +1162,7 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
     <script src="/script.js"></script>
 
     <script id="zappy-facebook-pixel-lazy-loader">
-(function(){var pixelIds=["4083556815228393"];if(!pixelIds.length||window.__zappyFacebookPixelLazyLoader)return;window.__zappyFacebookPixelLazyLoader=true;var loaded=false;function hasMarketingConsent(){try{var cc=window.CookieConsent;if(!cc||typeof cc.acceptedCategory!=='function')return false;return !!cc.acceptedCategory('marketing');}catch(e){return false;}}function load(){if(loaded||!hasMarketingConsent())return;loaded=true;!function(f,b,e,v,n,t,s){if(f.fbq&&f.fbq.loaded)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');pixelIds.forEach(function(id){try{fbq('init',id);}catch(e){}});try{fbq('track','PageView');}catch(e){}}function tryLoad(){load();}['cc:onConsent','cc:onChange','cc:onFirstConsent'].forEach(function(evt){window.addEventListener(evt,tryLoad);});var attempts=0;var timer=setInterval(function(){attempts++;tryLoad();if(loaded||attempts>60)clearInterval(timer);},500);if('requestIdleCallback'in window){requestIdleCallback(tryLoad,{timeout:8000});}else{setTimeout(tryLoad,6000);}})();
+(function(){var pixelIds=["4083556815228393"];if(!pixelIds.length||window.__zappyFacebookPixelLazyLoader)return;window.__zappyFacebookPixelLazyLoader=true;var loaded=false;function hasMarketingConsent(){try{var cc=window.CookieConsent;if(!cc||typeof cc.acceptedCategory!=='function')return false;return !!cc.acceptedCategory('marketing');}catch(e){return false;}}function load(){if(loaded||!hasMarketingConsent())return;loaded=true;!function(f,b,e,v,n,t,s){if(f.fbq&&f.fbq.loaded)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');pixelIds.forEach(function(id){try{fbq('init',id);}catch(e){}});try{fbq('track','PageView');}catch(e){}try{if(typeof window.zappyFlushPendingMetaEvents==='function'){window.zappyFlushPendingMetaEvents();}else if(window.__zappyPendingMetaEvents&&window.__zappyPendingMetaEvents.length){var q=window.__zappyPendingMetaEvents;window.__zappyPendingMetaEvents=[];for(var i=0;i<q.length;i++){try{fbq('track',q[i].eventName,q[i].params||{});}catch(e2){}}}}catch(e3){}}function tryLoad(){load();}['cc:onConsent','cc:onChange','cc:onFirstConsent'].forEach(function(evt){window.addEventListener(evt,tryLoad);});var attempts=0;var timer=setInterval(function(){attempts++;tryLoad();if(loaded||attempts>60)clearInterval(timer);},500);if('requestIdleCallback'in window){requestIdleCallback(tryLoad,{timeout:8000});}else{setTimeout(tryLoad,6000);}})();
 </script>
     <script id="zappy-font-awesome-loader">
 (function(){if(window.__zappyFontAwesomeLoader)return;window.__zappyFontAwesomeLoader=true;var href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css';function load(){if(document.querySelector('link[href*="font-awesome"][href*="all.min.css"]'))return;var l=document.createElement('link');l.rel='stylesheet';l.href=href;l.crossOrigin='anonymous';l.referrerPolicy='no-referrer';document.head.appendChild(l);}function schedule(){if('requestIdleCallback'in window){requestIdleCallback(load,{timeout:5000});}else{setTimeout(load,3500);}}['pointerdown','keydown','touchstart','mouseover'].forEach(function(evt){window.addEventListener(evt,load,{once:true,passive:true});});schedule();})();
