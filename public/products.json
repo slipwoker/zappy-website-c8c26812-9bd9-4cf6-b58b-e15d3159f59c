@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-09-29T20:16:51.404Z",
+  "generated_at": "2026-09-29T20:19:11.490Z",
   "base_url": "https://eewe.co.il",
   "currency": "ILS",
   "count": 23,
@@ -55,7 +55,7 @@
     },
     {
       "id": "a7695f10-c909-4ed2-a51c-96573c80984d",
-      "slug": "marz-chvvyh-lymvdyt-lkl-hmshpchh-hkl-klvl-gn-kyth-z-c68itc",
+      "slug": "marz-chvvyh-lymvdyt-lkl-hmshpchh-hkl-klvl-gn-kyth-z-o46tia",
       "name": "מארז 'חוויה לימודית לכל המשפחה' | הכל-כלול! [גן- כיתה ז']",
       "name_translations": {},
       "description": "",
@@ -63,7 +63,7 @@
       "sku": null,
       "brand": null,
       "price": 280,
-      "base_price": 395,
+      "base_price": 399,
       "sale_price": 280,
       "currency": "ILS",
       "images": [
@@ -75,11 +75,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://eewe.co.il/product/marz-chvvyh-lymvdyt-lkl-hmshpchh-hkl-klvl-gn-kyth-z-c68itc",
+      "url": "https://eewe.co.il/product/marz-chvvyh-lymvdyt-lkl-hmshpchh-hkl-klvl-gn-kyth-z-o46tia",
       "categories": [
         "מוצרים לבית ולמשפחה"
       ],
-      "updated_at": "2026-09-29T20:07:34.655Z"
+      "updated_at": "2026-09-29T20:18:35.618Z"
     },
     {
       "id": "29ede2ae-6e5e-44fe-a406-50714e9bce0d",
