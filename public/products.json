@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-09-29T20:10:10.401Z",
+  "generated_at": "2026-09-29T20:13:46.110Z",
   "base_url": "https://eewe.co.il",
   "currency": "ILS",
   "count": 23,
@@ -233,16 +233,16 @@
     },
     {
       "id": "c509886c-79f2-44c7-a025-caf939be9574",
-      "slug": "st-arbah-pvstrym-mntsch-mdiflp",
+      "slug": "st-arbah-pvstrym-mntsch-sb02or",
       "name": "סט ארבעה פוסטרים מנצח! ",
       "name_translations": {},
       "description": "",
       "short_description": "ערכת 4 הפוסטרים הבלעדית שלנו מעניקה מענה הדרגתי ומקיף לכל שלבי הלמידה – מגיל צעיר מאוד ועד כיתה ז'! הערכה כוללת:\n🔹 פוסטר תבניות משפטים: 15 תבניות מגוונות לבניית משפטים ושפה עשירה ביום-יום.\n🔹 פוסטר צירופי אותיות: 33 צירופים לפי צלילים + אותיות הניקוד לחשיפה מוקדמת וקריאה קלה.\n🔹 פוסטר זמני הווה ועתיד: שליטה מלאה ב-Present Simple, Present Progressive ו-Future Simple.\n🔹 פוסטר זמן עבר דו-צדדי : חוקי Past Simple מפורטים + טבלת פעלים חריגים (V2) מסודרת לפי A-B עם תרגום.\n",
       "sku": null,
       "brand": null,
-      "price": 35,
-      "base_price": 50,
-      "sale_price": 35,
+      "price": 40,
+      "base_price": 60,
+      "sale_price": 40,
       "currency": "ILS",
       "images": [
         "https://eewe.co.il/assets/product-1784707709267-sa2hinj.webp",
@@ -251,25 +251,25 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://eewe.co.il/product/st-arbah-pvstrym-mntsch-mdiflp",
+      "url": "https://eewe.co.il/product/st-arbah-pvstrym-mntsch-sb02or",
       "categories": [
         "מוצרים לבית ולמשפחה",
         "מוצרים לבתי ספר"
       ],
-      "updated_at": "2026-08-24T14:04:55.243Z"
+      "updated_at": "2026-09-29T20:13:12.170Z"
     },
     {
       "id": "eb0e3253-9dca-424e-a03b-9aceafe922f1",
-      "slug": "pvstr-zmn-abr-dv-tsddy-kg3q1y",
+      "slug": "pvstr-zmn-abr-dv-tsddy-t7ekwe",
       "name": "פוסטר זמן עבר דו-צדדי",
       "name_translations": {},
       "description": "",
       "short_description": "הפתרון המלא לזמן עבר (Past Simple) – בפוסטר דו-צדדי אחד!\nמנצחים את הבלבול בזמן עבר ומגיעים מוכנים לכיתה ו'! פוסטר דו-צדדי חכם ומקיף שמעניק מענה שלם לחוקי הדקדוק:\nצד 1 – חוקים ותבניות: הסבר ויזואלי וברור להבדל בין משפטים עם פועל לבין הטיות הפועל to be, עם דוגמאות מפורטות למשפטי חיוב, שלילה, שאלה ושאלת WH. \nצד 2 – טבלת פעלים חריגים (V2): רשימה עשירה של פעלים יוצאי דופן המסודרים לפי A-B-C עם תרגום לעברית – כל מה שצריך במקום אחד.\nכלי עזר חובה לכל תלמיד שרוצה להצליח בכתיבה, בקריאה ובדיבור!",
       "sku": null,
       "brand": null,
-      "price": 10,
+      "price": 15,
       "base_price": 15,
-      "sale_price": 10,
+      "sale_price": null,
       "currency": "ILS",
       "images": [
         "https://eewe.co.il/assets/product-1784670500938-qjid2c.webp",
@@ -277,24 +277,24 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://eewe.co.il/product/pvstr-zmn-abr-dv-tsddy-kg3q1y",
+      "url": "https://eewe.co.il/product/pvstr-zmn-abr-dv-tsddy-t7ekwe",
       "categories": [
         "מוצרים לבית ולמשפחה"
       ],
-      "updated_at": "2026-08-24T13:56:12.470Z"
+      "updated_at": "2026-09-29T20:12:42.546Z"
     },
     {
       "id": "631b0eb9-0315-4566-8f6d-3b6529e38a38",
-      "slug": "pvstr-zmny-hvvh-vatyd-34rpy5",
+      "slug": "pvstr-zmny-hvvh-vatyd-kr9shr",
       "name": "פוסטר זמני הווה ועתיד",
       "name_translations": {},
       "description": "",
       "short_description": "כל הזמנים של כיתה ה' – בפוסטר אחד מנצח! נפרדים מהבלבול בדקדוק! \nפוסטר מרוכז ואינטואיטיבי המאגד את שלושת הזמנים הנלמדים בכיתה ה': הווה פשוט, הווה ממושך ועתיד פשוט. הפוסטר מציג בצורה שקופה וויזואלית את תבניות המשפטים והחוקים לכל זמן – מתי ואיך מרכיבים משפט חיובי, שלילי, שאלת כן/לא ושאלת WH, בליווי דוגמאות מובנות. \nכלי עזר חובה בחדר הלמידה להצלחה במבחנים ולביטחון בדיבור ובכתיבה!",
       "sku": null,
       "brand": null,
-      "price": 10,
+      "price": 15,
       "base_price": 15,
-      "sale_price": 10,
+      "sale_price": null,
       "currency": "ILS",
       "images": [
         "https://eewe.co.il/assets/product-1784670204496-k4x4b9.webp",
@@ -302,24 +302,24 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://eewe.co.il/product/pvstr-zmny-hvvh-vatyd-34rpy5",
+      "url": "https://eewe.co.il/product/pvstr-zmny-hvvh-vatyd-kr9shr",
       "categories": [
         "מוצרים לבית ולמשפחה"
       ],
-      "updated_at": "2026-08-24T13:56:39.829Z"
+      "updated_at": "2026-09-29T20:12:25.674Z"
     },
     {
       "id": "978ab5d9-0340-455b-9d0c-7ef089402308",
-      "slug": "pvstr-tsyrvpy-avtyvt-l2qiy5",
+      "slug": "pvstr-tsyrvpy-avtyvt-x34pjm",
       "name": "פוסטר צירופי אותיות ",
       "name_translations": {},
       "description": "",
       "short_description": "המפתח לקריאה שוטפת: פוסטר צירופי אותיות! הפוסטר מציג באופן ברור 33 צירופי אותיות המחולקים לקבוצות בעלות צלילים משותפים, מה שהופך את הלמידה לאינטואיטיבית ומהנה. הפוסטר כולל גם את משפחת אותיות הניקוד, הבסיס לכל הגייה נכונה. חשיפה מוקדמת, מעבר למה שלומדים בבית הספר, בונה ביטחון ומוכנות אצל הילדים ומקילה על תהליך רכישת הקריאה באנגלית. כלי עזר חיוני לכל בית המעוניין לקדם את ילדיו באנגלית!",
       "sku": null,
       "brand": null,
-      "price": 10,
+      "price": 15,
       "base_price": 15,
-      "sale_price": 10,
+      "sale_price": null,
       "currency": "ILS",
       "images": [
         "https://eewe.co.il/assets/product-1784669878448-02w5k.webp",
@@ -327,24 +327,24 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://eewe.co.il/product/pvstr-tsyrvpy-avtyvt-l2qiy5",
+      "url": "https://eewe.co.il/product/pvstr-tsyrvpy-avtyvt-x34pjm",
       "categories": [
         "מוצרים לבית ולמשפחה"
       ],
-      "updated_at": "2026-08-24T13:57:01.254Z"
+      "updated_at": "2026-09-29T20:12:05.537Z"
     },
     {
       "id": "6fb31bdf-f6ab-4c03-9943-8205d8119dbb",
-      "slug": "pvstr-tbnyvt-mshptym-qqxslj",
+      "slug": "pvstr-tbnyvt-mshptym-d7uiby",
       "name": "פוסטר תבניות משפטים ",
       "name_translations": {},
       "description": "",
       "short_description": "הצעד הבא לאנגלית שוטפת ועשירה! \nהילדים שולטים במילים בודדות? פוסטר תבניות המשפטים יסייע להם לעבור ממילים למשפטים שלמים, להעשיר את ביטויים ולהתחיל לדבר בטבעיות. הפוסטר מציע 15 תבניות משפטים מגוונות לתרגול שפה עשירה ויומיומית. הילד לומד לחבר את אוצר המילים שהכיר למבנים שימושיים. כלי עזר חיוני לבית ולכיתה, מומלץ לתרגול מגיל צעיר מאוד להעלאת הדימוי והביטחון השפתי.",
       "sku": null,
       "brand": null,
-      "price": 10,
+      "price": 15,
       "base_price": 15,
-      "sale_price": 10,
+      "sale_price": null,
       "currency": "ILS",
       "images": [
         "https://eewe.co.il/assets/product-1784669411043-6l8lof.webp",
@@ -352,24 +352,24 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://eewe.co.il/product/pvstr-tbnyvt-mshptym-qqxslj",
+      "url": "https://eewe.co.il/product/pvstr-tbnyvt-mshptym-d7uiby",
       "categories": [
         "מוצרים לבית ולמשפחה"
       ],
-      "updated_at": "2026-08-24T13:57:27.288Z"
+      "updated_at": "2026-09-29T20:11:52.112Z"
     },
     {
       "id": "660193a4-531b-4cd2-893b-920b004a3a7c",
-      "slug": "zvg-srgly-kryah-avtyvt-vtsyrvpym-rsaiyz",
+      "slug": "zvg-srgly-kryah-avtyvt-vtsyrvpym-y0sk5x",
       "name": "זוג סרגלי קריאה אותיות וצירופים",
       "name_translations": {},
       "description": "",
       "short_description": "הסוד לקריאה קלה וללא מאמץ מגיל צעיר! למרות שבבתי הספר לומדים את צלילי האותיות רק בכיתה ג' ואת הצירופים בכיתה ד', עם צמד הסרגלים האיכותי הזה ילדכם יכול להתחיל להכיר אותם בקלות כבר מגיל גן חובה. הערכה משמשת כתומך זיכרון ויזואלי מושלם: סרגל אותיות (26 אותיות עם קוגנייטס) וסרגל צירופים דו-צדדי (33 צירופים ומשפחת אותיות הניקוד), המלווים בתמונות צבעוניות ומעניקים לילדכם נקודת זינוק מנצחת בשפה.",
       "sku": null,
       "brand": null,
-      "price": 10,
-      "base_price": 15,
-      "sale_price": 10,
+      "price": 15,
+      "base_price": 20,
+      "sale_price": 15,
       "currency": "ILS",
       "images": [
         "https://eewe.co.il/assets/product-1784667418709-cii56e.webp",
@@ -378,24 +378,24 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://eewe.co.il/product/zvg-srgly-kryah-avtyvt-vtsyrvpym-rsaiyz",
+      "url": "https://eewe.co.il/product/zvg-srgly-kryah-avtyvt-vtsyrvpym-y0sk5x",
       "categories": [
         "מוצרים לבית ולמשפחה"
       ],
-      "updated_at": "2026-08-21T11:05:35.590Z"
+      "updated_at": "2026-09-29T20:11:30.436Z"
     },
     {
       "id": "58d75373-cd62-4cab-b7d7-fdc3dc94c14a",
-      "slug": "mshchk-zykrvn-pyrvt-vyrkvt-8lri3n",
+      "slug": "mshchk-zykrvn-pyrvt-vyrkvt-h9u9sr",
       "name": "משחק זיכרון פירות וירקות ",
       "name_translations": {},
       "description": "",
       "short_description": "להכניס את האנגלית הביתה בכיף עם תפוז, לימון, אבטיח ועוד! ערכת פירות וירקות צבעונית הכוללת 31 קלפים איכותיים [15 זוגות תואמים וקלף הדרכה להורים], המעניקה לילדכם מגוון אפשרויות משחק – ממשחק זיכרון ועד שינון ובניית משפטים לשיפור וחיזוק השפה ברגע.",
       "sku": null,
       "brand": null,
-      "price": 35,
+      "price": 40,
       "base_price": 40,
-      "sale_price": 35,
+      "sale_price": null,
       "currency": "ILS",
       "images": [
         "https://eewe.co.il/assets/product-ai-fit-1783678400464-ma3otw.webp",
@@ -404,24 +404,24 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://eewe.co.il/product/mshchk-zykrvn-pyrvt-vyrkvt-8lri3n",
+      "url": "https://eewe.co.il/product/mshchk-zykrvn-pyrvt-vyrkvt-h9u9sr",
       "categories": [
         "מוצרים לבית ולמשפחה"
       ],
-      "updated_at": "2026-08-24T13:58:58.136Z"
+      "updated_at": "2026-09-29T20:11:06.409Z"
     },
     {
       "id": "c491a91b-0b90-45b2-8886-c48a61b1ec9a",
-      "slug": "mshchk-zykrvn-chyvt-9b9gxi",
+      "slug": "mshchk-zykrvn-chyvt-n3m16o",
       "name": "משחק זיכרון חיות",
       "name_translations": {},
       "description": "",
       "short_description": "להכניס את האנגלית הביתה בכיף עם נמר, פיל, אריה ועוד! ערכת חיות צבעונית הכוללת 31 קלפים איכותיים [15 זוגות תואמים וקלף הדרכה להורים], המעניקה לילדכם מגוון אפשרויות משחק – ממשחק זיכרון ועד שינון ובניית משפטים לשיפור וחיזוק השפה ברגע.",
       "sku": null,
       "brand": null,
-      "price": 35,
+      "price": 40,
       "base_price": 40,
-      "sale_price": 35,
+      "sale_price": null,
       "currency": "ILS",
       "images": [
         "https://eewe.co.il/assets/product-ai-fit-1783678267016-jj96gm.webp",
@@ -430,24 +430,24 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://eewe.co.il/product/mshchk-zykrvn-chyvt-9b9gxi",
+      "url": "https://eewe.co.il/product/mshchk-zykrvn-chyvt-n3m16o",
       "categories": [
         "מוצרים לבית ולמשפחה"
       ],
-      "updated_at": "2026-08-24T14:02:29.010Z"
+      "updated_at": "2026-09-29T20:10:49.325Z"
     },
     {
       "id": "d3839637-d9a0-429e-ba48-8bf4cbb61198",
-      "slug": "mshchk-zykrvn-mktsvavt-kailrg",
+      "slug": "mshchk-zykrvn-mktsvavt-92k7rh",
       "name": "משחק זיכרון מקצועות ",
       "name_translations": {},
       "description": "",
       "short_description": "להכניס את האנגלית הביתה בכיף עם שוטר, שופט, חייל ועוד! ערכת מקצועות צבעונית הכוללת 31 קלפים איכותיים [15 זוגות תואמים וקלף הדרכה להורים], המעניקה לילדכם מגוון אפשרויות משחק – ממשחק זיכרון ועד שינון ובניית משפטים לשיפור וחיזוק השפה ברגע.",
       "sku": null,
       "brand": null,
-      "price": 35,
+      "price": 40,
       "base_price": 40,
-      "sale_price": 35,
+      "sale_price": null,
       "currency": "ILS",
       "images": [
         "https://eewe.co.il/assets/product-ai-fit-1783678047029-3v57wv.webp",
@@ -456,24 +456,24 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://eewe.co.il/product/mshchk-zykrvn-mktsvavt-kailrg",
+      "url": "https://eewe.co.il/product/mshchk-zykrvn-mktsvavt-92k7rh",
       "categories": [
         "מוצרים לבית ולמשפחה"
       ],
-      "updated_at": "2026-08-24T14:02:49.116Z"
+      "updated_at": "2026-09-29T20:10:28.931Z"
     },
     {
       "id": "744d0973-f696-412d-a544-88d6283134ed",
-      "slug": "mshchk-zykrvn-mshpchh-cs816o",
+      "slug": "mshchk-zykrvn-mshpchh-qhuwe9",
       "name": "משחק זיכרון משפחה",
       "name_translations": {},
       "description": "",
       "short_description": "להכניס את האנגלית הביתה בכיף עם אבא, אמא, אחיין ועוד! ערכת משפחה צבעונית הכוללת 31 קלפים איכותיים [15 זוגות תואמים וקלף הדרכה להורים], המעניקה לילדכם מגוון אפשרויות משחק – ממשחק זיכרון ועד שינון ובניית משפטים לשיפור וחיזוק השפה ברגע.",
       "sku": null,
       "brand": null,
-      "price": 35,
+      "price": 40,
       "base_price": 40,
-      "sale_price": 35,
+      "sale_price": null,
       "currency": "ILS",
       "images": [
         "https://eewe.co.il/assets/product-ai-fit-1783675723070-1qnedh.webp",
@@ -482,11 +482,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://eewe.co.il/product/mshchk-zykrvn-mshpchh-cs816o",
+      "url": "https://eewe.co.il/product/mshchk-zykrvn-mshpchh-qhuwe9",
       "categories": [
         "מוצרים לבית ולמשפחה"
       ],
-      "updated_at": "2026-08-24T14:06:11.587Z"
+      "updated_at": "2026-09-29T20:10:13.324Z"
     },
     {
       "id": "181513a3-3aa5-471d-9da9-1607778b4205",
