@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-09-29T20:19:11.490Z",
+  "generated_at": "2026-09-29T20:45:15.342Z",
   "base_url": "https://eewe.co.il",
   "currency": "ILS",
   "count": 23,
@@ -31,7 +31,7 @@
     },
     {
       "id": "cdb50cb6-ba22-4ade-844d-11871fc07cf5",
-      "slug": "marz-lshbvr-at-mchsvm-hkryah-lmtkdmym-htsayrym-kytvt-gh-xkoi8o",
+      "slug": "marz-lshbvr-at-mchsvm-hkryah-lmtkdmym-htsayrym-kytvt-gh-fm03ih",
       "name": "מארז 'לשבור את מחסום הקריאה' | למתקדמים הצעירים (כיתות ג'–ה')",
       "name_translations": {},
       "description": "",
@@ -47,11 +47,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://eewe.co.il/product/marz-lshbvr-at-mchsvm-hkryah-lmtkdmym-htsayrym-kytvt-gh-xkoi8o",
+      "url": "https://eewe.co.il/product/marz-lshbvr-at-mchsvm-hkryah-lmtkdmym-htsayrym-kytvt-gh-fm03ih",
       "categories": [
         "מוצרים לבית ולמשפחה"
       ],
-      "updated_at": "2026-08-24T13:17:23.550Z"
+      "updated_at": "2026-09-29T20:44:48.401Z"
     },
     {
       "id": "a7695f10-c909-4ed2-a51c-96573c80984d",

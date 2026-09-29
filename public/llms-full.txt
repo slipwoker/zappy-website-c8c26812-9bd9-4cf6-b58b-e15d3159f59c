@@ -941,141 +941,6 @@ Description: המוצרים שלנו - אנגלית בקלות ובהנאה Easy
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-טוען מוצרים...
-
-
-
-
-
-
-
-
-
-
-
-
-
 לומדים אנגלית בחיוך – ערכות, משחקים ומוצרים שהופכים כל ילד לדובר בטוח.
 
 
@@ -3186,8 +3051,6 @@ Description: מוצרים - אנגלית בקלות ובהנאה Easy English wi
 
 
 
-טוען מוצרים...
-
 
 
 
@@ -4525,7 +4388,7 @@ Availability: In stock
 ---
 
 ### מארז 'לשבור את מחסום הקריאה' | למתקדמים הצעירים (כיתות ג'–ה')
-URL: https://eewe.co.il/product/marz-lshbvr-at-mchsvm-hkryah-lmtkdmym-htsayrym-kytvt-gh-xkoi8o
+URL: https://eewe.co.il/product/marz-lshbvr-at-mchsvm-hkryah-lmtkdmym-htsayrym-kytvt-gh-fm03ih
 Price: 159.00 ILS (sale, was 210.00 ILS)
 Availability: In stock
 
